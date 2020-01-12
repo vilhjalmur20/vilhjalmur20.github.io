@@ -1,15 +1,8 @@
-head{
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-
-body {
-    font-family: Verdana, Arial, Helvetica, sans-serif;
-
-}
-
-
-
-
-head, foot {
-
+header,
+footer {
+    background-color: rgba(224, 181, 205, 0.35);
+    color: white;
+    padding: .75em 1.2em .75em 5em;
+    border-radius: 15px;
+    margin: 1em 0;
 }
