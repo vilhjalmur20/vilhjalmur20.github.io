@@ -1,9 +1,17 @@
 head, foot {
+    background-color: blue;
+    color: white;
+
 }
 
 fullname {
 }
 
 mypicture{
+    float: right;
+    margin: 10px
+
 }
+
+
 
