@@ -1,9 +1,37 @@
-head, foot {
+header, footer{
+    background-color: blue;
+    text-align: center;
+    border-radius: 20px;
+    height: 73px;
+    padding-top: 10px;
 }
 
-fullname {
+
+h1 {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
 }
 
-mypicture{
+img {
+    float: right;
+    border-radius: 5px;
+    width: 123px;
+    margin-right: 33px;
+    margin-top: -50px;
 }
 
+h2 {
+    border-bottom: 2px;
+    padding-bottom: 5px;
+}
+
+body {
+    margin: 33px 0px 0px 33px;
+
+}
+
+.middle {
+    margin: 5px 33px 5px;
+}
