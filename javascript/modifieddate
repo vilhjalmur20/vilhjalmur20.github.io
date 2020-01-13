@@ -1,2 +1,0 @@
-let modifieddate = document.modifieddate;
-document.getElementById("modifieddate").innerHTML = modifieddate;
