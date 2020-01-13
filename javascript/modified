@@ -1,2 +1,0 @@
-let Modified=document.Modified;
-document.getElementById("modified").innerHTML=Modified;
