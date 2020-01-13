@@ -1,0 +1,3 @@
+let lastud = document.updated;
+
+document.getElementById("lastud").innerHTML = lastud;
