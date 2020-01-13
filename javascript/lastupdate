@@ -1,0 +1,3 @@
+let lastupdate = document.updated;
+
+document.getElementById("lastupdate").innerHTML = lastupdate;

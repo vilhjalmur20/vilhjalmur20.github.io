@@ -1,3 +1,0 @@
-let updated = document.updated;
-
-document.getElementById("updated").innerHTML = updated;
