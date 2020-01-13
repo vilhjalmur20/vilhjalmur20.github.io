@@ -1,3 +1,0 @@
-let lu = document.lu;
-
-document.getElementById("lu").innerHTML = lu;
