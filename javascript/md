@@ -1,2 +1,0 @@
-let md = document.md;
-document.getElementById("md").innerHTML = md;
