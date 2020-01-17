@@ -1,3 +1,1 @@
-var lastud = document.lastud;
-
-document.getElementById("lastud").innerHTML = document.lastud;
+document.getElementById("lastud").innerHTML = "Last Updated: " + document.lastModified;
