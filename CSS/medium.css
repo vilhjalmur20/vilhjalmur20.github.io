@@ -1,5 +1,5 @@
 @media only screen and (min-width: 32.5em ){
-      
+
     header, footer{
         border-radius: 20px;
     }
@@ -13,11 +13,13 @@
          
     }
 
+    img {
+        float: right;
+        width: 250px;
+        height: auto;
+        margin-right: 30px;
+        margin-top: -50px;
+        border-radius: 0 10px 0 0;
+    }
 
-
-}
-
-#Pic {
-    float: right; 
-    @media (min-width: 32.5mm)
 }
