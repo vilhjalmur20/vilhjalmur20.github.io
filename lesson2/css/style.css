@@ -6,6 +6,9 @@ header, footer{
     height: 73px;
     padding-top: 10px;
 }
+main {
+    display: grid;
+}
 h1 {
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
@@ -21,8 +24,5 @@ h2 {
     padding: 10px;
     text-align: center;
     vertical-align: middle;
-   
-main {
-        display: grid;
-    }
+
 }
