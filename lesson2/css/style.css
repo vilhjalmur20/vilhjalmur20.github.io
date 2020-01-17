@@ -26,15 +26,7 @@ h2 {
     text-align: center;
     vertical-align: middle;
 }
-#section1 {
-    background-color: blue;
-    margin: 3;
-}
-#section2 {
-    background-color: gray;
-    margin: 3;
-}
-#section3 {
+section {
     background-color: blue;
     margin: 3;
 }
