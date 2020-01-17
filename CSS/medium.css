@@ -1,18 +1,4 @@
 @media only screen and (min-width: 32.5em ) {
-
-    header, footer{
-       border-radius: 20px;
-    }
-
-    h1 {
-        font-size; 2.5em;
-
-
-    h2 {
-         font-size; 1.5em;
-         
-    }
-
     img {
         float: right;
         width: 250px;
