@@ -1,0 +1,3 @@
+var lastud = document.lastud;
+
+document.getElementById("lastud").innerHTML = document.lastud;
