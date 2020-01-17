@@ -1,13 +1,4 @@
 @charset "utf-8"
-*: {
-    margin: 0;
-    box-sizing: border-box;
-}
-body {
-    font-size: 16px;
-    line-height: 1.5;
-    color: black
-}
 header, footer{
     font-family: 'Roboto', sans-serif;
     background-color: blue;
@@ -25,7 +16,7 @@ h1 {
     vertical-align: middle;
 }
 h2 {
-    font-size; 1em;
+    font-size: 1em;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 10px;
