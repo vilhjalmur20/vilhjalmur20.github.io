@@ -12,7 +12,7 @@ main {
 h1 {
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    margin: 3;
     padding: 0px;
     text-align: center;
     vertical-align: middle;
@@ -20,17 +20,20 @@ h1 {
 h2 {
     font-size: 1em;
     font-family: 'Roboto', sans-serif;
-    margin: 0;
+    margin: 3;
     padding: 10px;
     text-align: center;
     vertical-align: middle;
 }
 #section1 {
     background-color: blue;
+    margin: 3;
 }
 #section2 {
     background-color: gray;
+    margin: 3;
 }
 #section3 {
     background-color: blue;
+    margin: 3;
 }
