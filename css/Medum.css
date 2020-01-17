@@ -1,5 +1,6 @@
 @media only screen and (min-width: 40em) {
     main {
+        display: grid;
         grid-template-columns: 66px 1fr;
         /*https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns*/
     }
