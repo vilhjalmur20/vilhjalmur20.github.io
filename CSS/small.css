@@ -1,5 +1,5 @@
 @charset "utf-8"
-* {
+*: {
     margin: 0;
     box-sizing: border-box;
 }
@@ -7,7 +7,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: black
-    height: 100%;
 }
 header, footer{
     font-family: 'Roboto', sans-serif;
@@ -18,7 +17,7 @@ header, footer{
     padding-top: 10px;
 }
 h1 {
-    font-size; 1.5em;
+    font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 10px;
