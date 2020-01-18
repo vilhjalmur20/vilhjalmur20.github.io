@@ -47,5 +47,9 @@
             text-align: center;
             background-color:whitesmoke;
             border-radius: 25px;
-    }
+         }
+        p {
+            word-wrap: break-word;
+        }
+     
 }
