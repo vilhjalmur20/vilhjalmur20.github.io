@@ -29,7 +29,7 @@ h2 {
     vertical-align: middle;
 }
 
-    #section1{
+#fitts{
     padding: .5rem;
     font-size: 1rem;
     text-align: center;
@@ -37,7 +37,7 @@ h2 {
     border-radius: 25px;
 }
 
-    #section2 {
+#visualhierarchy {
     padding: .5rem;
     font-size: 1rem;
     text-align: center;
@@ -45,7 +45,7 @@ h2 {
     border-radius: 25px;
 }
 
-    #section3 {
+#ruleofthirds {
     padding: .5rem;
     font-size: 1rem;
     text-align: center;
@@ -53,11 +53,14 @@ h2 {
     border-radius: 25px;
     
 }
-    /*#fitts {
-    padding: .5rem;
-    font-size: 1rem;
+
+#grids {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 1.5rem;
+    margin-top: 0em;
     text-align: center;
-    background-color: lightblue;
-    border-radius: 25px;
-    
-}*/
+    padding: 0.75rem;
+    grid-gap: 10px 10px;
+    font-family: 'Roboto', sans-serif;
+}
