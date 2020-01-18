@@ -32,37 +32,12 @@
             vertical-align: middle;
         }
 
-        /*#fitts, #visualhierarchy, #ruleofthirds {
+        #fitts, #visualhierarchy, #ruleofthirds {
             padding: .5rem;
             font-size: 1rem;
             text-align: center;
-            background-color:lightblue;
-            border-radius: 25px;*/
-
-        #fitts {
-            padding: .5rem;
-            font-size: 1rem;
-            text-align: center;
-            background-color: lightblue;
+            background-color:whitesmoke;
             border-radius: 25px;
-        }
-
-        #visualhierarchy {
-            padding: .5rem;
-            font-size: 1rem;
-            text-align: center;
-            background-color: white;
-            border-radius: 25px;
-         }
-    
-     
-        #ruleofthirds {
-            padding: .5rem;
-            font-size: 1rem;
-            text-align: center;
-            background-color: lightblue;
-            border-radius: 25px;
-        }
 
         #tabs {
             display: grid;
