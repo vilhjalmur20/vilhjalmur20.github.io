@@ -140,6 +140,10 @@ footer {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
 	article:nth-child(3) {
-		grid-column: span 1;
+		grid-column: span 1; 
+		grid-column: span 2; 
+		grid-column: span 3; 
+		grid-column: span 4;
+		grid-column: span 5;
 	}
 }
