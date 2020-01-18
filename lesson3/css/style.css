@@ -91,8 +91,11 @@ footer {
 				display: grid;
 				/* grid-template-columns: repeat(5, 1fr); */
 				grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+				grid-column: span 1; 
 				grid-column: span 2; 
-        		grid-column: span 3; 
+				grid-column: span 3; 
+				grid-column: span 4;
+				grid-column: span 5;
 			}
 
 	/* Inline-Block             */
