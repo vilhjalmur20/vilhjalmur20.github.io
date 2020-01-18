@@ -25,7 +25,7 @@ h2 {
     vertical-align: middle;
 }
 
-#fitts{
+#fitts, #visualhierarchy, #ruleofthirds{
     padding: .5rem;
     font-size: 1rem;
     text-align: center;
@@ -33,7 +33,7 @@ h2 {
     border-radius: 25px;
 }
 
-#visualhierarchy {
+/* {
     padding: .5rem;
     font-size: 1rem;
     text-align: center;
@@ -41,14 +41,14 @@ h2 {
     border-radius: 25px;
 }
 
-#ruleofthirds {
+ {
     padding: .5rem;
     font-size: 1rem;
     text-align: center;
     background-color: lightblue;
     border-radius: 25px;
     
-}
+}*/
 
 #grids {
     display: grid;
