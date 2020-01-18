@@ -6,7 +6,7 @@
         #container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            margin: 1.5rem;
+            margin: 3rem;
             margin-top: 10em;
             text-align: center;
             padding: 1rem;
@@ -15,7 +15,7 @@
         }
 
         #fitts, #visualhierarchy, #ruleofthirds {
-            padding: .5rem;
+            padding: 3rem;
             font-size: 1rem;
             text-align: center;
             background-color:blue;
