@@ -7,10 +7,6 @@ header, footer{
     padding-top: 5px;
 }
 
-main {
-    display: grid;
-}
-
 h1 {
     font-size: 1.5em;
     font-family: 'Roboto', sans-serif;
