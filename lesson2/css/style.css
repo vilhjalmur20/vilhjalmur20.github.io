@@ -1,4 +1,4 @@
-@media only screen and (min-width: 20em){
+/*@media only screen and (min-width: 20em){
     main {
         display: grid;
         grid-template-columns: 1fr;
@@ -55,7 +55,7 @@ h2 {
     background-color: lightblue;
     border-radius: 25px;
     
-}*/
+}
 
 #grids {
     display: grid;
@@ -66,4 +66,41 @@ h2 {
     padding: 0.75rem;
     grid-gap: 10px 10px;
     font-family: 'Roboto', sans-serif;
-}
+}*/
+
+@media only screen and (min-width: 23.5em){
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+      }
+        #fitts, #visualhierarchy, #ruleofthirds{
+          padding: .5rem;
+          font-size: 1rem;
+          text-align: center;
+          background-color:rgb(243, 221, 179);
+          border-radius: 25px;
+          
+      }
+      header, footer {
+          background-color: rgb(247, 131, 37);
+          max-width: none; 
+          margin: auto;
+          padding: 1rem;
+          text-align: center;
+          
+          }
+          containers {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 1.5rem;
+        margin-top: 0em;
+        text-align: center;
+        padding: 0.75rem;
+        grid-gap: 10px 10px;
+        font-family: 'Libre Caslon Text', serif;
+          }
+
+    }
+          
+  }
