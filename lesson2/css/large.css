@@ -3,29 +3,47 @@
             grid-template-columns: 1fr 1fr 1fr;
             align-items: Center;
         }
-        #tab {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            margin: .5rem;
-            margin-top: 10em;
-            text-align: center;
-            padding: 1rem;
-            grid-gap: 5px 5px;
-            font-family: 'Roboto', sans-serif;  
-        }
+    }
+    #tab {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 1.5rem;
+        margin-top: 0em;
+        text-align: center;
+        padding: .075rem;
+        grid-gap: 10px 10px;
+        font-family: 'Roboto', sans-serif;  
+    }
 
-        #fitts, #visualhierarchy, #ruleofthirds {
-            padding: .5rem;
-            font-size: 1rem;
-            text-align: center;
-            background-color:lightblue;
-            border-radius: 25px;
-        }
+    #fitts, #visualhierarchy, #ruleofthirds {
+        padding: .5rem;
+        font-size: 1rem;
+        text-align: center;
+        background-color:lightblue;
+        border-radius: 25px;
+    }
         
-        img {
-            grid-area: auto;
-            display: block;
-            object-fit: cover;
-            width: 100%;
-        }
-    }   
+    img {
+        grid-area: auto;
+        display: block;
+        object-fit: cover;
+        width: 100%;
+    }
+    
+    h1 {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    h2 {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    p {
+        color: black;
+        text-align: center;
+        font-size: 1.2em;
+    }

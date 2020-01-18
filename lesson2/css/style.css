@@ -4,7 +4,7 @@
             grid-template-columns: 1fr;
             align-items: Center;
         }
-        
+
         header, footer{
             max-width: none; 
             height: 73px;
@@ -52,9 +52,5 @@
             background-color:lightblue;
             border-radius: 25px;
          }
-
-        p {
-            word-wrap: break-word;
-        }
-     
+         
 }
