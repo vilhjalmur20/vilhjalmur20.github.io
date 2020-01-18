@@ -32,7 +32,14 @@
             vertical-align: middle;
         }
 
-        #fitts {
+        #fitts, #visualhierarchy, #ruleofthirds {
+            padding: .5rem;
+            font-size: 1rem;
+            text-align: center;
+            background-color:lightblue;
+            border-radius: 25px;
+
+        /*#fitts {
             padding: .5rem;
             font-size: 1rem;
             text-align: center;
@@ -55,7 +62,7 @@
             text-align: center;
             background-color: lightblue;
             border-radius: 25px;
-        }
+        }*/
 
         #tabs {
             display: grid;
