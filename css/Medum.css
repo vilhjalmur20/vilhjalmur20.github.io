@@ -1,8 +1,6 @@
 @media only screen and (min-width: 35em) {
     main {
-        grid-template-columns: 1fr 1fr;
-
-    }
-    
- }
- /*https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns*/
+            grid-template-columns: 1fr 1fr;
+            align-items: Center;
+     } 
+}

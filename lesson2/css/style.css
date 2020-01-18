@@ -7,7 +7,7 @@
 
         header, footer{
             max-width: none; 
-            height: 73px;
+            height: 75px;
             margin: auto;
             padding: 1rem;
             background-color: lightblue;
@@ -19,18 +19,18 @@
         #tab {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            margin: .5rem;
+            margin: 1.5rem;
             margin-top: 10em;
             text-align: center;
             padding: 1rem;
-            grid-gap: 5px 5px;
-            font-family: 'Roboto', sans-serif;        
+            grid-gap: 10px 10px;
+            font-family: 'Roboto', sans-serif;      
         }
 
         h1 {
             font-size: 1.5em;
             font-family: 'Roboto', sans-serif;
-            margin: .5rem;
+            margin: 0;
             padding: 5px;
             text-align: center;
             vertical-align: middle;
@@ -40,14 +40,14 @@
         h2 {
             font-size: 1em;
             font-family: 'Roboto', sans-serif;
-            margin: .5rem;
-            padding: 10px;
+            margin: 0;
+            padding: 5px;
             text-align: center;
             vertical-align: middle;
         }
 
         #fitts, #visualhierarchy, #ruleofthirds {
-            padding: .5rem;
+            padding: 1rem;
             font-size: 1rem;
             text-align: center;
             background-color:lightblue;

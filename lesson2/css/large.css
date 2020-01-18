@@ -8,15 +8,15 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         margin: 1.5rem;
-        margin-top: 0em;
+        margin-top: 1em;
         text-align: center;
-        padding: .075rem;
+        padding: 1rem;
         grid-gap: 10px 10px;
         font-family: 'Roboto', sans-serif;  
     }
 
     #fitts, #visualhierarchy, #ruleofthirds {
-        padding: .5rem;
+        padding: 1rem;
         font-size: 1rem;
         text-align: center;
         background-color:lightblue;
