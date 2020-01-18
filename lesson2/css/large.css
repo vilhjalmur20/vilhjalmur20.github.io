@@ -12,7 +12,8 @@
         text-align: center;
         padding: 1rem;
         grid-gap: 10px 10px;
-        font-family: 'Roboto', sans-serif;  
+        font-family: 'Roboto', sans-serif; 
+        grid-column: span 2; 
     }
 
     #fitts, #visualhierarchy, #ruleofthirds {
@@ -21,7 +22,7 @@
         text-align: center;
         background-color:lightblue;
         border-radius: 25px;
-        grid-column: span 2;
+        
     }
         
     img {
