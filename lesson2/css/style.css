@@ -15,7 +15,7 @@
         #container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            margin: 3rem;
+            margin: .5rem;
             margin-top: 10em;
             text-align: center;
             padding: 1rem;
@@ -26,7 +26,7 @@
         h1 {
             font-size: 1.5em;
             font-family: 'Roboto', sans-serif;
-            margin: 3;
+            margin: .5rem;
             padding: 10px;
             text-align: center;
             vertical-align: middle;
@@ -35,14 +35,14 @@
         h2 {
             font-size: 1em;
             font-family: 'Roboto', sans-serif;
-            margin: 3;
+            margin: .5rem;
             padding: 10px;
             text-align: center;
             vertical-align: middle;
         }
 
         #fitts, #visualhierarchy, #ruleofthirds {
-            padding: 3rem;
+            padding: .5rem;
             font-size: 1rem;
             text-align: center;
             background-color:blue;
