@@ -1,7 +1,41 @@
 @media only screen and (min-width 60em) {
     main { 
-        grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
 
-    }
+        img {
+            grid-area: auto;
+            display: block;
+            object-fit: cover;
+            width: 100%;
+        }
+        
+        #tabs {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            margin: 1.5rem;
+            margin-top: 0em;
+            text-align: center;
+            padding: 0.75rem;
+            grid-gap: 10px 10px;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #fitts, #visualhierarchy, #ruleofthirds {
+            padding: .5rem;
+            font-size: 1rem;
+            text-align: center;
+            background-color:whitesmoke;
+            border-radius: 25px;
+        }
+        
+        img {
+            grid-area: auto;
+            display: block;
+            object-fit: cover;
+            width: 100%;
+        }
+    }   
+
 }
 /*https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns*/
