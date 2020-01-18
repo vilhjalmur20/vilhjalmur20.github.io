@@ -2,8 +2,7 @@
     main { 
             grid-template-columns: 1fr 1fr 1fr;
         }
-        
-        #tabs {
+        #container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             margin: 1.5rem;
@@ -29,6 +28,3 @@
             width: 100%;
         }
     }   
-
-}
-/*https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns*/

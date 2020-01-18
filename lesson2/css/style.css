@@ -13,6 +13,16 @@
             height: 73px;
             padding-top: 5px;
         }
+        #container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            margin: 1.5rem;
+            margin-top: 0em;
+            text-align: center;
+            padding: 0.75rem;
+            grid-gap: 10px 10px;
+            font-family: 'Roboto', sans-serif;        
+        }
 
         h1 {
             font-size: 1.5em;
@@ -38,15 +48,4 @@
             text-align: center;
             background-color:whitesmoke;
             border-radius: 25px;
-
-        #tabs {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            margin: 1.5rem;
-            margin-top: 0em;
-            text-align: center;
-            padding: 0.75rem;
-            grid-gap: 10px 10px;
-            font-family: 'Roboto', sans-serif;        
-        }
     }
