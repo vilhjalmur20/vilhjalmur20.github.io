@@ -1,7 +1,8 @@
 @media only screen and (min-width: 40em) {
     main {
-        grid-template-columns: 66px 1fr 1fr;
-        /*https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns*/
+        grid-template-columns: 1fr 1fr;
+
     }
     
-    }
+ }
+ /*https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns*/
