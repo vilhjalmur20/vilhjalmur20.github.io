@@ -2,13 +2,6 @@
     main { 
             grid-template-columns: 1fr 1fr 1fr;
         }
-
-        img {
-            grid-area: auto;
-            display: block;
-            object-fit: cover;
-            width: 100%;
-        }
         
         #tabs {
             display: grid;
