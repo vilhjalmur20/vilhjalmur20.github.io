@@ -4,14 +4,18 @@
             grid-template-columns: 1fr;
             align-items: Center;
         }
+        
         header, footer{
+            max-width: none; 
+            height: 73px;
+            margin: auto;
+            padding: 1rem;
+            background-color: lightblue;
             font-family: 'Roboto', sans-serif;
-            background-color: blue;
             text-align: center;
             color: white;
-            height: 73px;
-            padding-top: 5px;
         }
+
         #tab {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -45,10 +49,10 @@
             padding: .5rem;
             font-size: 1rem;
             text-align: center;
-            background-color:blue;
+            background-color:lightblue;
             border-radius: 25px;
          }
-         
+
         p {
             word-wrap: break-word;
         }

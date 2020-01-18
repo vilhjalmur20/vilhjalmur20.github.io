@@ -5,14 +5,16 @@
         align-items: right;
       }
 
-        header, footer{
+      header, footer{
+            max-width: none; 
+            height: 73px;
+            margin: auto;
+            padding: 1rem;
+            background-color: lightblue;
             font-family: 'Roboto', sans-serif;
-            background-color: blue;
             text-align: center;
             color: white;
-            height: 73px;
-            padding-top: 10px;
-            }
+        }
         
         h1 {
             font-size: 1.5em;
