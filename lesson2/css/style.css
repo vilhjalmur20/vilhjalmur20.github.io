@@ -27,6 +27,30 @@ h2 {
     vertical-align: middle;
 }
 section {
-    background-color: blue;
+    background-color: ;
     margin: 3;
+}
+    #section1{
+    padding: .5rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 25px;
+    
+}
+    #section2 {
+    padding: .5rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    
+}
+    #section3 {
+    padding: .5rem;
+    font-size: 1rem;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 25px;
+    
 }
