@@ -21,6 +21,7 @@
         text-align: center;
         background-color:lightblue;
         border-radius: 25px;
+        grid-column: span 2;
     }
         
     img {

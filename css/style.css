@@ -2,7 +2,7 @@
     main {
         display: grid;
         grid-template-columns: 1fr;
-        align-items: right;
+        align-items: center;
       }
 
       header, footer{
