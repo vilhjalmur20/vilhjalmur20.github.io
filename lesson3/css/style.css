@@ -86,20 +86,20 @@ footer {
 			nav ul li { flex: 1 1 100%; }
 	
 
-	/* Grid *********************/
+	/* Grid ******************** */
 			nav ul { 
 				display: grid;
-				/* grid-template-columns: repeat(5, 1fr); */
+				grid-template-columns: repeat(5, 1fr);
 				grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
 			}
 
-	/* Inline-Block             */
+	/* Inline-Block */
 	
 			nav {text-align: center;}
 			nav li {display: inline-block;}
 	
 
-	/* Float     */             
+	/* Float */             
 	
 			nav li {float:left; margin-right:15px;}
 			main {clear:both;}
