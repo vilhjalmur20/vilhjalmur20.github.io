@@ -35,11 +35,11 @@ nav {
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
 }
-nav ul {
+/*nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	overflow: hidden;*/
 }
 nav li a {
 	display: block;
@@ -97,9 +97,9 @@ footer {
 	/*
 			nav {text-align: center;}
 			nav li {display: inline-block;}
-	*/
+	
 
-	 Float                    
+	 Float */                   
 	
 			nav li {float:left; margin-right:15px;}
 			main {clear:both;}
