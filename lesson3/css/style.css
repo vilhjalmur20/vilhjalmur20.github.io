@@ -94,12 +94,12 @@ footer {
 			}
 
 	/* Inline-Block             */
-	/*
+	
 			nav {text-align: center;}
 			nav li {display: inline-block;}
 	
 
-	 Float */                   
+	/* Float     */             
 	
 			nav li {float:left; margin-right:15px;}
 			main {clear:both;}
