@@ -32,7 +32,7 @@ footer {
 
 	nav a {
 		font-size: 1rem;
-		}
+    }
 	main {
 		grid-template-columns: 1fr 1fr;
 		}
@@ -47,4 +47,3 @@ footer {
 		height: auto;
 		border: 1px solid #bbb;
 		}
-}
