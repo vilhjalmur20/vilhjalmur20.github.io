@@ -8,12 +8,19 @@ body {
 /* phone or baseline views **************************/
 header,
 footer {
-	background-color: #bed;
+	background-color: lightblue;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
+	max-width: none; 
+    height: 75px;
+    margin: auto;
+    padding: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: black;
 }
 
 header,
