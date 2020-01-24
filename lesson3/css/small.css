@@ -18,20 +18,13 @@
         background-color: white;
     }
 
-    body {
-        background-color: #EFEFEF;
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-
     h1 {
         font-family: 'Roboto', sans-serif;
         font-size: 1.6em;
         padding: 1.5em;
-        text-align: center;
         margin: 0;
         background-color: lightblue;
-        color: white;
+        color: black;
     }
 
     h2,
@@ -39,20 +32,15 @@
     h4,
     h5 {
         font-family: 'Roboto', sans-serif;
-        color: #2A9D8F;
+        color: black;
     }
-
-    p {
-        font-family: 'Roboto', sans-serif;
-        line-height: 1.7rem;
-        }
 
     a {
         color: #264653;
     }
 
     a:hover {
-        color: #F4A261;
+        color: white;
     }
 
     nav {
