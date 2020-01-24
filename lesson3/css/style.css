@@ -4,7 +4,7 @@
 /* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
 body {
     font-size: 16px;
-    font-family: "Sansita", Ubuntu, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* phone or baseline views **************************/
@@ -24,7 +24,6 @@ header{
     display: flex;
     align-items: center;
 }
-
 
 header,
 nav,
