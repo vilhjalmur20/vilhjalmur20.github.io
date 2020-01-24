@@ -61,7 +61,7 @@ nav a:hover {
 	color: #36454f;
 }
 .active {
-	color: yellow;
+	color: rgb(0, 4, 255);
 }
 main {
 	display: grid;
@@ -73,10 +73,6 @@ main article {
 	border: 1px solid #bbb;
 	padding: 0 1rem;
 	background-color: #eee;
-}
-main picture {
-	display: none;
-	margin: 0.5rem;
 }
 
 footer {
