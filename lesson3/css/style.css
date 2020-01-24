@@ -9,7 +9,7 @@ body {
 
 /* phone or baseline views **************************/
 footer {
-    background-color: dodgerblue;
+    background-color: lightblue;
     color: white;
     display: flex;
     flex-flow: column;
@@ -19,7 +19,7 @@ footer {
 }
 
 header{
-    background-color: dodgerblue;
+    background-color: lightblue;
     color: white;
     display: flex;
     align-items: center;
@@ -51,7 +51,7 @@ h3 {
     font-size: .85rem;
 }
 nav {
-    background-color: #36454f;
+    background-color: lightblue;
     text-align: center;
     box-shadow: 0 2px 15px gray;
 }
