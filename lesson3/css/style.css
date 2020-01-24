@@ -73,11 +73,11 @@ nav li a {
 
 nav a:hover {
     background-color: #bbb;
-    color: #36454f;
+    color: white;
 }
 
 .active {
-    color: yellow;
+    color: gray;
 }
 
 main {
