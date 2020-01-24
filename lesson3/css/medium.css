@@ -1,0 +1,24 @@
+@media (min-width: 32.5em) {
+    body,
+    main,
+    footer {
+        font-size: 16pt;
+    }
+    nav ul {
+        display: flex;
+    }
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    h1 {
+        font-size: 2.2em;
+        padding-left: .1em;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    .icon {
+        align-self: center;
+    }
+}
