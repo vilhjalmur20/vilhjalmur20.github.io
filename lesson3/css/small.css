@@ -9,7 +9,7 @@ footer {
 }
 
 header {
-    background-color: #264653;
+    background-color: lightblue;
     text-align: center;
     /*display: grid;
     grid-template-columns: 100px 1fr;*/
@@ -38,7 +38,7 @@ h1 {
     padding: 1.5em;
     text-align: center;
     margin: 0;
-    background-color: #264653;
+    background-color: lightblue;
     color: white;
 }
 
@@ -64,7 +64,7 @@ a:hover {
 }
 
 nav {
-    background-color: #E9C46A;
+    background-color: lightblue;
     text-align: center;
 }
 
@@ -100,7 +100,7 @@ img {
 }
 
 footer {
-    background-color: #264653;
+    background-color: lightblue;
     color: white;
     font-family: 'Raleway', sans-serif;
 }
@@ -125,20 +125,20 @@ td {
 
 .site-header-sample {
     color: white;
-    background-color: #264653;
+    background-color: lightblue;
     font-size: 40pt;
     font-family: 'Bevan', sans-serif;
 }
 
 .navigation-sample {
     color: #264653;
-    background-color: #E9C46A;
+    background-color: lightblue;
     font-size: 16px;
 }
 
 .footer-sample {
     color: white;
-    background-color: #264653;
+    background-color: lightblue;
     font-size: 20pt;
 }
 
@@ -155,4 +155,50 @@ td {
 .rgb {
     font-size: 16pt;
     font-family: 'Raleway', sans-serif;
+}
+
+
+
+@media only screen and (min-width: 23.5em){
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+      }
+
+      header, footer{
+            max-width: none; 
+            height: 75px;
+            margin: auto;
+            padding: 1rem;
+            
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            color: black;
+        }
+        
+        h1 {
+            font-size: 1.5em;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        h2 {
+            font-size: 1em;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        
+        img {
+            width: 250px;
+            height: auto;
+            float: right;
+            padding: 5px;
+        }
 }
