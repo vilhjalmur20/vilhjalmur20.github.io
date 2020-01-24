@@ -46,12 +46,9 @@ h1 {
 }
 
 h2 {
-    color: #536878;
+    color: black;
 }
-h3 {
-    color: #536878;
-    font-size: .85rem;
-}
+
 nav {
     background-color: lightblue;
     text-align: center;
