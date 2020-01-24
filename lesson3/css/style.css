@@ -57,7 +57,7 @@
             padding: 5px;
         }
         nav {
-            background-color: #36454f;
+            background-color: lightblue;
             text-align: center;
             box-shadow: 0 2px 15px gray;
         }
@@ -79,12 +79,12 @@
         }
     
         nav a:hover {
-            background-color: #bbb;
-            color: #36454f;
+            background-color: lightblue;
+            color: white;
         }
     
         .active {
-            color: yellow;
+            color: white;
         }
     
         main {
