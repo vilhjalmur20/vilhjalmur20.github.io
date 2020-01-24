@@ -10,7 +10,7 @@ body {
 /* phone or baseline views **************************/
 footer {
     background-color: lightblue;
-    color: white;
+    color: black;
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -20,7 +20,7 @@ footer {
 
 header{
     background-color: lightblue;
-    color: white;
+    color: black;
     display: flex;
     align-items: center;
 }
@@ -77,7 +77,7 @@ nav a:hover {
 }
 
 .active {
-    color: gray;
+    color: black;
 }
 
 main {
