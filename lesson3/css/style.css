@@ -40,6 +40,14 @@ footer {
     margin-right: 10px;
 }
 
+#palette {
+    width: auto;
+    height: 40px;
+    margin-right: 10px;
+    align-items: center;
+
+}
+
 h1 {
     font-size: 2rem;
     align-items: center;
