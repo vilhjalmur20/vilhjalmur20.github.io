@@ -1,13 +1,8 @@
-@charset "UTF-8";
-
-/* not necessary */
-/* bluegrey matter   #637f80 light  #536872  #708090  #536878  #36454f dark */
 body {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
 }
 
-/* phone or baseline views **************************/
 footer {
     background-color: lightblue;
     color: black;
@@ -15,8 +10,9 @@ footer {
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    padding: 10px;
-    
+    padding: 10px;    
+    max-width: 767px;
+    margin: 0 auto;
 }
 
 header{
@@ -24,12 +20,6 @@ header{
     color: black;
     display: flex;
     align-items: center;
-}
-
-header,
-nav,
-main,
-footer {
     max-width: 767px;
     margin: 0 auto;
 }
@@ -45,7 +35,6 @@ footer {
     height: 40px;
     margin-right: 10px;
     align-items: center;
-
 }
 
 h1 {
@@ -54,12 +43,14 @@ h1 {
 }
 
 h2 {
-    color: #000000;
+    color: gray;
 }
 
 nav {
     background-color: lightblue;
     text-align: center;
+    max-width: 767px;
+    margin: 0 auto;
 }
 
 nav ul {
@@ -91,6 +82,8 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
+    max-width: 767px;
+    margin: 0 auto;
 }
 
 main article {
