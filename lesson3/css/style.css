@@ -20,7 +20,7 @@ footer {
 }
 
 header{
-    background-color: lightblue;
+    background-color: #add8e6;
     color: black;
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@ h1 {
 }
 
 h2 {
-    color: black;
+    color: #000000;
 }
 
 nav {
@@ -89,7 +89,6 @@ main article {
     margin: 0.5rem;
     border: 1px solid #bbb;
     padding: 0 1rem;
-    background-color: #eee;
 }
 
 main picture {
