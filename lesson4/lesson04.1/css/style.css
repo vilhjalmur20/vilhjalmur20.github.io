@@ -3,6 +3,7 @@
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
+        padding: 5px;
     }
 
     header, footer{
@@ -64,15 +65,17 @@
         margin: 0 auto;
         max-width: 760px;
         background-color: lightblue;
+        padding: 5px;
     }
 
     .navigation {
         list-style: none;
-        padding: 0;
+        padding: 5px;
     }
 
     .navigation li:first-child {
         display: block;
+        padding: 5px;
     }
 
     .navigation li {
@@ -103,7 +106,7 @@
     .infobox {
         display: block;
         margin: 10px auto;
-        padding: 10px 0px;
+        padding: 10px 10px;
         border: 2px;
         width: 100%;
         font-style: italic;
