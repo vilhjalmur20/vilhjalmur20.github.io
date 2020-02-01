@@ -3,41 +3,114 @@
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
-      }
+    }
 
-      header, footer{
-            max-width: none; 
-            height: 75px;
-            margin: auto;
-            padding: 1rem;
-            background-color: lightblue;
-            font-family: 'Roboto', sans-serif;
-            text-align: center;
-            color: black;
-        }
+    header, footer{
+        max-width: none; 
+        height: 75px;
+        margin: auto;
+        padding: 1rem;
+        font-family: 'Roboto', sans-serif;
+        background-color: lightblue;
+        color: black;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
         
-        h1 {
-            font-size: 1.5em;
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 5px;
-            text-align: center;
-            vertical-align: middle;
+    h1 {
+        font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    h2 {
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+        
+    .pic {
+        width: 100px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        float: 0px, 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .name {
+        font-style: bold;
+        letter-spacing: 2pt;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .motto {
+        font-style: italic;
+        letter-spacing: 0pt;
+        margin-left: 30px;
+        font-size: 0.8rem;
+    }
+
+    nav {
+        margin: 0 auto;
+        max-width: 760px;
+        background-color: lightblue;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 0;
+    }
+
+    .navigation li:first-child {
+        display: block;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: black;
+        padding: 0.75rem;
+        text-align: center;
         }
 
-        h2 {
-            font-size: 1em;
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 5px;
-            text-align: center;
-            vertical-align: middle;
-        }
+    .navigation a:hover {
+        background-color: gray;
+        color: white;
+        font-weight: 700;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    .active {
+        color: black;
+    }
+
+    .infobox {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 0px;
+        border: 2px;
+        width: 100%;
+        font-style: italic;
+        border: dashed;
+        border-color: gray;   
+        background-color: white;
+        color: gray;
+    }
         
-        img {
-            width: 250px;
-            height: auto;
-            float: right;
-            padding: 5px;
-        }
 }

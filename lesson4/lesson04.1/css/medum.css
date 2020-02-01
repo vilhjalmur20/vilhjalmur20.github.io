@@ -1,6 +1,72 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 37.5em) {
     main {
-            grid-template-columns: 1fr 1fr;
-            align-items: Center;
-     } 
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    header{
+        max-width: none; 
+        height: 75px;
+        margin: auto;
+        padding: 1rem;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        background-color: lightblue;
+        color: black;
+    }
+
+    footer{
+        max-width: none; 
+        height: 75px;
+        margin: auto;
+        padding: 1rem;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        background-color: lightblue;
+        color: black;
+    }
+        
+    h1 {
+        font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    h2 {
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+        
+    img {
+        width: 250px;
+        height: auto;
+        float: right;
+        padding: 5px;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    .infobox {
+        width: 85%;
+    }
+        
 }

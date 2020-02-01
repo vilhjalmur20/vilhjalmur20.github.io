@@ -1,6 +1,18 @@
 @media only screen and (min-width: 60em) {
-    main { 
-            grid-template-columns: 1fr 1fr 1fr;
-            align-items: Center;
-        }
+    main {
+        max-width: 1400px;
+        width: 80%;
+        margin: auto;
+        height: auto;
+        border-radius: 10px;
     }
+
+    footer {
+        max-width: 1400px;
+        width: 80%;
+        margin: auto;
+        height: auto;
+        border-radius: 10px;
+
+    }
+}
