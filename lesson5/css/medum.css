@@ -1,31 +1,48 @@
 @media only screen and (min-width: 37.5em) {
+    /* Main CSS */
     main {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
+        padding: 5px;
     }
 
-    header{
+    /* header & footer CSS */
+    header, footer{
         max-width: none; 
         height: 75px;
         margin: auto;
-        padding: 1rem;
+        padding: 5px;
         font-family: 'Roboto', sans-serif;
-        text-align: center;
         background-color: lightblue;
         color: black;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
     }
-
-    footer{
-        max-width: none; 
-        height: 75px;
-        margin: auto;
-        padding: 1rem;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        background-color: lightblue;
-        color: black;
+    .name {
+        font-style: bold;
+        letter-spacing: 2pt;
+        margin-right: 0px;
+        margin-top: 0px;
     }
+    .motto {
+        font-style: italic;
+        letter-spacing: 0pt;
+        margin-left: 30px;
+        font-size: 0.8rem;
+    }
+    .pic {
+        width: 100px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        float: 0px, 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    /* end header & footer CSS */
         
     h1 {
         font-size: 1.5em;
@@ -44,153 +61,12 @@
         text-align: center;
         vertical-align: middle;
     }
-        
-    img {
-        width: 250px;
-        height: auto;
-        float: right;
-        padding: 5px;
-    }
-    
-    ul {
-        display: flex;
-        justify-content: center;
-    }
 
-    .navigation li {
-        display: flex;
-        justify-content: center;
-    }
-
-    .navigation li:first-child {
-        display: none;
-    }
-    .infobox {
-        width: 85%;
-    }
-
-     /* Start Hero section CSS */
-
-     .hero-container{
-        margin: 10px auto; 
-        position: relative;
-    }
-    .hero-section {
-        margin: 10px auto;
-        background-color: lightblue;
-        border: 1px solid gray;
-    }
-    .hero-pic{
-        width: 475px;
-        height: auto;
-    }
-    .hero-overlay {
-        position: absolute;
-        border: 1px dotted;
-        top: 2rem;
-        left: 1rem;
-        background: lightblue;
-        border: 1px solid black;
-        padding: .5rem;
-    }
-    .weathersum {
-        font-size: 3.em;
-    }
-    /* End Hero section CSS */
-
-    /* Start 5day section CSS */
-    .flex-box {
-        display: flex;
-        flex-direction: row;
-    }
-    .table {
-        flex: 1 1 100%;
-        border-top: 1px solid #333;
-        border-bottom: 1px solid #333;
-        border-left: 1px solid #333;
-        background-color: #bed;
-        font-size: 13px;
-        text-align: center;
-    }
-    .label {
-        display: block;
-        padding: 5px;
-        font-weight: 700;
-        font-size: 15px;
-        border-bottom: 1px solid #333;
-        background-color: #eee;
-    }
-    .flex-img {
-    }
-    .flex div:last-child {
-        border-right: 1px solid #333;
-    }
-    .flex div img, table img {
-        border-radius: 100px;
+    h3 {
+        font-size: .5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
         padding: 5px;
     }
-    .data {
-        display: block;
-        padding: 0 5px 5px;
-    }  
-    .pic {
-        width: 100px;
-        height: auto;
-        padding: 5px;
-        float: right;
-        float: 0px, 50px;
-        align-items: center;
-        justify-content: center;
-    }
-    
-
-    /* Start Nav section CSS */
-    nav {
-        margin: 0 auto;
-        max-width: 760px;
-        background-color: lightblue;
-        padding: 5px;
-    }
-    .navigation {
-        list-style: none;
-        padding: 5px;
-    }
-    .navigation li:first-child {
-        display: block;
-        padding: 5px;
-    }
-    .navigation li {
-        display: none;
-    }
-    .navigation a {
-        display: block;
-        color: black;
-        padding: 0.75rem;
-        text-align: center;
-    }
-    .navigation a:hover {
-        background-color: gray;
-        color: white;
-        font-weight: 700;
-    }
-    .responsive li {
-        display: block;
-    }
-    .active {
-        color: black;
-    }
-    .infobox {
-        display: block;
-        margin: 10px auto;
-        padding: 10px 10px;
-        border: 2px;
-        width: 100%;
-        font-style: italic;
-        border: dashed;
-        border-color: gray;   
-        background-color: white;
-        color: gray;
-    }
-    /* end Nav section CSS */    
         
 }
