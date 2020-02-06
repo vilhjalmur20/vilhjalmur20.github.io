@@ -1,71 +1,15 @@
 @media only screen and (min-width: 60em) {
-    /* Main CSS */
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        padding: 5px;
-    }
-
-    /* header & footer CSS */
-    header, footer{
-        max-width: none; 
-        height: 75px;
-        margin: auto;
-        padding: 5px;
-        font-family: 'Roboto', sans-serif;
+    .artical {
         background-color: lightblue;
-        color: black;
-        display: flex;
-        text-align: left;
-        align-items: center;
-        justify-content: center;
+        padding: 1rem;
     }
-    .name {
-        font-style: bold;
-        letter-spacing: 2pt;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-    .motto {
-        font-style: italic;
-        letter-spacing: 0pt;
-        margin-left: 30px;
-        font-size: 0.8rem;
-    }
-    .pic {
-        width: 100px;
-        height: auto;
-        padding: 5px;
+    .artical-pic{
         float: right;
-        float: 0px, 50px;
-        align-items: center;
-        justify-content: center;
-    }
-    /* end header & footer CSS */
-        
-    h1 {
-        font-size: 1.5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
+        width: 470px;
     }
 
-    h2 {
-        font-size: 1em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    h3 {
-        font-size: .5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
+    .hero-pic{
+        width: 900px;
+        height: auto;
     }
 }

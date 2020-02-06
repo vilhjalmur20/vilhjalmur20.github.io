@@ -1,12 +1,11 @@
 @media only screen and (min-width: 23.5em){
-    /* Main CSS */
+    /* start Main CSS */
     main {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
         padding: 5px;
     }
-
     /* header & footer CSS */
     header, footer{
         max-width: none; 
@@ -42,8 +41,9 @@
         align-items: center;
         justify-content: center;
     }
-    /* end header & footer CSS */
-        
+        /* end header & footer CSS */
+
+     /* start of Text CSS */   
     h1 {
         font-size: 1.5em;
         font-family: 'Roboto', sans-serif;
@@ -52,7 +52,6 @@
         text-align: center;
         vertical-align: middle;
     }
-
     h2 {
         font-size: 1em;
         font-family: 'Roboto', sans-serif;
@@ -61,81 +60,14 @@
         text-align: center;
         vertical-align: middle;
     }
-
     h3 {
         font-size: .5em;
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 5px;
     }
+        /* end of Text CSS */  
 
-    /* Start Hero section CSS */
-
-    .hero-container{
-        margin: 10px auto; 
-        position: relative;
-    }
-    .hero-section {
-        margin: 10px auto;
-        background-color: lightblue;
-        border: 1px solid gray;
-    }
-    .hero-pic{
-        width: 475px;
-        height: auto;
-    }
-    .hero-overlay {
-        position: absolute;
-        border: 1px dotted;
-        top: 2rem;
-        left: 1rem;
-        background: lightblue;
-        border: 1px solid black;
-        padding: .5rem;
-    }
-    .weathersum {
-        font-size: 3.em;
-    }
-    /* End Hero section CSS */
-
-    /* Start 5day section CSS */
-    .flex-box {
-        display: flex;
-        flex-direction: row;
-        padding: .5rem;
-    }
-    .table {
-        flex: 1 1 100%;
-        border-top: 1px solid #333;
-        border-bottom: 1px solid #333;
-        border-left: 1px solid #333;
-        background-color: #bed;
-        font-size: 13px;
-        text-align: center;
-    }
-    .label {
-        display: block;
-        padding: 5px;
-        font-weight: 700;
-        font-size: 15px;
-        border-bottom: 1px solid #333;
-        background-color: #eee;
-    }
-    .flex-img {
-        size: 1px;
-    }
-    .flex div:last-child {
-        border-right: 1px solid #333;
-    }
-    .flex div img, table img {
-        border-radius: 100px;
-        padding: 5px;
-    }
-    .data {
-        display: block;
-        padding: 0 5px 5px;
-    }  
-  
     /* Start Nav section CSS */
     nav {
         margin: 0 auto;
@@ -166,7 +98,7 @@
         font-weight: 700;
     }
     .responsive li {
-        display: block;
+        display: black;
     }
     .active {
         color: black;
@@ -183,24 +115,80 @@
         background-color: white;
         color: gray;
     }
-    /* end Nav section CSS */    
+        /* end Nav section CSS */ 
+
+    /* Start Hero section CSS */
+    .hero-container{
+        margin: 10px auto; 
+        position: relative;
+    }
+    .hero-section {
+        margin: 10px auto;
+        background-color: lightblue;
+        border: 1px solid gray;
+    }
+    .hero-pic{
+        width: 475px;
+        height: auto;
+    }
+    .hero-overlay {
+        position: absolute;
+        border: 1px dotted;
+        top: 2rem;
+        left: 1rem;
+        background: lightblue;
+        border: 1px solid black;
+        padding: .5rem;
+    }
+        /* End Hero section CSS */
+
+    /* Start 5day section CSS */
+    .flex-box {
+        display: flex;
+        flex-direction: row;
+        padding: .5rem;
+    }
+    .table {
+        flex: 1 1 100%;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        border-left: 1px solid #333;
+        background-color: #eee;
+        font-size: 13px;
+        text-align: center;
+    }
+    .label {
+        display: block;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        border-bottom: 1px solid #333;
+        background-color: #eee;
+    }
+    .flex-img {
+        size: 1px;
+    }
+    .flex div:last-child {
+        border-right: 1px solid #333;
+    }
+    .flex div img, table img {
+        border-radius: 100px;
+        padding: 5px;
+    }
+    .data {
+        display: block;
+        padding: 0 5px 5px;
+    }  
+        /* end 5day section CSS */
+   
         
     /* start artical section CSS */ 
-
     .artical {
         background-color: lightblue;
-        padding: 0.5rem;
+        padding: 1rem;
     }
     .artical-pic{
-        float: right;
-        width: 525px;
+        float: center;
+        width: 470px;
     }
-}
-
-
-
-
-
-.other-pic{
-    display: none;
 }
