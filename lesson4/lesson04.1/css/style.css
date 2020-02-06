@@ -37,6 +37,27 @@
         text-align: center;
         vertical-align: middle;
     }
+
+    .hero-section {
+        margin: 10px auto;
+        background-color: lightblue;
+        border: 1px solid gray;
+        width: 960px;
+        height: 360px;
+    }
+
+    .herocontainer{
+        position: relative;
+
+    }
+
+    .overlay {
+        position: absolute;
+        border: 1px dotted;
+        top: 22rem;
+        width: 960px;
+        height: 360px;
+    }
         
     .pic {
         width: 100px;
