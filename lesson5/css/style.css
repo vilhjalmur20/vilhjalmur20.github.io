@@ -191,4 +191,17 @@
         float: center;
         width: 470px;
     }
+
+    /* start contaxt info*/
+    .contat-info{
+        background-color: gray;
+        padding: 1rem;
+        text-align: center;
+    }
+    .contact-map{
+        display: none;
+    }
+    .contact-data{
+        color: white;
+    }
 }
