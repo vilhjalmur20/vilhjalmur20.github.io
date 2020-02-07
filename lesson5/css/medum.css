@@ -1,5 +1,8 @@
 @media only screen and (min-width: 37.5em) {
-
+    .pic {
+        width: 300px;
+        height: auto;
+    }
     
     ul {
         display: flex;

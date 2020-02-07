@@ -33,7 +33,7 @@
         font-size: 0.8rem;
     }
     .pic {
-        width: 100px;
+        width: 200px;
         height: auto;
         padding: 5px;
         float: right;
@@ -75,34 +75,42 @@
         background-color: lightblue;
         padding: 5px;
     }
+
     .navigation {
         list-style: none;
         padding: 5px;
     }
+
     .navigation li:first-child {
         display: block;
         padding: 5px;
     }
+
     .navigation li {
         display: none;
     }
+
     .navigation a {
         display: block;
         color: black;
         padding: 0.75rem;
         text-align: center;
-    }
+        }
+
     .navigation a:hover {
         background-color: gray;
         color: white;
         font-weight: 700;
     }
+
     .responsive li {
-        display: black;
+        display: block;
     }
+
     .active {
         color: black;
     }
+
     .infobox {
         display: block;
         margin: 10px auto;
