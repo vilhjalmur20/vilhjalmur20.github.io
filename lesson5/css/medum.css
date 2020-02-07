@@ -33,7 +33,6 @@
         width: 470px;
     }
 
-
     .hero-pic{
         width: 650px;
         height: auto;
@@ -48,4 +47,45 @@
         width: 550px;
         height: auto;
     }
+    /* Start 5day section CSS */
+    .flex-box {
+        display: flex;
+        flex-direction: row;
+        padding: .5rem;
+    }
+
+    .table {
+        flex: 1 1 100%;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        border-left: 1px solid #333;
+        background-color: #eee;
+        font-size: 13px;
+        text-align: center;
+    }
+    .label {
+        display: block;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        border-bottom: 1px solid #333;
+        background-color: #eee;
+    }
+    .flex-img {
+        size: 1px;
+    }
+    .flex div:last-child {
+        border-right: 1px solid #333;
+    }
+    .flex div img, table img {
+        border-radius: 100px;
+        padding: 5px;
+    }
+    .data {
+        display: block;
+        padding: 0 5px 5px;
+    }  
+        /* end 5day section CSS */
+
+        
 }
