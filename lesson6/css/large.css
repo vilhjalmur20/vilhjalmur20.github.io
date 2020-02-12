@@ -1,0 +1,16 @@
+@media only screen and (min-width: 60em) {
+    .artical {
+        background-color: lightblue;
+        padding: 1rem;
+    }
+    .artical-pic{
+        float: right;
+        width: 470px;
+        height: auto;
+    }
+
+    .hero-pic{
+        width: 770px;
+        height: auto;
+    }
+}
