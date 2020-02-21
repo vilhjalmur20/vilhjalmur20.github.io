@@ -19,4 +19,5 @@ img {
  
 img[data-src] {
     filter: blur(0.5em);
+    
 }
