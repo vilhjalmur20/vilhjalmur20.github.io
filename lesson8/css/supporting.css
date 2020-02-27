@@ -1,0 +1,18 @@
+table, th, td {
+
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  table#t01 tr:nth-child(even) {
+    background-color: e7f0ed;
+  }
+  table#t01 tr:nth-child(odd) {
+    background-color: e7ffed;
+  }
+  table#t01 th {
+    color: white;
+    background-color: black;
+  }
+
+#e7f0ed, #e7ffed (data rows) and #628ca6, #7fb9c2 along with standard white and black.
