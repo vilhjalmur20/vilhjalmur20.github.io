@@ -1,104 +1,58 @@
-body {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-}
+@media only screen and (min-width: 23.5em){
+    main {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: Center;
+        }
 
-footer {
-    background-color: lightblue;
-    color: black;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;    
-    max-width: 767px;
-    margin: 0 auto;
-}
+        header, footer{
+            max-width: none; 
+            height: 75px;
+            margin: auto;
+            padding: 1rem;
+            background-color: lightblue;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            color: black;
+        }
 
-header{
-    background-color: #add8e6;
-    color: black;
-    display: flex;
-    align-items: center;
-    max-width: 767px;
-    margin: 0 auto;
-}
+        #tab {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            margin: 1.5rem;
+            margin-top: 10em;
+            text-align: center;
+            padding: 1rem;
+            grid-gap: 10px 10px;
+            font-family: 'Roboto', sans-serif;      
+        }
 
-#logo {
-    width: auto;
-    height: 40px;
-    margin-right: 10px;
-}
+        h1 {
+            font-size: 1.5em;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+            text-emphasis-style: bold;
+        }
 
-#palette {
-    width: auto;
-    height: 40px;
-    margin-right: 10px;
-    align-items: center;
-}
+        h2 {
+            font-size: 1em;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
 
-h1 {
-    font-size: 2rem;
-    align-items: center;
-}
+        #fitts, #visualhierarchy, #ruleofthirds {
+            padding: 1rem;
+            font-size: 1rem;
+            text-align: center;
+            background-color:lightblue;
+            border-radius: 25px;
 
-h2 {
-    color: gray;
-}
-
-nav {
-    background-color: lightblue;
-    text-align: center;
-    max-width: 767px;
-    margin: 0 auto;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav li a {
-    display: block;
-    color: #fff;
-    text-align: center;
-    padding: 0.25rem;
-    text-decoration: none;
-    font-size: 0.95rem;
-}
-
-nav a:hover {
-    background-color: #bbb;
-    color: white;
-}
-
-.active {
-    color: black;
-}
-
-main {
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 0.8rem;
-    max-width: 767px;
-    margin: 0 auto;
-}
-
-main article {
-    margin: 0.5rem;
-    border: 1px solid #bbb;
-    padding: 0 1rem;
-}
-
-main picture {
-    display: none;
-    margin: 0.5rem;
-}
-
-footer {
-    flex: 0 1 100%;
-    height: 2rem;
-    text-align: center;
+         }
+         
 }
