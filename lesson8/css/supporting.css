@@ -1,40 +1,23 @@
-.container {
-    justify-content: left;
-    text-align: center;
-    align-items: center;
-    margin: auto;
-    font-family: "Ubuntu", sans-serif;
-    background-color: #7fb9c2;
-}
-
 table {
-  display: grid;
-  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
   border-collapse: collapse;
-}
-h2 {
-  padding: 5px;
-  margin: 0 10px 0;
-  font-weight: bold;
-  }
-
-th {
-  color: white;
-  background-color: #628ca6;
+  border: 1px solid black;
+  margin: 10px auto;
 }
 
-td,th {
-  border: 1px solid #80b9c2;
-  padding: 5px;
+table thead {
+  background-color: #7fb9c2;
   text-align: center;
+  font-size: 17px;
 }
 
-tr:nth-child(odd) {
+tbody tr {
   background-color: #e7ffed;
 }
 
-tr:nth-child(even) {
-  background-color: #e7f0ed;
+tbody th {
+  background-color: #628ca6;
+  color: white;
 }
 
 .standout {
@@ -42,7 +25,38 @@ tr:nth-child(even) {
   background-color: #628ca6;
 }
 
-caption {
-  padding: 5px;
-  font-size: 10px;
+table tbody tr:nth-child(even) {
+  background-color: #e7f0ed;
+}
+
+
+th {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin: 10px auto;
+}
+
+td {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+th {
+  text-align: center;
+  padding: 5px 10px;
+}
+
+table tfoot {
+  font-size: 11px;
+}
+
+tfoot {
+  text-align: center;
+  background-color: #7fb9c2;
 }

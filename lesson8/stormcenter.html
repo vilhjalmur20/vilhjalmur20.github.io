@@ -17,43 +17,48 @@
       <p id="friday"></p>
       <img class= "pic" src="/lesson8/images/WeatherVoo.jpg" alt="WeatherVoo logo">
       <section>
-        <h1 class="Name" >WeatherVoo</h1>
+        <h1 class= "Name" >WeatherVoo</h1>
         <div class="motto" >Weather Vou can Trust!</div>
       </section>
       
     </header>
     <nav>
-        <ul class= "navigation">
+        <ul class="navigation">
           <li><a class="ham" href="#">&#9776; Menu</a></li>
           <li> <a href="https://vilhjalmur20.github.io/"> Home </a> </li>
           <li> <a href="https://vilhjalmur20.github.io/lesson6/preston-6.html"> Preston </a> </li>
           <li> <a href="#"> Soda Springs </a> </li>
           <li> <a href="#"> Fish Haven </a> </li>
-          <li> <a href="#"> Storm Center </a> </li>
-          <li> <a href="#" class="active"> Gallery </a> </li>
+          <li> <a href="#" class="active"> Storm Center </a> </li>
+          <li> <a href="#"> Gallery </a> </li>
         </ul>
     </nav>
     
 <main>
-    <div class="personal_info">
-        <form action="*thanks.html" method="*get">
+    <div>
+        <form action="thanks.html">
             <fieldset>
-                <legend>Personal Information</legend>
-                <label><span>*First Name:</span> <input type="text" name="fname" placeholder="First Name" pattern="[A-z\s]{5,}" required ></label>
-                <label><span>*Last Name:</span> <input type="text" name="lname" placeholder="Last Name" pattern="[A-z\s]{5,}" required ></label>
-                <label><span>Email:</span><input type="email" name="email" placeholder="user@email.com"></label>
-                <label><span>*Phone:</span><input type="tel" name="phone" placeholder="xxx-xxx-xxxx" pattern="[0-9\s]{10,}" required ></label>
-                <label><span>*Zip code:</span><input type="number" name="zip" placeholder="12345" required ></label>
+                <legend> Personal Information </legend>
+                <label> *First Name <br> 
+                  <input type="text" name="fname" placeholder="First Name" pattern="[A-z\s]{5,}" required ></label>
+                <label> *Last name <br> 
+                  <input type="text" name="lname" placeholder="Last Name" pattern="[A-z\s]{5,}" required ></label>
+                <label> Email <br> 
+                  <input type="email" name="email" placeholder="username@email.com"></label>
+                <label> *Phone <br> 
+                  <input type="tel" name="phone" placeholder="555-555-5555" pattern="[0-9\s]{10,}" required ></label>
+                <label> *Zip code <br> 
+                  <input type="number" name="zip" placeholder="12345" required ></label>
             </fieldset>
-    </div>
-    <div class="storm_info">
             <fieldset>
-                <legend>Storm Information</legend>
-                <label for="theDate">Date Picker:
+                <legend> Storm Information </legend>
+                <label for="theDate"> Date Picker <br>
                     <input type="date" name="theDate"></label>
-                <label><span>Storm Date:</span><input type="date" name="date"></label>
-                <label><span>Storm Type:</span><input type="text" name="stormtype" list="stormtype">
-                    <datalist id="stormtype">
+                <label> Storm Date <br> 
+                  <input type="date" name="date"></label>
+                <label> Storm Type <br> 
+                  <input type="text" name="stormtype" list="stormtype">
+                    <datalist>
                         <option value="Flash Flood"></option>
                         <option value="Hail"></option>
                         <option value="Hurricane"></option>
@@ -61,45 +66,35 @@
                         <option value="Tornado"></option>
                     </datalist>
                 </label>
-    </div>
-    <div class="storm_severity">
-                <label><span>Storm Severity: From 1 to 10: </span>
-                    <input type="range" id="rating" value="5" min="1" max="10" step="1"
-                        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <label><span>Storm Severity From 1 to 10 </span>
+                    <input type="range" id="rating" value="5" min="1" max="10" step="1">
                     <span id="ratingvalue">5</span>
                 </label>
-    </div>
-    <div class="storm_region">
-                <label><span>Storm Region:</span>
-                    <select name="stormregion">
+                <label><span>Storm Region</span>
+                    <select name="storm_region">
                         <option value="select" disabled selected>Select Region</option>
                         <option value="Fish Haven">Fish Haven</option>
                         <option value="Preston">Preston</option>
                         <option value="Soda Springs">Soda Springs</option>
                     </select>
                 </label>
-    </div>
-    <div class="user_danger">
-               <label><span>User In-Danger Level:</span></label>
-                <label><input class="danger" type="radio" name="danger" value="yes">Yes</label>
-                <label><input class="danger" type="radio" name="danger" value="Maybe">Maybe</label>
-                <label><input class="danger" type="radio" name="danger" value="no">No</label>
-    </div>
-    <div class="additional_info">
-                <label><span>Additional Information:</span>
+               <label><span>User In-Danger Level</span></label>
+                <label><input type="radio" name="danger" value="Yes">Yes</label>
+                <label><input type="radio" name="danger" value="Maybe">Maybe</label>
+                <label><input type="radio" name="danger" value="No">No</label>
+                <label><span>Additional Information</span>
                     <textarea name="additionalinformation"></textarea>
                 </label>
             </fieldset>
-            <input type="submit" value="Submit" class="submitbutton">
+            <input type="submit" value="Submit" class="button">
         </form>
-    </div>
     </main>
 
 
     <footer>
       <p class="info"> ©WeatherVoo | --- | Villi Olafsson
         <br>
-        <span id="cd"></span><script src="/lesson7/js/cd.js"></script>
+        <span id="cd"></span><script src="/lesson8/js/cd.js"></script>
       </p>
     </footer>
 

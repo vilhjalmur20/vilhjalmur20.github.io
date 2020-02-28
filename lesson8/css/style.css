@@ -152,91 +152,82 @@
     /* start forms & fieldsets CSS*/
     form fieldset {
         background-color: lightblue;
-        margin: 1rem 0;
-        border: 4px solid #lightblue;
-        padding: .5rem 2%;
-        }    
+        border: 1px solid black;
+        margin: 10px;
+        padding: 30px;
+    }    
     
     form legend {
         background-color: lightblue;
         color: black;
-        margin: 0 1rem;
-        padding: 0.5rem;
-        border-radius: .8em;
-        border: 4px solid lightblue;
-        }
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 100px;
+    }
     
     form label {
-        display: block;
-        padding: 4px;
         color: black;
+        display: block;
+        padding: 5px;
         }
     
     form span {
-        display: block;
-        font-size: 1rem;
         color: black;
+        display: block;
+        font-size: 17px;
         padding: 5px;
-        max-width: 20rem;
         }
     
     form label input {
-        width: 15rem;
-        font-size: 15px;
+        width: 200px;
+        font-size: 17px;
         }
     
     form label input{
-        padding: .6rem;
         background-color: white;
-        border: 1px solid  lightblue;
-        border-radius: .3em;
+        border: 1px solid  black;
+        padding: 10px;
+        border-radius: 50px;
         }
     
     
-    form input.submitbutton {
-        padding: 5px 2%;
-        margin-bottom: 1rem;
-        background-color: lightblue;
-        border-radius: .3em;
-        border: 4px solid lightblue;
-        margin-left: 5px;
-        color: white;
-        font-size: 20px;
-        }
-    
+
     form select {
-        Width: 15rem;
-        height: 40px;
-        color: lightblue;
         border: 1px solid black;
-        font-size: 1rem;
-        border-radius: 5px;
+        color: black;
+        Width: 250px;
+        height: 30px;
+        font-size: 17px;
+        border-radius: 0px;
         }
     
     form textarea {
-        padding: 10px;
-        Width: 15rem;
-        height: 5rem;
         background-color: white;
-        border: 1px solid  #lightblue;
+        border: 1px solid  lightblue;
+        padding: 0px;
+        Width: 250px;
+        height: 250px;
         text-align: left;
-        border-radius: .3em;
-        font-size: 15px;
+        font-size: 17px;
+        border-radius: 5px;
         }
+
+    form input.button {
+            background-color: lightblue;
+            border: 1px solid black;
+            color: black;
+            padding: 5px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            font-size: 20px;
+            border-radius: 50px;
+    }
+        
         /* end forms & fieldsets CSS*/
 
     /* start thank you CSS*/
 
-    .thanks{
-        text-align: center;   
-        }
-    
-    .danger {
-        width: 20px;
-        }    
-    
-    .stormcenter:after {
-        display: table;
-        clear: both;
-        }
+  .thankyou{
+    text-align: center;
+  }
          /* end thank you CSS*/
