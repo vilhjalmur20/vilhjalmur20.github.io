@@ -29,6 +29,6 @@ fetch(requestURL)
             prophets_display.appendChild(place);
             prophets_display.appendChild(image);
 
-            document.querySelector('div.prophets').appendChild(prophets_display);
+            document.querySelector('div.cards').appendChild(prophets_display);
         }
     });
