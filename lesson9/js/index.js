@@ -27,7 +27,6 @@ fetch(requestURL)
             annual_rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
             population.textContent = "Town Population: " + towns[i].Population;
 
-
             image.setAttribute("src", towns[i].photo); 
             image.setAttribute("alt", "picture of: " + h2.textContent);
 
@@ -40,4 +39,4 @@ fetch(requestURL)
 
             document.querySelector("div.cards").appendChild(town_display);
         }
-    });
+    }});
