@@ -1,3 +1,5 @@
+
+    // refrancing json file
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
 fetch(requestURL)
@@ -6,10 +8,12 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-        const towns = jsonObject["towns"];
 
-        for (let town of towns){
-            if (["Preston", "Soda Springs", "Fish Haven"].includes(town.name)) {
+            //selecting towns out of Json
+        for (let i = 0; i < towns.length; i++) {
+            if  (towns[i].name == "Preston" || towns[i].name =="Soda Springs"|| towns[i].name =="Fish Haven")
+        {
+               // pulling elements out of Json
             let shoe = document.createElement("section");
             let h2 = document.createElement("h2");
             let h4 = document.createElement("h4");
@@ -18,22 +22,24 @@ fetch(requestURL)
             let annual_rainfall = document.createElement("p");
             let image = document.createElement("photo");
 
+                // setting attributes for json elements
             h2.setAttribute("class", "name");
             h4.setAttribute("class", "motto");
             year.setAttribute("class", "year");
             population.setAttribute("class", "pop");
             annual_rainfall.setAttribute("class", "a_rainfall");
             image.setAttribute("class", "image");
-
-            h2.textContent = town.name;
-            h4.textContent = town.motto;
-            year.textContent = "Year Founded: " + town.yearFounded;
-            annual_rainfall.textContent = "Annual Rainfall: " + town.averageRainfall;
-            population.textContent = "Town Population: " + town.currentPopulation;
-
-            image.setAttribute("src", town[i].photo); 
+            
+                // putting json elements into order to display in HTML 
+            h2.textContent = towns.name;
+            h4.textContent = towns.motto;
+            year.textContent = "Year Founded: " + towns.yearFounded;
+            annual_rainfall.textContent = "Annual Rainfall: " + towns.averageRainfall;
+            population.textContent = "Town Population: " + towns.currentPopulation;
+            image.setAttribute("src", towns[i].photo); 
             image.setAttribute("alt", "picture of: " + h2.textContent);
 
+                // putting json children togehter.
             shoe.appendChild(h2);
             shoe.appendChild(h4);
             shoe.appendChild(year);
@@ -41,7 +47,8 @@ fetch(requestURL)
             shoe.appendChild(annual_rainfall);
             shoe.appendChild(image);
 
-            document.querySelector("div.town_display").appendChild(shoe);
+                // output to HTML
+            document.querySelector("div.jsontown_display").appendChild(shoe);
         }
     }
 });
