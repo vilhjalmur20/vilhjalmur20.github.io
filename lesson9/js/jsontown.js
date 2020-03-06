@@ -21,7 +21,7 @@ fetch(requestURL)
             let year = document.createElement("p");
             let population = document.createElement("p");
             let annual_rainfall = document.createElement("p");
-            let image = document.createElement("photo");
+            let image = document.createElement("img");
 
                 // setting attributes for json elements
             h2.setAttribute("class", "name");
@@ -38,7 +38,7 @@ fetch(requestURL)
             annual_rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
             population.textContent = "Town Population: " + towns[i].currentPopulation;
 
-            image.setAttribute("src", "/lesson9/images/" + towns.photo);
+            image.setAttribute("src", "./images/" + towns[i].photo);
             image.setAttribute("alt", "picture of: " + h2.textContent);
 
                 // putting json children togehter.
