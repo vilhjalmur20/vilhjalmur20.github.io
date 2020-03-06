@@ -8,6 +8,7 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
+        const towns = jsonObject['towns'];
 
             //selecting towns out of Json
         for (let i = 0; i < towns.length; i++) {
@@ -33,7 +34,7 @@ fetch(requestURL)
                 // putting json elements into order to display in HTML 
             h2.textContent = towns.name;
             h4.textContent = towns.motto;
-            year.textContent = "Year Founded: " + towns.yearFounded;
+            towns.yearFounded = towns[i].yearFounded;
             annual_rainfall.textContent = "Annual Rainfall: " + towns.averageRainfall;
             population.textContent = "Town Population: " + towns.currentPopulation;
             image.setAttribute("src", towns[i].photo); 
