@@ -38,7 +38,7 @@ fetch(requestURL)
             annual_rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
             population.textContent = "Town Population: " + towns[i].currentPopulation;
 
-            image.setAttribute('src', "/lesson9/images/" + town.photo);
+            image.setAttribute('src', "/lesson9/images/" + town[i].photo);
             image.setAttribute("alt", "picture of: " + h2.textContent);
 
                 // putting json children togehter.
