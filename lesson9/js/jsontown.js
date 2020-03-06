@@ -34,7 +34,7 @@ fetch(requestURL)
                 // putting json elements into order to display in HTML 
             h2.textContent = towns.name;
             h4.textContent = towns.motto;
-            towns.yearFounded = towns[i].yearFounded;
+            year.textContent = "Year Founded: " + towns.yearFounded;
             annual_rainfall.textContent = "Annual Rainfall: " + towns.averageRainfall;
             population.textContent = "Town Population: " + towns.currentPopulation;
             image.setAttribute("src", towns[i].photo); 
