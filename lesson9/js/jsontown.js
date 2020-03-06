@@ -32,12 +32,13 @@ fetch(requestURL)
             image.setAttribute("class", "image");
             
                 // putting json elements into order to display in HTML 
-            h2.textContent = towns.name;
-            h4.textContent = towns.motto;
-            year.textContent = "Year Founded: " + towns.yearFounded;
-            annual_rainfall.textContent = "Annual Rainfall: " + towns.averageRainfall;
-            population.textContent = "Town Population: " + towns.currentPopulation;
-            image.setAttribute("src", towns[i].photo); 
+            h2.textContent = towns[i].name;
+            h4.textContent = towns[i].motto;
+            year.textContent = "Year Founded: " + towns[i].yearFounded;
+            annual_rainfall.textContent = "Annual Rainfall: " + towns[i].averageRainfall;
+            population.textContent = "Town Population: " + towns[i].currentPopulation;
+
+            image.setAttribute('src', "/lesson9/images/" + town.photo);
             image.setAttribute("alt", "picture of: " + h2.textContent);
 
                 // putting json children togehter.
