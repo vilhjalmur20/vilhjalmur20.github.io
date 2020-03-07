@@ -8,5 +8,31 @@
     figure:hover {
         box-shadow: 0 0 20px lightgray;
     }
- 
+    .name {
+        font-size: 38px;
+    }
+    
+    
+    .displaysection div {
+        height: 125px;
+    }
+    
+    
+    .displaysection {
+        display: block;
+    }
+    
+    .motto {
+        font-size: 14px;
+    }
+    
+    .image {
+        width: 90%;
+    }
+    
+    
+    .jsontown_display {
+        display: grid;
+        grid-template-columns: 35% 35% 35%;
+    }
 }

@@ -227,7 +227,49 @@
 
     /* start thank you CSS*/
 
-  .thankyou{
-    text-align: center;
-  }
+    .thankyou{
+        text-align: center;
+    }
          /* end thank you CSS*/
+
+    .towninfo {
+        display: grid;
+    }
+
+    .displaysection {
+        font-family: 'Roboto', sans-serif;
+        background-color: lightblue;
+        border: 1px black solid;
+        display: block;
+        margin: 15px auto;
+        width: 80%;
+        padding-bottom: 15px;
+        }
+        
+    .name {
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+        
+    .motto {
+        display: block;
+        color: black;
+        font-style: italic;
+        text-align: center;
+        font-size: 15px;
+        margin-top: -3px;
+        padding: 0px -20px;
+    }
+        
+    .image {
+        display: block;
+        width: 85%;
+        margin: 15px auto;
+        }
+        
+    .year, .pop, .a_rainfall {
+        margin: 2px;
+        font-size: 16px;
+        text-align: center;
+    }

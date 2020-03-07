@@ -24,6 +24,7 @@ fetch(requestURL)
             let image = document.createElement("img");
 
                 // setting attributes for json elements
+            shoe.setAttribute('class', 'displaysection');
             h2.setAttribute("class", "name");
             h4.setAttribute("class", "motto");
             year.setAttribute("class", "year");

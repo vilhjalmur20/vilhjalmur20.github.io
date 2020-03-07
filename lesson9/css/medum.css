@@ -26,5 +26,31 @@
         margin: 1rem auto;
         grid-template-columns: 1fr 1fr;
     }
+    
+    .jsontown_display {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .displaysection {
+        display: flex;
+        width: 75%;
+        margin: auto;
+        padding: 5px 5px;
+        margin-bottom: 20px;
+    }
+    
+    .displaysection:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    
+    .displaysection div {
+        margin: auto;
+    }
+    
+    .image {
+        width: 40%;
+    }
+    
 
 }
