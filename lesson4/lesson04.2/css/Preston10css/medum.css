@@ -1,0 +1,124 @@
+@media only screen and (min-width: 37.5em) {
+    .pic {
+        width: 300px;
+        height: auto;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    .infobox {
+        width: 85%;
+    }
+        
+
+    /* start artical section CSS */ 
+
+    .artical {
+        background-color: lightblue;
+        padding: 1rem;
+    }
+    .artical-pic{
+        float: right;
+        width: 470px;
+    }
+
+    .hero-pic{
+        width: 650px;
+        height: auto;
+    }
+
+    .contact-data{
+        color: white;
+    }
+    .contact-map{
+        display: flex;
+        float: left;
+        width: 550px;
+        height: auto;
+    }
+    /* Start 5day section CSS */
+    .flex-box {
+        display: flex;
+        flex-direction: row;
+        padding: .5rem;
+    }
+
+    .table {
+        flex: 1 1 100%;
+        border-top: 1px solid #333;
+        border-bottom: 1px solid #333;
+        border-left: 1px solid #333;
+        background-color: #eee;
+        font-size: 13px;
+        text-align: center;
+    }
+    .label {
+        display: block;
+        padding: 5px;
+        font-weight: 700;
+        font-size: 15px;
+        border-bottom: 1px solid #333;
+        background-color: #eee;
+    }
+    .flex-img {
+        size: 1px;
+    }
+    .flex div:last-child {
+        border-right: 1px solid #333;
+    }
+    .flex div img, table img {
+        border-radius: 100px;
+        padding: 5px;
+    }
+    .data {
+        display: block;
+        padding: 0 5px 5px;
+    }  
+        /* end 5day section CSS */
+
+    /* Start 5day section CSS */
+    .fivedayforcast{
+        display: grid;
+        padding: 10px;
+    }
+    
+    .fivedayforcast table th {
+        background: lightblue;
+        padding: 10px;
+
+        /* borders */
+        border-top: .5px solid black;
+        border-right: .5px solid black;
+        border-bottom: .5px solid black;
+        border-left: .5px solid black;
+    }
+
+    .fivedayforcast table td {
+        text-align: center;
+        font-size: 15px; 
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+
+        /* borders */
+        border-top: .5px solid black;
+        border-right: .5px solid black;
+        border-bottom: .5px solid black;
+        border-left: .5px solid black;
+    }
+
+    .fivedayforcastpic{
+        position: center;
+    }
+    /* end 5day section CSS */
+}

@@ -1,0 +1,194 @@
+    /* start Main CSS */
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 5px;
+    }
+    /* header & footer CSS */
+    header, footer{
+        max-width: none; 
+        height: 75px;
+        margin: auto;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        background-color: lightblue;
+        color: black;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+    .name {
+        font-style: bold;
+        letter-spacing: 2pt;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .motto {
+        font-style: italic;
+        letter-spacing: 0pt;
+        margin-left: 30px;
+        font-size: 0.8rem;
+    }
+    .pic {
+        width: 200px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        float: 0px, 50px;
+        align-items: center;
+        justify-content: center;
+    }
+        /* end header & footer CSS */
+
+     /* start of Text CSS */   
+    h1 {
+        font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h2 {
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h3 {
+        font-size: .5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+    }
+        /* end of Text CSS */  
+
+    /* Start Nav section CSS */
+    nav {
+        margin: 0 auto;
+        background-color: lightblue;
+        padding: 5px;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .navigation li:first-child {
+        display: block;
+        padding: 5px;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: black;
+        padding: 0.75rem;
+        text-align: left;
+        }
+
+    .navigation a:hover {
+        background-color: gray;
+        color: white;
+        font-weight: 700;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    .active {
+        color: black;
+    }
+
+    .infobox {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 10px;
+        border: 2px;
+        width: 100%;
+        font-style: italic;
+        border: dashed;
+        border-color: gray;   
+        background-color: white;
+        color: gray;
+    }
+        /* end Nav section CSS */ 
+
+    /* Start Hero section CSS */
+    .hero-container{
+        margin: 10px auto; 
+        position: relative;
+    }
+    .hero-section {
+        margin: 10px auto;
+        background-color: lightblue;
+        border: 1px solid gray;
+    }
+    .hero-pic{
+        width: 475px;
+        height: auto;
+    }
+    .hero-overlay {
+        position: absolute;
+        border: 1px dotted;
+        top: 2rem;
+        left: 1rem;
+        background: lightblue;
+        border: 1px solid black;
+        padding: .5rem;
+    }
+        /* End Hero section CSS */
+
+    /* Start 5day section CSS */
+    .fivedayforcast {
+        display: none;
+    }
+        /* end 5day section CSS */
+
+        
+    /* start artical section CSS */ 
+    .artical {
+        background-color: lightblue;
+        padding: 1rem;
+    }
+    .artical-pic{
+        float: center;
+        width: 470px;
+    }
+        /* end artical section CSS */ 
+
+
+    /* start contaxt info*/
+    .contat-info{
+        background-color: gray;
+        padding: 1rem;
+        text-align: center;
+    }
+    .contact-map{
+        display: none;
+    }
+    .contact-data{
+        color: white;
+    }
+
+    #friday {
+        position: relative;   
+        left: 1px;
+        text-align: left;
+        font-size: 1.0rem;
+        padding: 1rem;
+    }
+    *{
+        box-sizing: border-box;
+    }
+        /* end contaxt info*/
