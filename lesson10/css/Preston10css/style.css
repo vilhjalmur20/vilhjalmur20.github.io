@@ -149,10 +149,12 @@
     }
         /* End Hero section CSS */
 
-        /* Start 5day section CSS */
-        .flex-box {
-            display: none;
-        }
+    /* Start 5day section CSS */
+    .fivedayforcast {
+        display: none;
+    }
+        /* end 5day section CSS */
+
         
     /* start artical section CSS */ 
     .artical {
@@ -163,6 +165,8 @@
         float: center;
         width: 470px;
     }
+        /* end artical section CSS */ 
+
 
     /* start contaxt info*/
     .contat-info{
@@ -187,3 +191,4 @@
     *{
         box-sizing: border-box;
     }
+        /* end contaxt info*/

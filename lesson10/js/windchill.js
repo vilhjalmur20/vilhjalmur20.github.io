@@ -1,4 +1,4 @@
-const t = parseFloat(document.getElementById('ctemp').innerText);
+const t = parseFloat(document.getElementById('high').innerText);
 const s = parseFloat(document.getElementById('wspeed').innerText);
 if (t <= 50 && s > 3) {
     var w = windChill(t , s);

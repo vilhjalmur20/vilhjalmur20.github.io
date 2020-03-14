@@ -87,5 +87,38 @@
     }  
         /* end 5day section CSS */
 
-        
+    /* Start 5day section CSS */
+    .fivedayforcast{
+        display: grid;
+        padding: 10px;
+    }
+    
+    .fivedayforcast table th {
+        background: lightblue;
+        padding: 10px;
+
+        /* borders */
+        border-top: .5px solid black;
+        border-right: .5px solid black;
+        border-bottom: .5px solid black;
+        border-left: .5px solid black;
+    }
+
+    .fivedayforcast table td {
+        text-align: center;
+        font-size: 15px; 
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+
+        /* borders */
+        border-top: .5px solid black;
+        border-right: .5px solid black;
+        border-bottom: .5px solid black;
+        border-left: .5px solid black;
+    }
+
+    .fivedayforcastpic{
+        position: center;
+    }
+    /* end 5day section CSS */
 }
