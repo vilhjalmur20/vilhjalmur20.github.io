@@ -600,6 +600,7 @@
     }
     .artical-pic{
         width: 100%;
+        max-width: 300px;
     }
         /* end artical section CSS */ 
 
