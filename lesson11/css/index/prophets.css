@@ -1,0 +1,90 @@
+    /* Start small CSS */
+body {
+    display: grid;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    max-width: 300px;
+}
+h1,h2 {
+    text-align: center;
+    color: black;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    text-align: center;
+    padding: 2px;
+    margin: 5px;
+}
+
+p {
+    padding: .5px;
+    margin: 2px;
+    font-size: 15px;
+}
+
+section {
+    background-color: lightblue;
+}
+
+.cards > section {
+    border: 1.5px solid black
+}
+  
+img {
+    border: 2px solid black;
+    width: 200px;
+    height: auto;
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+*{
+    box-sizing: border-box;
+}
+    /* End small CSS */
+
+    /* Start Med CSS */
+@media only screen and (min-width: 32.5em)  {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+         font-size: 27px;
+    }
+
+    body{
+        max-width: 700px;
+    }   
+    .cards {
+        grid-template-columns: repeat(3, 1fr);
+    } 
+}
+    /* End Med CSS */
+
+    /* Start Lar CSS */
+@media only screen and (min-width: 64em)  {
+    h1 {
+        font-size: 60px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+    body{
+        max-width: 1000px;
+    }   
+    .cards {
+        grid-template-columns: repeat(4, 1fr);
+}
+}
+
+
+
+
