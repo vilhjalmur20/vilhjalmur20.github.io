@@ -101,7 +101,6 @@
     .navigation a:hover {
         background-color: gray;
         color: white;
-        font-weight: 700;
     }
 
     .responsive li {
@@ -109,6 +108,7 @@
     }
 
     .active {
+        background-color: lightslategrey;
         color: black;
     }
 
@@ -304,7 +304,6 @@
         justify-content: center;
     }
     .name {
-        font-style: bold;
         letter-spacing: 2pt;
         margin-right: 0px;
         margin-top: 0px;
@@ -383,7 +382,6 @@
     .navigation a:hover {
         background-color: gray;
         color: white;
-        font-weight: 700;
     }
 
     .responsive li {
@@ -391,6 +389,7 @@
     }
 
     .active {
+        background-color: lightslategrey;
         color: black;
     }
 
@@ -538,7 +537,6 @@
     .navigation a:hover {
         background-color: gray;
         color: white;
-        font-weight: 700;
     }
 
     .responsive li {
@@ -546,6 +544,7 @@
     }
 
     .active {
+        background-color: lightslategrey;
         color: black;
     }
 
@@ -570,8 +569,6 @@
     }
     .hero-section {
         margin: 10px auto;
-        background-color: lightblue;
-        border: 1px solid gray;
     }
     .hero-pic{
         width: 475px;
@@ -609,9 +606,11 @@
 
     /* start contaxt info*/
     .contat-info{
+        display: flex;
         background-color: gray;
         padding: 1rem;
         text-align: center;
+
     }
     .contact-map{
         display: none;
@@ -738,7 +737,6 @@
         .navigation a:hover {
             background-color: gray;
             color: white;
-            font-weight: 700;
         }
     
         .responsive li {
@@ -746,6 +744,7 @@
         }
     
         .active {
+            background-color: lightslategrey;
             color: black;
         }
     

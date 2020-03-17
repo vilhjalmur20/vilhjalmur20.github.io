@@ -130,11 +130,12 @@
 
     .contact-data{
         color: white;
+        width: 50%;
     }
     .contact-map{
-        display: flex;
-        float: left;
-        width: 550px;
+        display: block;
+        max-width: 550px;
+        width: 50%;
         height: auto;
     }
     /* Start 5day section CSS */
