@@ -242,13 +242,8 @@
     }
 
     .displaysection {
-        font-family: 'Roboto', sans-serif;
-        background-color: lightblue;
-        border: 1px black solid;
-        display: block;
-        margin: 15px auto;
-        width: 80%;
-        padding-bottom: 15px;
+        width: 100%;
+        height: auto;
         }
         
     .name {
@@ -278,6 +273,13 @@
         font-size: 16px;
         text-align: center;
     }
+
+    .jsontown_display{
+        width: 100%;
+        height: auto;
+    }
+
+
 
 /* ---------------------------- index End ------------------------------------------ */
 
