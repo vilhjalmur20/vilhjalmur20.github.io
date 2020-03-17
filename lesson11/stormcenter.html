@@ -14,7 +14,6 @@
   </head>
   <body>
     <header>
-      <p id="friday"></p>
       <img class= "pic" src="/lesson11/images/WeatherVoo.png" alt="WeatherVoo logo">
       <section>
         <h1 class= "Name" >WeatherVoo</h1>
@@ -32,22 +31,22 @@
         <li> <a href="https://vilhjalmur20.github.io/lesson11/stormcenter.html" class="active"> Storm Center </a> </li>
         <li> <a href="https://vilhjalmur20.github.io/lesson11/gallery.html"> Gallery </a> </li>
       </ul>
-        </ul>
     </nav>
     
 <main>
+  <h2>Storm Center</h2>
     <div>
         <form action="thanks.html">
             <fieldset>
                 <legend> Personal Information </legend>
                 <label> *First Name <br> 
-                  <input type="text" name="fname" placeholder="First Name" pattern="[A-z\s]{5,}" required ></label>
+                  <input type="text" name="fname" placeholder="First Name" pattern="[A-z\s]{2,}" required ></label>
                 <label> *Last name <br> 
-                  <input type="text" name="lname" placeholder="Last Name" pattern="[A-z\s]{5,}" required ></label>
+                  <input type="text" name="lname" placeholder="Last Name" pattern="[A-z\s]{2,}" required ></label>
                 <label> Email <br> 
                   <input type="email" name="email" placeholder="username@email.com"></label>
                 <label> *Phone <br> 
-                  <input type="tel" name="phone" placeholder="555-555-5555" pattern="[0-9\s]{10,}" required ></label>
+                  <input type="tel" name="phone" placeholder="555-555-5555"{10,}" required ></label>
                 <label> *Zip code <br> 
                   <input type="number" name="zip" placeholder="12345" required ></label>
             </fieldset>
@@ -73,7 +72,7 @@
                 </label>
                 <label><span>Storm Region</span>
                     <select name="storm_region">
-                        <option value="select" disabled selected>Select Region</option>
+                        <option value="select" disabled selected></option>
                         <option value="Fish Haven">Fish Haven</option>
                         <option value="Preston">Preston</option>
                         <option value="Soda Springs">Soda Springs</option>
@@ -89,7 +88,8 @@
             </fieldset>
             <input type="submit" value="Submit" class="button">
         </form>
-    </main>
+    </div>
+  </main>
 
 
     <footer>
@@ -99,8 +99,6 @@
       </p>
     </footer>
 
-    <script src="/lesson11/js/pancake.js"></script> 
-    <script src="/lesson11/js/lazyload.js"></script>
     <script> WebFont.load({google:["Roboto"]});</script>
   </body>
 </html>

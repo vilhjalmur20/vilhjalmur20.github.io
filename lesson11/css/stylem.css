@@ -131,6 +131,7 @@
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
+        width: 100%;
     }
     figure {
         font-size: 1.00em;
@@ -153,6 +154,8 @@
 
     /* start forms & fieldsets CSS*/
     form fieldset {
+        max-width: 500;
+        margin: auto;
         background-color: lightblue;
         border: 1px solid black;
         margin: 10px;
@@ -412,6 +415,7 @@
             display: grid;
             grid-template-columns: 1fr;
             align-items: center;
+            width: 100%;
     }
         figure {
             font-size: 1.00em;
@@ -768,6 +772,7 @@
             display: grid;
             grid-template-columns: 1fr;
             align-items: center;
+            width: 100%;
         }
         figure {
             font-size: 1.00em;
@@ -789,11 +794,17 @@
             /* end pics section CSS */ 
     
         /* start forms & fieldsets CSS*/
+        form{
+            max-width: 500px;
+            margin: auto;
+        }
+
         form fieldset {
             background-color: lightblue;
             border: 1px solid black;
             margin: 10px;
             padding: 30px;
+            
         }    
         
         form legend {
@@ -818,9 +829,13 @@
             }
         
         form label input {
-            width: 200px;
+            width: 100%;
             font-size: 17px;
             }
+    
+        input[type="radio"]{
+            width: auto;
+        }
         
         form label input{
             background-color: white;
@@ -868,6 +883,8 @@
     
       .thankyou{
         text-align: center;
+        max-width: 500;
+        margin: auto;
       }
              /* end thank you CSS*/
 

@@ -42,13 +42,11 @@
 
     /* ---------------------------- Gallery start ------------------------------------------ */
         .gallery {
-            margin: 1rem auto;
-            display: grid;
             grid-template-columns: 1fr 1fr 1fr;
         }
         figure:hover {
             box-shadow: 0 0 20px lightgray;
-        }
+        }∂
 
 
     /* ---------------------------- Gallery End ------------------------------------------ */

@@ -23,7 +23,6 @@
     }
         
     .gallery {
-        display: grid;
         margin: 1rem auto;
         grid-template-columns: 1fr 1fr;
     }
