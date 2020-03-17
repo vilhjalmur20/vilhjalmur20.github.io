@@ -876,6 +876,10 @@
                 font-size: 20px;
                 border-radius: 50px;
         }
+
+        * {
+            box-sizing: border-box;
+        }
             
             /* end forms & fieldsets CSS*/
     
