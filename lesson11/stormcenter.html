@@ -39,14 +39,12 @@
         <form action="thanks.html">
             <fieldset>
                 <legend> Personal Information </legend>
-                <label> *First Name <br> 
-                  <input type="text" name="fname" placeholder="First Name" pattern="[A-z\s]{2,}" required ></label>
-                <label> *Last name <br> 
-                  <input type="text" name="lname" placeholder="Last Name" pattern="[A-z\s]{2,}" required ></label>
+                <label> *Full Name <br> 
+                  <input type="text" name="fname" placeholder="Full Name" pattern="[A-z\s]{5,}" required ></label>
                 <label> Email <br> 
                   <input type="email" name="email" placeholder="username@email.com"></label>
                 <label> *Phone <br> 
-                  <input type="tel" name="phone" placeholder="555-555-5555"{10,}" required ></label>
+                  <input type="tel" name="phone" placeholder="555-555-5555"{10,} required ></label>
                 <label> *Zip code <br> 
                   <input type="number" name="zip" placeholder="12345" required ></label>
             </fieldset>
@@ -54,11 +52,9 @@
                 <legend> Storm Information </legend>
                 <label for="theDate"> Date Picker <br>
                     <input type="date" name="theDate"></label>
-                <label> Storm Date <br> 
-                  <input type="date" name="date"></label>
                 <label> Storm Type <br> 
                   <input type="text" name="stormtype" list="stormtype">
-                    <datalist>
+                    <datalist id="stormtype">
                         <option value="Flash Flood"></option>
                         <option value="Hail"></option>
                         <option value="Hurricane"></option>
