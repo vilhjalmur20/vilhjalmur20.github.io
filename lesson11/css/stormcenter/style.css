@@ -1,0 +1,233 @@
+    /* start Main CSS */
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 5px;
+    }
+    /* header & footer CSS */
+    header, footer{
+        max-width: none; 
+        height: 75px;
+        margin: auto;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        background-color: lightblue;
+        color: black;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+    .name {
+        font-style: bold;
+        letter-spacing: 2pt;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .motto {
+        font-style: italic;
+        letter-spacing: 0pt;
+        margin-left: 30px;
+        font-size: 0.8rem;
+    }
+    .pic {
+        width: 200px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        float: 0px, 50px;
+        align-items: center;
+        justify-content: center;
+    }
+        /* end header & footer CSS */
+
+    /* start of Text CSS */   
+    h1 {
+        font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h2 {
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h3 {
+        font-size: .5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+    }
+        /* end of Text CSS */  
+
+    /* Start Nav section CSS */
+    nav {
+        margin: 0 auto;
+        background-color: lightblue;
+        padding: 5px;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .navigation li:first-child {
+        display: block;
+        padding: 5px;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: black;
+        padding: 0.75rem;
+        text-align: left;
+        }
+
+    .navigation a:hover {
+        background-color: gray;
+        color: white;
+        font-weight: 700;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    .active {
+        color: black;
+    }
+
+    .infobox {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 10px;
+        border: 2px;
+        width: 100%;
+        font-style: italic;
+        border: dashed;
+        border-color: gray;   
+        background-color: white;
+        color: gray;
+    }
+        /* end Nav section CSS */ 
+    
+    /* start pics*/
+    .gallery{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+    figure {
+        font-size: 1.00em;
+    }
+    figure img {
+        border: 1px solid lightblue;
+        filter: blur(0em);
+        transition: filter 0.5s;
+    }
+    figure img [data-src]  {
+        filter: blur(0.5em);
+
+    }
+    figcaption {
+        font-size: small;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+        /* end pics section CSS */ 
+
+    /* start forms & fieldsets CSS*/
+    form fieldset {
+        background-color: lightblue;
+        border: 1px solid black;
+        margin: 10px;
+        padding: 30px;
+    }    
+    
+    form legend {
+        background-color: lightblue;
+        color: black;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 100px;
+    }
+    
+    form label {
+        color: black;
+        display: block;
+        padding: 5px;
+        }
+    
+    form span {
+        color: black;
+        display: block;
+        font-size: 17px;
+        padding: 5px;
+        }
+    
+    form label input {
+        width: 200px;
+        font-size: 17px;
+        }
+    
+    form label input{
+        background-color: white;
+        border: 1px solid  black;
+        padding: 10px;
+        border-radius: 50px;
+        }
+    
+    
+
+    form select {
+        border: 1px solid black;
+        color: black;
+        Width: 250px;
+        height: 30px;
+        font-size: 17px;
+        border-radius: 0px;
+        }
+    
+    form textarea {
+        background-color: white;
+        border: 1px solid  lightblue;
+        padding: 0px;
+        Width: 250px;
+        height: 250px;
+        text-align: left;
+        font-size: 17px;
+        border-radius: 5px;
+        }
+
+    form input.button {
+            background-color: lightblue;
+            border: 1px solid black;
+            color: black;
+            padding: 5px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            font-size: 20px;
+            border-radius: 50px;
+    }
+        
+        /* end forms & fieldsets CSS*/
+
+    /* start thank you CSS*/
+
+  .thankyou{
+    text-align: center;
+  }
+         /* end thank you CSS*/
