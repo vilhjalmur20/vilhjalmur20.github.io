@@ -569,9 +569,10 @@
     }
     .hero-section {
         margin: 10px auto;
+        width: 100%;
     }
     .hero-pic{
-        width: 475px;
+        width: 100%;
         height: auto;
     }
     .hero-overlay {
@@ -598,8 +599,7 @@
         padding: 1rem;
     }
     .artical-pic{
-        float: center;
-        width: 470px;
+        width: 100%;
     }
         /* end artical section CSS */ 
 
