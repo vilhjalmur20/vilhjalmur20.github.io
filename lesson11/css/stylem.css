@@ -22,7 +22,7 @@
         justify-content: center;
     }
     .name {
-        font-style: bold;
+        font-weight: bold;
         letter-spacing: 2pt;
         margin-right: 0px;
         margin-top: 0px;
@@ -458,7 +458,7 @@
         justify-content: center;
     }
     .name {
-        font-style: bold;
+        font-weight: bold;
         letter-spacing: 2pt;
         margin-right: 0px;
         margin-top: 0px;
@@ -658,7 +658,7 @@
             justify-content: center;
         }
         .name {
-            font-style: bold;
+            font-weight: bold;
             letter-spacing: 2pt;
             margin-right: 0px;
             margin-top: 0px;
