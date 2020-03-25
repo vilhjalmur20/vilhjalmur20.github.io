@@ -1,4 +1,4 @@
-@media only screen and (min-width: 23.5em){
+
     main {
         display: grid;
         grid-template-columns: 1fr;
@@ -40,4 +40,3 @@
             float: right;
             padding: 5px;
         }
-}
