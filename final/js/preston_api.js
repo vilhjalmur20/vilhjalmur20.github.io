@@ -1,5 +1,5 @@
 // API for hero-overlay
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&APPID=8f7bd10376e2fe83de7f28f324da5709";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=8f7bd10376e2fe83de7f28f324da5709";
 
 fetch(apiURL)
   .then((response) => response.json())
@@ -18,7 +18,7 @@ fetch(apiURL)
 
 //_________________________________________________________________________________
 //5 day under Hero pic
-    const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&APPID=8f7bd10376e2fe83de7f28f324da5709";
+    const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=8f7bd10376e2fe83de7f28f324da5709";
     
     fetch(apiURL2)
 

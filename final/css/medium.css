@@ -1,4 +1,95 @@
+@media only screen and (min-width: 32.5em) {
+
+
+/* _____________________________ Activities start _______________________________________________*/
+    .activitiesmain {
+        /* keep */
+        grid-template-columns: 1fr 1fr;
+        align-items: Center;
+    } 
+/* _____________________________ Activities End _________________________________________________*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------------------------- index start ------------------------------------------ */
+
+.artical-pic1{
+    /* keep */
+    float: right;
+    width: 470px;
+    height: auto;
+}
+
+.artical-pic2{
+    /* keep */
+    float: left;
+    width: 470px;
+    height: auto;
+}
+
+.artical-pic3{
+    /* keep */
+    float: right;
+    width: 470px;
+    height: auto;
+}
+
+
+/* Start forcast section CSS */
+.forcast{
+    /* keep */
+    display: grid;
+    padding: 10px;
+}
+
+.forcast table th {
+    /* keep */
+    background: lightblue;
+    padding: 10px;
+
+    /* borders */
+    border-top: .5px solid black;
+    border-right: .5px solid black;
+    border-bottom: .5px solid black;
+    border-left: .5px solid black;
+}
+
+.forcast table td {
+    /* keep */
+    text-align: center;
+    font-size: 15px; 
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+
+    /* borders */
+    border-top: .5px solid black;
+    border-right: .5px solid black;
+    border-bottom: .5px solid black;
+    border-left: .5px solid black;
+}
+
+.forcastpic{
+    /* keep */
+    position: center;
+}
+/* end forcast section CSS */
+
+/* ______________________________________________________________________________________*/
+
 .pic {
     width: 300px;
     height: auto;
@@ -107,43 +198,43 @@ ul {
 }
 .infobox {
     width: 85%;
-}
+    }
     
 
-/* start artical section CSS */ 
+    /* start artical section CSS */ 
 
-.artical {
+    .artical {
     background-color: lightblue;
     padding: 1rem;
-}
-.artical-pic{
+    }
+    .artical-pic{
     float: right;
     width: 470px;
-}
+    }
 
-.hero-pic{
+    .hero-pic{
     width: 650px;
     height: auto;
-}
+    }
 
-.contact-data{
+    .contact-data{
     color: white;
     width: 50%;
-}
-.contact-map{
+    }
+    .contact-map{
     display: block;
     max-width: 550px;
     width: 50%;
     height: auto;
-}
-/* Start 5day section CSS */
-.flex-box {
+    }
+    /* Start 5day section CSS */
+    .flex-box {
     display: flex;
     flex-direction: row;
     padding: .5rem;
-}
+    }
 
-.table {
+    .table {
     flex: 1 1 100%;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
@@ -151,98 +242,62 @@ ul {
     background-color: #eee;
     font-size: 13px;
     text-align: center;
-}
-.label {
+    }
+    .label {
     display: block;
     padding: 5px;
     font-weight: 700;
     font-size: 15px;
     border-bottom: 1px solid #333;
     background-color: #eee;
-}
-.flex-img {
+    }
+    .flex-img {
     size: 1px;
-}
-.flex div:last-child {
+    }
+    .flex div:last-child {
     border-right: 1px solid #333;
-}
-.flex div img, table img {
+    }
+    .flex div img, table img {
     border-radius: 100px;
     padding: 5px;
-}
-.data {
+    }
+    .data {
     display: block;
     padding: 0 5px 5px;
-}  
+    }  
     /* end 5day section CSS */
+    /* ---------------------------- Preston End ------------------------------------------ */
 
-/* Start 5day section CSS */
-.fivedayforcast{
-    display: grid;
-    padding: 10px;
-}
-
-.fivedayforcast table th {
-    background: lightblue;
-    padding: 10px;
-
-    /* borders */
-    border-top: .5px solid black;
-    border-right: .5px solid black;
-    border-bottom: .5px solid black;
-    border-left: .5px solid black;
-}
-
-.fivedayforcast table td {
-    text-align: center;
-    font-size: 15px; 
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-
-    /* borders */
-    border-top: .5px solid black;
-    border-right: .5px solid black;
-    border-bottom: .5px solid black;
-    border-left: .5px solid black;
-}
-
-.fivedayforcastpic{
-    position: center;
-}
-/* end 5day section CSS */
-
-
-/* ---------------------------- Preston End ------------------------------------------ */
-
-/* ---------------------------- StomCenter start ------------------------------------------ */
-.pic {
+    /* ---------------------------- StomCenter start ------------------------------------------ */
+    .pic {
     width: 300px;
     height: auto;
-}
+    }
 
-ul {
+    ul {
     display: flex;
     justify-content: center;
-}
+    }
 
-.navigation li {
+    .navigation li {
     display: flex;
     justify-content: center;
-}
+    }
 
-.navigation li:first-child {
+    .navigation li:first-child {
     display: none;
-}
-.infobox {
+    }
+    .infobox {
     width: 85%;
-}
+    }
     
-.gallery {
+    .gallery {
     display: grid;
     margin: 1rem auto;
     grid-template-columns: 1fr 1fr;
+    }
+
+
+    /* ---------------------------- StomCenter End ------------------------------------------ */
+
 }
-
-
-/* ---------------------------- StomCenter End ------------------------------------------ */
-

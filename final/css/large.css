@@ -1,4 +1,93 @@
+@media only screen and (min-width: 60em) {
     /* ---------------------------- index start ------------------------------------------ */
+
+    /* Start forcast section CSS */
+    .forcast{
+        display: grid;
+        padding: 10px;
+    }
+    
+    .forcast table th {
+        background: lightblue;
+        border-top: .5px solid black;
+        border-bottom: .5px solid black;
+        border-left: .5px solid black;
+        border-right: .5px solid black;
+        padding: 10px;
+    }
+
+    .forcast table td {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        border-top: .5px solid black;
+        border-bottom: .5px solid black;
+        border-left: .5px solid black;
+        border-right: .5px solid black;
+        font-size: 15px; 
+        padding: 10px;
+    }
+
+    .forcastforcastpic{
+        position: center;
+    }
+    /* end forcast section CSS */
+
+
+
+
+    
+
+    /* ______________________________________________________________________________________*/
+/* ---------------------------- activities start ------------------------------------------ */
+    .activitiesmain { 
+        /* Keep */
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: Center;
+    }
+
+    #tab {
+        /* keep */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 1.5rem;
+        margin-top: 1em;
+        text-align: center;
+        padding: 1rem;
+        grid-gap: 10px 10px;
+        font-family: 'Roboto', sans-serif; 
+        grid-column: span 2; 
+        grid-column: span 3; 
+    }
+
+    #fitts, #visualhierarchy, #ruleofthirds {
+        /* keep */
+        padding: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        background-color:lightblue;
+        border-radius: 25px;
+    
+    }
+    
+    img {
+        /* keep */
+        grid-area: auto;
+        display: block;
+        object-fit: cover;
+        width: 100%;
+    }
+    
+    p {
+        /* keep */
+        color: black;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    /* _____________________________ People End_______________________________________________*/
+
+    
+
 
     .gallery {
         margin: 1rem auto;
@@ -66,42 +155,6 @@
         height: auto;
     }
 
-
-   /* .fivedayforcast {
-        display: relative;
-    }*/
-    
-    .fivedayforcast{
-        display: grid;
-        padding: 10px;
-    }
-    
-    .fivedayforcast table th {
-        background: lightblue;
-        border-top: .5px solid black;
-        border-bottom: .5px solid black;
-        border-left: .5px solid black;
-        border-right: .5px solid black;
-        padding: 10px;
-    }
-
-    .fivedayforcast table td {
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        border-top: .5px solid black;
-        border-bottom: .5px solid black;
-        border-left: .5px solid black;
-        border-right: .5px solid black;
-        font-size: 15px; 
-        padding: 10px;
-    }
-
-    .fivedayforcastpic{
-        position: center;
-        
-    }
-
-
     /* ---------------------------- Preston End ------------------------------------------ */
 
     /* ---------------------------- StomCenter start ------------------------------------------ */
@@ -116,3 +169,4 @@
 
 
     /* ---------------------------- StomCenter End ------------------------------------------ */
+}
