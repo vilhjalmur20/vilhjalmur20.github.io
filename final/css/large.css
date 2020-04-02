@@ -1,44 +1,10 @@
 @media only screen and (min-width: 60em) {
-    /* ---------------------------- index start ------------------------------------------ */
 
-    /* Start forcast section CSS */
-    .forcast{
-        display: grid;
-        padding: 10px;
-    }
-    
-    .forcast table th {
-        background: lightblue;
-        border-top: .5px solid black;
-        border-bottom: .5px solid black;
-        border-left: .5px solid black;
-        border-right: .5px solid black;
-        padding: 10px;
-    }
+/* _____________________________ Index start _________________________________________________ */
 
-    .forcast table td {
-        text-align: center;
-        font-family: 'Roboto', sans-serif;
-        border-top: .5px solid black;
-        border-bottom: .5px solid black;
-        border-left: .5px solid black;
-        border-right: .5px solid black;
-        font-size: 15px; 
-        padding: 10px;
-    }
+    /* _____________________________ Index End __________________________________________________ */
 
-    .forcastforcastpic{
-        position: center;
-    }
-    /* end forcast section CSS */
-
-
-
-
-    
-
-    /* ______________________________________________________________________________________*/
-/* ---------------------------- activities start ------------------------------------------ */
+/* _____________________________ Activities start _______________________________________________ */
     .activitiesmain { 
         /* Keep */
         grid-template-columns: 1fr 1fr 1fr;
@@ -84,7 +50,7 @@
         font-size: 1.2em;
     }
 
-    /* _____________________________ People End_______________________________________________*/
+    /* _____________________________ Activities End_______________________________________________*/
 
     
 
@@ -128,7 +94,7 @@
 
     /* ---------------------------- index End ------------------------------------------ */
 
-    /* ---------------------------- Gallery start ------------------------------------------ */
+    /* ---------------------------- Gallery start ------------------------------------------ 
         .gallery {
             grid-template-columns: 1fr 1fr 1fr;
         }
@@ -139,7 +105,7 @@
 
     /* ---------------------------- Gallery End ------------------------------------------ */
 
-    /* ---------------------------- Preston start ------------------------------------------ */
+    /* ---------------------------- Preston start ------------------------------------------ 
     .artical {
         background-color: lightblue;
         padding: 1rem;
@@ -157,7 +123,7 @@
 
     /* ---------------------------- Preston End ------------------------------------------ */
 
-    /* ---------------------------- StomCenter start ------------------------------------------ */
+    /* ---------------------------- StomCenter start ------------------------------------------ 
     .gallery {
         margin: 1rem auto;
         display: grid;

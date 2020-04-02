@@ -1,94 +1,61 @@
 @media only screen and (min-width: 32.5em) {
 
+/* _____________________________ Index start _________________________________________________ */
 
-/* _____________________________ Activities start _______________________________________________*/
-    .activitiesmain {
+    .artical-pic1{
         /* keep */
-        grid-template-columns: 1fr 1fr;
-        align-items: Center;
-    } 
-/* _____________________________ Activities End _________________________________________________*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---------------------------- index start ------------------------------------------ */
-
-.artical-pic1{
-    /* keep */
-    float: right;
-    width: 470px;
-    height: auto;
-}
-
-.artical-pic2{
-    /* keep */
-    float: left;
-    width: 470px;
-    height: auto;
-}
-
-.artical-pic3{
-    /* keep */
-    float: right;
-    width: 470px;
-    height: auto;
-}
-
+        float: right;
+        width: 470px;
+        height: auto;
+    }
+    .artical-pic2{
+        /* keep */
+        float: left;
+        width: 470px;
+        height: auto;
+    }
+    .artical-pic3{
+        /* keep */
+        float: right;
+        width: 470px;
+        height: auto;
+    }
 
 /* Start forcast section CSS */
-.forcast{
-    /* keep */
-    display: grid;
-    padding: 10px;
-}
+    .forcast{
+        /* keep */
+        display: grid;
+        padding: 0px;
+    }
+    .forcast table th {
+        /* keep */
+        background: #EFE7BC;
+        border-top: .5px solid black;
+        border-bottom: .5px solid black;
+        border-left: .5px solid black;
+        border-right: .5px solid black;
+        padding: 10px;
+    }
+    .forcast table td {
+        /* keep */
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        border-top: .5px solid black;
+        border-bottom: .5px solid black;
+        border-left: .5px solid black;
+        border-right: .5px solid black;
+        font-size: 15px; 
+        padding: 10px;
+    }
 
-.forcast table th {
-    /* keep */
-    background: lightblue;
-    padding: 10px;
-
-    /* borders */
-    border-top: .5px solid black;
-    border-right: .5px solid black;
-    border-bottom: .5px solid black;
-    border-left: .5px solid black;
-}
-
-.forcast table td {
-    /* keep */
-    text-align: center;
-    font-size: 15px; 
-    padding: 10px;
-    font-family: 'Roboto', sans-serif;
-
-    /* borders */
-    border-top: .5px solid black;
-    border-right: .5px solid black;
-    border-bottom: .5px solid black;
-    border-left: .5px solid black;
-}
-
-.forcastpic{
-    /* keep */
-    position: center;
-}
-/* end forcast section CSS */
+    .forcastforcastpic{
+        /* keep */
+        position: center;
+    }
+    /* end forcast section CSS */
 
 /* ______________________________________________________________________________________*/
+}
 
 .pic {
     width: 300px;
@@ -142,11 +109,23 @@ ul {
     width: 40%;
 }
 
+*/
+    /* _____________________________ Index End __________________________________________________ */
 
-/* ---------------------------- index End ------------------------------------------ */
+
+/* _____________________________ Activities start _______________________________________________ */
+
+    .activitiesmain {
+        /* keep */
+        grid-template-columns: 1fr 1fr;
+        align-items: Center;
+    } 
+    /* _____________________________ Activities End_______________________________________________*/
+
 
 /* ---------------------------- Gallery start ------------------------------------------ */
-.pic {
+    
+    .pic {
     width: 300px;
     height: auto;
 }
@@ -201,7 +180,7 @@ ul {
     }
     
 
-    /* start artical section CSS */ 
+    /* start artical section CSS */
 
     .artical {
     background-color: lightblue;
@@ -299,5 +278,3 @@ ul {
 
 
     /* ---------------------------- StomCenter End ------------------------------------------ */
-
-}

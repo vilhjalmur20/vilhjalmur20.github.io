@@ -22,6 +22,12 @@
         text-align: center;
         vertical-align: middle;
     }
+    h3 {
+        font-size: .5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+    }
 
     /* _____________________________ ALL End _______________________________________________ */
 /* _____________________________ Index start _________________________________________________ */
@@ -178,34 +184,8 @@
         /* margin-left: 30px; */
         /* font-size: 0.8rem; */
     /* } */
-
-
-    /* start of Text CSS */   
-    h1 {
-        font-size: 1.5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-    h2 {
-        font-size: 1em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-    h3 {
-        font-size: .5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-    }
-        /* end of Text CSS */  
-
     /* Start Nav section CSS */
+
     nav {
         margin: 0 auto;
         background-color: #EFE7BC;
@@ -468,31 +448,6 @@
     }
         /* end header & footer CSS */
 
-     /* start of Text CSS */   
-    h1 {
-        font-size: 1.5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-    h2 {
-        font-size: 1em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-    h3 {
-        font-size: .5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-    }
-        /* end of Text CSS */  
-
     /* Start Nav section CSS */
     nav {
         margin: 0 auto;
@@ -624,7 +579,7 @@
     }
         /* end header & footer CSS */
 
-     /* start of Text CSS */   
+     /* start of Text CSS */
     h1 {
         font-size: 1.5em;
         font-family: 'Roboto', sans-serif;
@@ -733,7 +688,7 @@
 
 
         
-    /* start artical section CSS */ 
+    /* start artical section CSS */
     .artical {
         background-color: #EFE7BC;
         padding: 1rem;
@@ -745,7 +700,7 @@
         /* end artical section CSS */ 
 
 
-    /* start contaxt info*/
+    /* start contaxt info */
     .contat-info{
         display: flex;
         background-color: gray;
@@ -820,31 +775,7 @@
             justify-content: center;
         }
             /* end header & footer CSS */
-    
-        /* start of Text CSS */   
-        h1 {
-            font-size: 1.5em;
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 5px;
-            text-align: center;
-            vertical-align: middle;
-        }
-        h2 {
-            font-size: 1em;
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 5px;
-            text-align: center;
-            vertical-align: middle;
-        }
-        h3 {
-            font-size: .5em;
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 5px;
-        }
-            /* end of Text CSS */  
+
     
         /* Start Nav section CSS */
         nav {
