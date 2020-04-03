@@ -25,14 +25,13 @@
         grid-column: span 3; 
     }
 
-    #fitts, #visualhierarchy, #ruleofthirds {
+    #threedaytwonigh, #fourdaythreenigh, #weekendgetaway {
         /* keep */
         padding: 1rem;
         font-size: 1rem;
         text-align: center;
         background-color:lightblue;
         border-radius: 25px;
-    
     }
     
     img {

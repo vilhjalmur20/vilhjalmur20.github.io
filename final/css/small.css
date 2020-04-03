@@ -76,6 +76,7 @@
         /* keep */
         /*background-color:  ;*/
         padding: 1rem;
+        background-color: lightgray;
     }
     .artical-pic1{
         /* keep */
@@ -108,6 +109,7 @@
         /* keep */
         /*background-color:  ;*/
         padding: 1rem;
+        background-color: lightgray;
     }
     .artical-pic3{
         /* keep */
@@ -128,6 +130,11 @@
         display: none;
     }
         /* end 5day section CSS */
+
+    .graname{
+        color: #FFA384;
+        font-family: 'Roboto', sans-serif;  
+    }
     /* _____________________________ Index End __________________________________________________ */
 
 /* _____________________________ Activities start _______________________________________________ */
@@ -154,19 +161,31 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         margin: 1.5rem;
-        margin-top: 10em;
         text-align: center;
         padding: 1rem;
         grid-gap: 10px 10px;
         font-family: 'Roboto', sans-serif;      
     }
-    #fitts, #visualhierarchy, #ruleofthirds {
+    #threedaytwonigh, #fourdaythreenigh, #weekendgetaway {
     /* keep */
         padding: 1rem;
         font-size: 1rem;
         text-align: center;
         background-color:lightblue;
         border-radius: 25px;
+    }
+    .threedaytwonighpic{
+        max-width: 250px;
+    }
+    .fourdaythreenighpic{
+        max-width: 250px;
+    }
+    .weekendgetawaypic{
+        max-width: 250px;
+    }
+    .activitiestitle{
+        color: #FFA384;
+        font-family: 'Roboto', sans-serif;    
     }
 /* _____________________________ Activities End_______________________________________________*/
 }
