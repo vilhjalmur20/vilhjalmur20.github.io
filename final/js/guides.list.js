@@ -23,7 +23,7 @@ fetch(requestURL)
             let quote = document.createElement("p");
             let river = document.createElement("p");
             let river = document.createElement("p");
-            let image = document.createElement("img");
+            let picture = document.createElement("img");
 
 
                 // setting attributes for json elements
@@ -36,12 +36,12 @@ fetch(requestURL)
             river.setAttribute("class", "river");
             
                 // putting json elements into order to display in HTML 
-            name.textContent = guides[i].name;
-            age.textContent = guides[i].age;
-            experience.textContent = "Year Founded: " + guides[i].experience;
-            bio.textContent = "Annual Rainfall: " + guides[i].bio;
+            name.textContent = "Name: " + guides[i].name;
+            age.textContent = "Age: " +  guides[i].age;
+            experience.textContent = "Experience: " + guides[i].experience;
+            bio.textContent = "Biography: " + guides[i].bio;
             quote.textContent = "Quote: " + guides[i].quote;
-            river.textContent = "Town Population: " + guides[i].river;
+            river.textContent = "Rivers: " + guides[i].river;
 
             image.setAttribute("src", "" + guides[i].photo);
             image.setAttribute("alt", "picture of: " + h2.textContent);
