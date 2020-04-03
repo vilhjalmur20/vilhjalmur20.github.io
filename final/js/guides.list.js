@@ -1,0 +1,59 @@
+
+    // refrancing json file
+const requestURL = "https://vilhjalmur20.github.io/final/jason/guides.list.json";
+
+fetch(requestURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject);
+        const towns = jsonObject['guides'];
+
+            //selecting towns out of Json
+        for (let i = 0; i < towns.length; i++) {
+            if  (guides[i].name == "Nate" || guides[i].name =="Ivy"|| guides[i].name =="Heath")
+        {
+               // pulling elements out of Json
+            let shoe = document.createElement("section");
+            let name = document.createElement("name");
+            let age = document.createElement("age");
+            let experience = document.createElement("experience");
+            let bio = document.createElement("bio");
+            let quote = document.createElement("p");
+            let river = document.createElement("img");
+
+                // setting attributes for json elements
+            shoe.setAttribute('class', 'displaysection');
+            name.setAttribute("class", "name");
+            age.setAttribute("class", "age");
+            experience.setAttribute("class", "experience");
+            bio.setAttribute("class", "bio");
+            quote.setAttribute("class", "quote");
+            river.setAttribute("class", "river");
+            
+                // putting json elements into order to display in HTML 
+            name.textContent = guides[i].name;
+            age.textContent = guides[i].age;
+            experience.textContent = "Year Founded: " + guides[i].experience;
+            bio.textContent = "Annual Rainfall: " + guides[i].bio;
+            quote.textContent = "Quote: " + guides[i].quote;
+            river.textContent = "Town Population: " + guides[i].river;
+
+            image.setAttribute("src", "./images/" + guides[i].photo);
+            image.setAttribute("alt", "picture of: " + h2.textContent);
+
+                // putting json children togehter.
+            shoe.appendChild(name);
+            shoe.appendChild(age);
+            shoe.appendChild(experience);
+            shoe.appendChild(bio);
+            shoe.appendChild(quote);
+            shoe.appendChild(river);
+            shoe.appendChild(image);
+
+                // output to HTML
+            document.querySelector("div.guides_display").appendChild(shoe);
+        }
+    }
+});
