@@ -22,6 +22,15 @@ fetch(requestURL)
             let population = document.createElement("p");
             let annual_rainfall = document.createElement("p");
             let image = document.createElement("img");
+            //let shoe = document.createElement("section");
+            //let name = document.createElement("h2");
+            //let age = document.createElement("h4");
+            //let experience = document.createElement("p");
+            //let bio = document.createElement("p");
+            //let quote = document.createElement("p");
+            //let river = document.createElement("p");
+            //let image = document.createElement("img");
+
 
                 // setting attributes for json elements
             shoe.setAttribute('class', 'displaysection');
@@ -31,7 +40,15 @@ fetch(requestURL)
             population.setAttribute("class", "pop");
             annual_rainfall.setAttribute("class", "a_rainfall");
             image.setAttribute("class", "image");
-            
+            //lshoe.setAttribute('class', 'displaysection');
+            //lname.setAttribute("class", "name");
+            //lage.setAttribute("class", "age");
+            //lexperience.setAttribute("class", "experience");
+            //lbio.setAttribute("class", "bio");
+            //lquote.setAttribute("class", "quote");
+            //lquote.setAttribute("class", "river");
+            //limage.setAttribute("class", "image");
+
                 // putting json elements into order to display in HTML 
             h2.textContent = towns[i].name;
             h4.textContent = towns[i].motto;
@@ -42,6 +59,14 @@ fetch(requestURL)
             image.setAttribute("src", "./images/" + towns[i].photo);
             image.setAttribute("alt", "picture of: " + h2.textContent);
 
+            //name.textContent = "Name: " + towns[i].name;
+            //age.textContent = "Age: " + towns[i].age;
+            //experience.textContent = "Experience: " + towns[i].experience;
+            //bio.textContent = "Biography: " + towns[i].bio;
+            //quote.textContent = "Quote: " + towns[i].quote;
+            //image.setAttribute("src", "./images/" + towns[i].photo);
+            //image.setAttribute("alt", "picture of: " + h2.textContent);
+
                 // putting json children togehter.
             shoe.appendChild(h2);
             shoe.appendChild(h4);
@@ -49,6 +74,14 @@ fetch(requestURL)
             shoe.appendChild(population);
             shoe.appendChild(annual_rainfall);
             shoe.appendChild(image);
+
+            //shoe.appendChild(name);
+            //shoe.appendChild(age);
+            //shoe.appendChild(experience);
+            //shoe.appendChild(bio);
+            //shoe.appendChild(quote);
+            //shoe.appendChild(river);
+            //shoe.appendChild(image);
 
                 // output to HTML
             document.querySelector("div.jsontown_display").appendChild(shoe);
