@@ -12,7 +12,7 @@ fetch(requestURL)
 
             //selecting towns out of Json
         for (let i = 0; i < towns.length; i++) {
-            if  (towns[i].name == "Preston" || towns[i].name =="Soda Springs"|| towns[\i].name =="Fish Haven")
+            if  (towns[i].name == "Preston" || towns[i].name =="Soda Springs"|| towns[i].name =="Fish Haven")
         {
                // pulling elements out of Json
             let shoe = document.createElement("section");
@@ -51,7 +51,7 @@ fetch(requestURL)
             shoe.appendChild(image);
 
                 // output to HTML
-            document.querySelector("div.guides_display").appendChild(shoe);
+            document.querySelector("div.jsontown_display").appendChild(shoe);
         }
     }
 });

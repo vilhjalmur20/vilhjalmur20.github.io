@@ -1,5 +1,5 @@
-[
-  {
+{
+"guides"[
     "id": Nate,
     "name": "Nate Lester",
     "age": "29", 
@@ -8,8 +8,7 @@
     "quote": "Are we ready for some rafting!",
     "river": "Salmon River",
     "image": "https://vilhjalmur20.github.io/final/images/people/nate_lester.jpg",
-
-    }
+    ]
   },
   {
     "id": Ivy,
@@ -20,7 +19,7 @@
     "quote": "Any day is a good day so long as you are on the river.",
     "river": "Salmon River",
     "image": "https://vilhjalmur20.github.io/final/images/people/ivy_waters.jpg",
-    }
+    ]
   },
   {
     "id": Heath ,
@@ -31,6 +30,7 @@
     "quote": "The water is like a woman, you have to know how to talk with her as to not make her mad at you.",
     "river": "Salmon River",
     "image": "https://vilhjalmur20.github.io/final/images/people/heath_cohen.jpg",
-    }
+    ]
   },
 ]
+}
