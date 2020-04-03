@@ -16,12 +16,15 @@ fetch(requestURL)
         {
                // pulling elements out of Json
             let shoe = document.createElement("section");
-            let name = document.createElement("name");
-            let age = document.createElement("age");
-            let experience = document.createElement("experience");
-            let bio = document.createElement("bio");
+            let name = document.createElement("h2");
+            let age = document.createElement("p");
+            let experience = document.createElement("p");
+            let bio = document.createElement("p");
             let quote = document.createElement("p");
-            let river = document.createElement("img");
+            let river = document.createElement("p");
+            let river = document.createElement("p");
+            let image = document.createElement("img");
+
 
                 // setting attributes for json elements
             shoe.setAttribute('class', 'displaysection');
@@ -40,7 +43,7 @@ fetch(requestURL)
             quote.textContent = "Quote: " + guides[i].quote;
             river.textContent = "Town Population: " + guides[i].river;
 
-            image.setAttribute("src", "./images/" + guides[i].photo);
+            image.setAttribute("src", "" + guides[i].photo);
             image.setAttribute("alt", "picture of: " + h2.textContent);
 
                 // putting json children togehter.
