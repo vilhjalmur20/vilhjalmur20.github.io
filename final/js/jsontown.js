@@ -1,8 +1,8 @@
 
     // refrancing json file
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURLone = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
-fetch(requestURL)
+fetch(requestURLone)
     .then(function (response) {
         return response.json();
     })
