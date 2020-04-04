@@ -1,5 +1,25 @@
 @media only screen and (min-width: 32.5em) {
 
+
+/* _____________________________ ALL start _________________________________________________ */
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation li {
+        display: flex;
+        justify-content: center;
+    }  
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+
+/* _____________________________ ALL End _______________________________________________ */
+
 /* _____________________________ Index start _________________________________________________ */
 
     .artical-pic1{
