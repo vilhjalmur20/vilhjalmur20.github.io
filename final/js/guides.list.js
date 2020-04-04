@@ -12,7 +12,7 @@ fetch(requestURLtwo)
 
             //selecting towns out of Json
         for (let i = 0; i < guides.length; i++) {
-            if  (guides[i].name == "Nate" || guides[i].name =="Ivy"|| guides[i].name =="Heath")
+            if  (guides[i].id == "Nate" || guides[i].id =="Ivy"|| guides[i].id =="Heath")
         {
                // pulling elements out of Json
             let shoe = document.createElement("section");
