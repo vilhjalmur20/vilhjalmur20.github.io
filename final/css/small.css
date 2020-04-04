@@ -29,6 +29,64 @@
         padding: 5px;
     }
 
+    /* Start Nav section CSS */
+
+    nav {
+        margin: 0 auto;
+        background-color: #EFE7BC;
+        padding: 5px;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .navigation li:first-child {
+        display: block;
+        padding: 5px;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: black;
+        padding: 0.75rem;
+        text-align: left;
+        }
+
+    .navigation a:hover {
+        background-color: #74BDCB;
+        color: white;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    .active {
+        background-color: #E7F2F8;
+        color: black;
+    }
+
+    .infobox {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 10px;
+        border: 2px;
+        width: 100%;
+        font-style: italic;
+        border: dashed;
+        border-color: gray;   
+        background-color: white;
+        color: gray;
+    }
+        /* end Nav section CSS */ 
+
     /* _____________________________ ALL End _______________________________________________ */
 /* _____________________________ Index start _________________________________________________ */
 
@@ -203,63 +261,7 @@
         /* margin-left: 30px; */
         /* font-size: 0.8rem; */
     /* } */
-    /* Start Nav section CSS */
-
-    nav {
-        margin: 0 auto;
-        background-color: #EFE7BC;
-        padding: 5px;
-    }
-
-    .navigation {
-        list-style: none;
-        padding: 5px;
-        margin: 0;
-    }
-
-    .navigation li:first-child {
-        display: block;
-        padding: 5px;
-    }
-
-    .navigation li {
-        display: none;
-    }
-
-    .navigation a {
-        display: block;
-        color: black;
-        padding: 0.75rem;
-        text-align: left;
-        }
-
-    .navigation a:hover {
-        background-color: #74BDCB;
-        color: white;
-    }
-
-    .responsive li {
-        display: block;
-    }
-
-    .active {
-        background-color: #E7F2F8;
-        color: black;
-    }
-
-    .infobox {
-        display: block;
-        margin: 10px auto;
-        padding: 10px 10px;
-        border: 2px;
-        width: 100%;
-        font-style: italic;
-        border: dashed;
-        border-color: gray;   
-        background-color: white;
-        color: gray;
-    }
-        /* end Nav section CSS */ 
+    
 
     
 
@@ -431,99 +433,6 @@
         align-items: center;
         padding: 5px;
     }
-    /* header & footer CSS */
-    header, footer{
-        max-width: none; 
-        height: 75px;
-        margin: auto;
-        padding: 5px;
-        font-family: 'Roboto', sans-serif;
-        background-color: #EFE7BC;
-        color: black;
-        display: flex;
-        text-align: left;
-        align-items: center;
-        justify-content: center;
-    }
-    .name {
-        letter-spacing: 2pt;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-    .motto {
-        font-style: italic;
-        letter-spacing: 0pt;
-        margin-left: 30px;
-        font-size: 0.8rem;
-    }
-    .pic {
-        width: 200px;
-        height: auto;
-        padding: 5px;
-        float: right;
-        float: 0px, 50px;
-        align-items: center;
-        justify-content: center;
-    }
-        /* end header & footer CSS */
-
-    /* Start Nav section CSS */
-    nav {
-        margin: 0 auto;
-        background-color: #EFE7BC;
-        padding: 5px;
-    }
-
-    .navigation {
-        list-style: none;
-        padding: 5px;
-        margin: 0;
-    }
-
-    .navigation li:first-child {
-        display: block;
-        padding: 5px;
-    }
-
-    .navigation li {
-        display: none;
-    }
-
-    .navigation a {
-        display: block;
-        color: black;
-        padding: 0.75rem;
-        text-align: left;
-        }
-
-    .navigation a:hover {
-        background-color: #74BDCB;
-        color: white;
-    }
-
-    .responsive li {
-        display: block;
-    }
-
-    .active {
-        background-color: #E7F2F8;
-        color: black;
-    }
-
-    .infobox {
-        display: block;
-        margin: 10px auto;
-        padding: 10px 10px;
-        border: 2px;
-        width: 100%;
-        font-style: italic;
-        border: dashed;
-        border-color: gray;   
-        background-color: white;
-        color: gray;
-    }
-        /* end Nav section CSS */ 
-    
         /* start pics*/
         .gallery{
             display: grid;
@@ -561,124 +470,6 @@
         align-items: center;
         padding: 5px;
     }
-    /* header & footer CSS */
-    header, footer{
-        max-width: none; 
-        height: 75px;
-        margin: auto;
-        padding: 5px;
-        font-family: 'Roboto', sans-serif;
-        background-color: #EFE7BC;
-        color: black;
-        display: flex;
-        text-align: left;
-        align-items: center;
-        justify-content: center;
-    }
-    .name {
-        font-weight: bold;
-        letter-spacing: 2pt;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-    .motto {
-        font-style: italic;
-        letter-spacing: 0pt;
-        margin-left: 30px;
-        font-size: 0.8rem;
-    }
-    .pic {
-        width: 200px;
-        height: auto;
-        padding: 5px;
-        float: right;
-        float: 0px, 50px;
-        align-items: center;
-        justify-content: center;
-    }
-        /* end header & footer CSS */
-
-     /* start of Text CSS */
-    h1 {
-        font-size: 1.5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-    h2 {
-        font-size: 1em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-    h3 {
-        font-size: .5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-    }
-        /* end of Text CSS */  
-
-    /* Start Nav section CSS */
-    nav {
-        margin: 0 auto;
-        background-color: #EFE7BC;
-        padding: 5px;
-    }
-
-    .navigation {
-        list-style: none;
-        padding: 5px;
-        margin: 0;
-    }
-
-    .navigation li:first-child {
-        display: block;
-        padding: 5px;
-    }
-
-    .navigation li {
-        display: none;
-    }
-
-    .navigation a {
-        display: block;
-        color: black;
-        padding: 0.75rem;
-        text-align: left;
-        }
-
-    .navigation a:hover {
-        background-color: #74BDCB;
-        color: white;
-    }
-
-    .responsive li {
-        display: block;
-    }
-
-    .active {
-        background-color: #E7F2F8;
-        color: black;
-    }
-
-    .infobox {
-        display: block;
-        margin: 10px auto;
-        padding: 10px 10px;
-        border: 2px;
-        width: 100%;
-        font-style: italic;
-        border: dashed;
-        border-color: gray;   
-        background-color: white;
-        color: gray;
-    }
-        /* end Nav section CSS */ 
 
     /* Start Hero section CSS */
     .hero-container{
@@ -758,100 +549,6 @@
             align-items: center;
             padding: 5px;
         }
-        /* header & footer CSS */
-        header, footer{
-            max-width: none; 
-            height: 75px;
-            margin: auto;
-            padding: 5px;
-            font-family: 'Roboto', sans-serif;
-            background-color: #EFE7BC;
-            color: black;
-            display: flex;
-            text-align: left;
-            align-items: center;
-            justify-content: center;
-        }
-        .name {
-            font-weight: bold;
-            letter-spacing: 2pt;
-            margin-right: 0px;
-            margin-top: 0px;
-        }
-        .motto {
-            font-style: italic;
-            letter-spacing: 0pt;
-            margin-left: 30px;
-            font-size: 0.8rem;
-        }
-        .pic {
-            width: 200px;
-            height: auto;
-            padding: 5px;
-            float: right;
-            float: 0px, 50px;
-            align-items: center;
-            justify-content: center;
-        }
-            /* end header & footer CSS */
-
-    
-        /* Start Nav section CSS */
-        nav {
-            margin: 0 auto;
-            background-color: #EFE7BC;
-            padding: 5px;
-        }
-    
-        .navigation {
-            list-style: none;
-            padding: 5px;
-            margin: 0;
-        }
-    
-        .navigation li:first-child {
-            display: block;
-            padding: 5px;
-        }
-    
-        .navigation li {
-            display: none;
-        }
-    
-        .navigation a {
-            display: block;
-            color: black;
-            padding: 0.75rem;
-            text-align: left;
-            }
-    
-        .navigation a:hover {
-            background-color: #74BDCB;
-            color: white;
-        }
-    
-        .responsive li {
-            display: block;
-        }
-    
-        .active {
-            background-color: #E7F2F8;
-            color: black;
-        }
-    
-        .infobox {
-            display: block;
-            margin: 10px auto;
-            padding: 10px 10px;
-            border: 2px;
-            width: 100%;
-            font-style: italic;
-            border: dashed;
-            border-color: gray;   
-            background-color: white;
-            color: gray;
-        }
-            /* end Nav section CSS */ 
         
         /* start pics*/
         .gallery{
