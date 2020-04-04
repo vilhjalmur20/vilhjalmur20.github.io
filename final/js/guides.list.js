@@ -42,7 +42,7 @@ fetch(requestURLtwo)
             quote.textContent = "Quote: " + guides[i].quote;
             river.textContent = "Rivers: " + guides[i].river;
 
-            picture.setAttribute("src", "" + guides[i].photo);
+            picture.setAttribute("src", "" + guides[i].image);
             picture.setAttribute("alt", "picture of: " + name.textContent);
             
                 // putting json children togehter.
