@@ -42,9 +42,9 @@ fetch(requestURLtwo)
             quote.textContent = "Quote: " + guides[i].quote;
             river.textContent = "Rivers: " + guides[i].river;
 
-            image.setAttribute("src", "" + guides[i].photo);
-            image.setAttribute("alt", "picture of: " + h2.textContent);
-
+            picture.setAttribute("src", "" + guides[i].photo);
+            picture.setAttribute("alt", "picture of: " + name.textContent);
+            
                 // putting json children togehter.
             shoe.appendChild(name);
             shoe.appendChild(age);
@@ -52,7 +52,7 @@ fetch(requestURLtwo)
             shoe.appendChild(bio);
             shoe.appendChild(quote);
             shoe.appendChild(river);
-            shoe.appendChild(image);
+            shoe.appendChild(picture);
 
                 // output to HTML
             document.querySelector("div.guides_display").appendChild(shoe);
