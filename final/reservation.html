@@ -29,3 +29,62 @@
         <li> <a href="https://vilhjalmur20.github.io/final/aboutus.html"> About Us </a> </li>
       </ul>
     </nav>
+    <main>
+      <h1>Reservations</h1>
+        <div>
+            <form action="thank_you.html">
+                <fieldset>
+                  <legend> Your Information </legend>
+                  <label> *Full Name <br> 
+                    <input type="text" name="fname" placeholder="Full Name" pattern="[A-z\s]{5,}" required ></label>
+                  <label> *Phone <br> 
+                    <input type="tel" name="phone" placeholder="555-555-5555"{10,} required ></label>
+                  <label> Email <br> 
+                    <input type="email" name="email" placeholder="username@email.com"></label>
+                  <label> *Zip code <br> 
+                    <input type="number" name="zip" placeholder="12345" required ></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend> Party information </legend>
+                    <label for="theDate"> Date <br>
+                        <input type="date" name="theDate"></label>
+                    <label><span>Tell us about your party</span>
+                          <textarea name="additionalinformation"></textarea>
+                    </label>
+                    <br> 
+                    <br>
+                    <label><span>What package are you interested in</span></label>
+                    <label><input type="radio" name="danger" value="North">North</label>
+                    <label><input type="radio" name="danger" value="South">South</label>
+                    <label><input type="radio" name="danger" value="Weekend">Weekend</label>
+                    
+                    <br> 
+                    <br>
+
+                    <label><span>Experience Level </span></label>
+                    <label><input type="radio" name="danger" value="Expert">Expert</label>
+                    <label><input type="radio" name="danger" value="Intermediate">Intermediate</label>
+                    <label><input type="radio" name="danger" value="Beginner">Beginner</label>
+
+                </fieldset>
+                <input type="submit" value="Reserve" class="button">
+            </form>
+        </div>
+      </main>
+
+      <footer>
+        <p class="info"> ©Great River Adventures | --- |      <div class="socialmedia"> 
+          <a href="https://www.facebook.com/" target="#"> <img id="face" src="https://cdn.glitch.com/570fac44-3b27-4466-9752-afb7ddaa6143%2Ffacebook.png?v=1570208641353" alt="facebook icon"> </a> 
+          <a href="https://twitter.com/" target="#"> <img id="twitter" src="https://byui-cit.github.io/wdd100/images/icons/color/twitter.png" alt="twitter icon"> </a> 
+          <a href="https://www.instagram.com/" target="#"> <img id="instagram" src="https://cdn.glitch.com/570fac44-3b27-4466-9752-afb7ddaa6143%2Finstagram.png?v=1570208641194" alt="instagram icon"> </a>
+        </div>
+        </p>
+      </footer>
+  
+      <script src="/final/js/menu.js"></script>
+      <script src="/final/js/cd.js"></script>
+      <script src="/final/js/grangeville_api.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    </body>
+  </html>
