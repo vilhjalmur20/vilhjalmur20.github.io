@@ -1,6 +1,6 @@
 
     // refrancing json file
-const requestURLtwo = 'https://vilhjalmur20.github.io/final/jason/guides.list.json';
+const requestURLtwo = 'https://vilhjalmur20.github.io/final/json/guides.list.json';
 
 fetch(requestURLtwo)
     .then(function (response) {
@@ -8,10 +8,10 @@ fetch(requestURLtwo)
     })
     .then(function (jsonObject) {
         console.table(jsonObject);
-        const towns = jsonObject['guides'];
+        const guides = jsonObject['guides'];
 
             //selecting towns out of Json
-        for (let i = 0; i < towns.length; i++) {
+        for (let i = 0; i < guides.length; i++) {
             if  (guides[i].name == "Nate" || guides[i].name =="Ivy"|| guides[i].name =="Heath")
         {
                // pulling elements out of Json
@@ -21,7 +21,6 @@ fetch(requestURLtwo)
             let experience = document.createElement("p");
             let bio = document.createElement("p");
             let quote = document.createElement("p");
-            let river = document.createElement("p");
             let river = document.createElement("p");
             let picture = document.createElement("img");
 
