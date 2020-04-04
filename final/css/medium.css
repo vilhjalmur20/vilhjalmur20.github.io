@@ -1,8 +1,10 @@
-@media only screen and (min-width: 32.5em) {
-
-
-/* _____________________________ ALL start _________________________________________________ */
-
+@media only screen and (min-width: 37.5em) { 
+    /* ---------------------------- index start ------------------------------------------ */
+    .pic {
+        width: 300px;
+        height: auto;
+    }
+    
     ul {
         display: flex;
         justify-content: center;
@@ -11,36 +13,130 @@
     .navigation li {
         display: flex;
         justify-content: center;
-    }  
+    }
 
     .navigation li:first-child {
         display: none;
     }
+    .infobox {
+        width: 85%;
+    }
+        
+    .gallery {
+        margin: 1rem auto;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .jsontown_display {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .displaysection {
+        display: flex;
+        width: 75%;
+        margin: auto;
+        padding: 5px 5px;
+        margin-bottom: 20px;
+    }
+    
+    .displaysection:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    
+    .displaysection div {
+        margin: auto;
+    }
+    
+    .image {
+        width: 40%;
+    }
 
 
-/* _____________________________ ALL End _______________________________________________ */
+    /* ---------------------------- index End ------------------------------------------ */
 
-/* _____________________________ Index start _________________________________________________ */
+    /* ---------------------------- Gallery start ------------------------------------------ */
+    .pic {
+        width: 300px;
+        height: auto;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: center;
+    }
 
-    .artical-pic1{
-        /* keep */
+    .navigation li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    .infobox {
+        width: 85%;
+    }
+        
+    .gallery {
+        display: grid;
+        margin: 1rem auto;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    /* ---------------------------- Gallery End ------------------------------------------ */
+
+    /* ---------------------------- Preston start ------------------------------------------ */
+    .pic {
+        width: 300px;
+        height: auto;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation li {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+    .infobox {
+        width: 85%;
+    }
+        
+
+    /* start artical section CSS */ 
+
+    .artical {
+        background-color: lightblue;
+        padding: 1rem;
+    }
+    .artical-pic{
         float: right;
         width: 470px;
-        height: auto;
     }
-    .artical-pic2{
-        /* keep */
-        float: left;
-        width: 470px;
-        height: auto;
-    }
-    .artical-pic3{
-        /* keep */
-        float: right;
-        width: 470px;
+
+    .hero-pic{
+        width: 650px;
         height: auto;
     }
 
+    .contact-data{
+        color: white;
+        width: 50%;
+    }
+    .contact-map{
+        display: block;
+        max-width: 550px;
+        width: 50%;
+        height: auto;
+    }
     /* Start 5day section CSS */
     .flex-box {
         display: flex;
@@ -79,14 +175,14 @@
         display: block;
         padding: 0 5px 5px;
     }  
-    /* end 5day section CSS */
+        /* end 5day section CSS */
 
     /* Start 5day section CSS */
     .fivedayforcast{
         display: grid;
         padding: 10px;
     }
-
+    
     .fivedayforcast table th {
         background: lightblue;
         padding: 10px;
@@ -108,236 +204,47 @@
         border-top: .5px solid black;
         border-right: .5px solid black;
         border-bottom: .5px solid black;
-        border-left: .5px solid black;  
+        border-left: .5px solid black;
     }
 
     .fivedayforcastpic{
         position: center;
     }
-    /* end 5day section CSS */  
-    
-
-/* ______________________________________________________________________________________*/
-}
-
-.pic {
-    width: 300px;
-    height: auto;
-}
-
-ul {
-    display: flex;
-    justify-content: center;
-}
-
-.navigation li {
-    display: flex;
-    justify-content: center;
-}
-
-.navigation li:first-child {
-    display: none;
-}
-.infobox {
-    width: 85%;
-}
-    
-.gallery {
-    margin: 1rem auto;
-    grid-template-columns: 1fr 1fr;
-}
-
-.jsontown_display {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.displaysection {
-    display: flex;
-    width: 75%;
-    margin: auto;
-    padding: 5px 5px;
-    margin-bottom: 20px;
-}
-
-.displaysection:nth-child(even) {
-    flex-direction: row-reverse;
-}
-
-.displaysection div {
-    margin: auto;
-}
-
-.image {
-    width: 40%;
-}
-
-*/
-    /* _____________________________ Index End __________________________________________________ */
-
-
-/* _____________________________ Activities start _______________________________________________ */
-
-    .activitiesmain {
-        /* keep */
-        grid-template-columns: 1fr 1fr;
-        align-items: Center;
-    } 
-    /* _____________________________ Activities End_______________________________________________*/
-
-
-/* ---------------------------- Gallery start ------------------------------------------ */
-    
-    .pic {
-    width: 300px;
-    height: auto;
-}
-
-ul {
-    display: flex;
-    justify-content: center;
-}
-
-.navigation li {
-    display: flex;
-    justify-content: center;
-}
-
-.navigation li:first-child {
-    display: none;
-}
-.infobox {
-    width: 85%;
-}
-    
-.gallery {
-    display: grid;
-    margin: 1rem auto;
-    grid-template-columns: 1fr 1fr;
-}
-
-
-/* ---------------------------- Gallery End ------------------------------------------ */
-
-/* ---------------------------- Preston start ------------------------------------------ */
-.pic {
-    width: 300px;
-    height: auto;
-}
-
-ul {
-    display: flex;
-    justify-content: center;
-}
-
-.navigation li {
-    display: flex;
-    justify-content: center;
-}
-
-.navigation li:first-child {
-    display: none;
-}
-.infobox {
-    width: 85%;
-    }
-    
-
-    /* start artical section CSS */
-
-    .artical {
-    background-color: lightblue;
-    padding: 1rem;
-    }
-    .artical-pic{
-    float: right;
-    width: 470px;
-    }
-
-    .hero-pic{
-    width: 650px;
-    height: auto;
-    }
-
-    .contact-data{
-    color: white;
-    width: 50%;
-    }
-    .contact-map{
-    display: block;
-    max-width: 550px;
-    width: 50%;
-    height: auto;
-    }
-    /* Start 5day section CSS */
-    .flex-box {
-    display: flex;
-    flex-direction: row;
-    padding: .5rem;
-    }
-
-    .table {
-    flex: 1 1 100%;
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    border-left: 1px solid #333;
-    background-color: #eee;
-    font-size: 13px;
-    text-align: center;
-    }
-    .label {
-    display: block;
-    padding: 5px;
-    font-weight: 700;
-    font-size: 15px;
-    border-bottom: 1px solid #333;
-    background-color: #eee;
-    }
-    .flex-img {
-    size: 1px;
-    }
-    .flex div:last-child {
-    border-right: 1px solid #333;
-    }
-    .flex div img, table img {
-    border-radius: 100px;
-    padding: 5px;
-    }
-    .data {
-    display: block;
-    padding: 0 5px 5px;
-    }  
     /* end 5day section CSS */
+
+
     /* ---------------------------- Preston End ------------------------------------------ */
 
     /* ---------------------------- StomCenter start ------------------------------------------ */
     .pic {
-    width: 300px;
-    height: auto;
+        width: 300px;
+        height: auto;
     }
-
+    
     ul {
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
     }
 
     .navigation li {
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
     }
 
     .navigation li:first-child {
-    display: none;
+        display: none;
     }
     .infobox {
-    width: 85%;
+        width: 85%;
     }
-    
+        
     .gallery {
-    display: grid;
-    margin: 1rem auto;
-    grid-template-columns: 1fr 1fr;
+        display: grid;
+        margin: 1rem auto;
+        grid-template-columns: 1fr 1fr;
     }
 
 
     /* ---------------------------- StomCenter End ------------------------------------------ */
+
+}

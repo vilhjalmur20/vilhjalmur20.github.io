@@ -1,20 +1,59 @@
-@media only screen and (min-width: 23.5em){
+/* ---------------------------- index start ------------------------------------------ */
 
+    /* start Main CSS */
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 5px;
+    }
+    /* header & footer CSS */
+    header, footer{
+        max-width: none; 
+        height: 75px;
+        margin: auto;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        background-color: lightblue;
+        color: black;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+    .name {
+        font-weight: bold;
+        letter-spacing: 2pt;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .motto {
+        font-style: italic;
+        letter-spacing: 0pt;
+        margin-left: 30px;
+        font-size: 0.8rem;
+    }
+    .pic {
+        width: 200px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        float: 0px, 50px;
+        align-items: center;
+        justify-content: center;
+    }
+        /* end header & footer CSS */
 
-/* _____________________________ ALL start _________________________________________________ */
-
+    /* start of Text CSS */   
     h1 {
-        /* keep */
         font-size: 1.5em;
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 5px;
         text-align: center;
         vertical-align: middle;
-        text-emphasis-style: bold;
     }
     h2 {
-        /* keep */
         font-size: 1em;
         font-family: 'Roboto', sans-serif;
         margin: 0;
@@ -28,12 +67,12 @@
         margin: 0;
         padding: 5px;
     }
+        /* end of Text CSS */  
 
     /* Start Nav section CSS */
-
     nav {
         margin: 0 auto;
-        background-color: #EFE7BC;
+        background-color: lightblue;
         padding: 5px;
     }
 
@@ -60,7 +99,7 @@
         }
 
     .navigation a:hover {
-        background-color: #74BDCB;
+        background-color: gray;
         color: white;
     }
 
@@ -69,7 +108,7 @@
     }
 
     .active {
-        background-color: #E7F2F8;
+        background-color: lightslategrey;
         color: black;
     }
 
@@ -86,185 +125,7 @@
         color: gray;
     }
         /* end Nav section CSS */ 
-
-    /* _____________________________ ALL End _______________________________________________ */
-/* _____________________________ Index start _________________________________________________ */
-
-        /* start Main CSS */
-    .indexmain { 
-        /* keep */
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        padding: 5px;
-    }
-        /* End Main CSS */
-
-        /* Start header & footer CSS */
-    header, footer{
-        /* keep */
-        max-width: none; 
-        height: 300px;
-        margin: auto;
-        padding: 5px;
-        font-family: 'Roboto', sans-serif;
-        background-color: #EFE7BC;
-        color: black;
-        display: flex;
-        text-align: left;
-        align-items: center;
-        justify-content: center;
-    }
-    .headerpic {
-        /* keep */
-        max-width: 600px;
-        min-width: 400px;
-        width: 50%;
-        height: auto;
-        display: block;
-        padding: 40px;
-        float: right;
-        align-items: center;
-        justify-content: center;
-    }
-        /* end header & footer CSS */
-
-        /* start artical section CSS */ 
-    .artical1 {
-        /* keep */
-        /*background-color:  ;*/
-        padding: 1rem;
-        background-color: lightgray;
-    }
-    .artical-pic1{
-        /* keep */
-        float: center;
-        max-width: 470px;
-        width: auto;
-        padding: 10px;
-    }
-    .atitle1{
-        /* keep */
-        color: #FFA384;
-    }
-    .artical2 {
-        /* keep */
-        /*background-color:  ;*/
-        padding: 1rem;
-    }
-    .artical-pic2{
-        /* keep */
-        float: center;
-        max-width: 470px;
-        width: auto;
-        padding: 10px;
-    }
-    .atitle2{
-        /* keep */
-        color: #FFA384;
-    }
-    .artical3 {
-        /* keep */
-        /*background-color:  ;*/
-        padding: 1rem;
-        background-color: lightgray;
-    }
-    .artical-pic3{
-        /* keep */
-        float: center;
-        max-width: 470px;
-        width: auto;
-        padding: 10px;
-    }
-    .atitle3{
-        /* keep */
-        color: #FFA384;
-    }
-        /* end artical section CSS */
-
-        /* Start 5day section CSS */
-    .forcast {
-        /* keep */
-        display: none;
-    }
-        /* end 5day section CSS */
-
-    .graname{
-        color: #FFA384;
-        font-family: 'Roboto', sans-serif;  
-    }
-    /* _____________________________ Index End __________________________________________________ */
-
-/* _____________________________ Activities start _______________________________________________ */
     
-    .activitiesmain {
-        /* keep */
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: Center;
-    }
-    header, footer{
-      /* keep */
-      max-width: none; 
-        height: 75px;
-        margin: auto;
-        padding: 1rem;
-        background-color: #EFE7BC;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-        color: black;
-    }
-    #tab {
-        /* keep */
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        margin: 1.5rem;
-        text-align: center;
-        padding: 1rem;
-        grid-gap: 10px 10px;
-        font-family: 'Roboto', sans-serif;      
-    }
-    #threedaytwonigh, #fourdaythreenigh, #weekendgetaway {
-    /* keep */
-        padding: 1rem;
-        font-size: 1rem;
-        text-align: center;
-        background-color:lightblue;
-        border-radius: 25px;
-    }
-    .threedaytwonighpic{
-        max-width: 250px;
-    }
-    .fourdaythreenighpic{
-        max-width: 250px;
-    }
-    .weekendgetawaypic{
-        max-width: 250px;
-    }
-    .activitiestitle{
-        color: #FFA384;
-        font-family: 'Roboto', sans-serif;    
-    }
-/* _____________________________ Activities End_______________________________________________*/
-}
-/*
-
-    /* .name { */
-        /* font-weight: bold; */
-        /* letter-spacing: 2pt; */
-        /* margin-right: 0px; */
-        /* margin-top: 0px; */
-    /* } */
-    /* .motto { */
-        /* font-style: italic; */
-        /* letter-spacing: 0pt; */
-        /* margin-left: 30px; */
-        /* font-size: 0.8rem; */
-    /* } */
-    
-
-    
-
     /* start pics*/
     .gallery{
         display: grid;
@@ -276,7 +137,7 @@
         font-size: 1.00em;
     }
     figure img {
-        border: 1px solid #EFE7BC;
+        border: 1px solid lightblue;
         filter: blur(0em);
         transition: filter 0.5s;
     }
@@ -295,14 +156,14 @@
     form fieldset {
         max-width: 500;
         margin: auto;
-        background-color: #EFE7BC;
+        background-color: lightblue;
         border: 1px solid black;
         margin: 10px;
         padding: 30px;
     }    
     
     form legend {
-        background-color: #EFE7BC;
+        background-color: lightblue;
         color: black;
         border: 1px solid black;
         padding: 10px;
@@ -347,7 +208,7 @@
     
     form textarea {
         background-color: white;
-        border: 1px solid  #EFE7BC;
+        border: 1px solid  lightblue;
         padding: 0px;
         Width: 250px;
         height: 250px;
@@ -357,7 +218,7 @@
         }
 
     form input.button {
-            background-color: #EFE7BC;
+            background-color: lightblue;
             border: 1px solid black;
             color: black;
             padding: 5px;
@@ -427,12 +288,130 @@
 /* ---------------------------- Gallery start ------------------------------------------ */
 
     /* start Main CSS */
-    .gallerymain {
+    main {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
         padding: 5px;
     }
+    /* header & footer CSS */
+    header, footer{
+        max-width: none; 
+        height: 75px;
+        margin: auto;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        background-color: lightblue;
+        color: black;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+    .name {
+        letter-spacing: 2pt;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .motto {
+        font-style: italic;
+        letter-spacing: 0pt;
+        margin-left: 30px;
+        font-size: 0.8rem;
+    }
+    .pic {
+        width: 200px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        float: 0px, 50px;
+        align-items: center;
+        justify-content: center;
+    }
+        /* end header & footer CSS */
+
+     /* start of Text CSS */   
+    h1 {
+        font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h2 {
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h3 {
+        font-size: .5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+    }
+        /* end of Text CSS */  
+
+    /* Start Nav section CSS */
+    nav {
+        margin: 0 auto;
+        background-color: lightblue;
+        padding: 5px;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .navigation li:first-child {
+        display: block;
+        padding: 5px;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: black;
+        padding: 0.75rem;
+        text-align: left;
+        }
+
+    .navigation a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    .active {
+        background-color: lightslategrey;
+        color: black;
+    }
+
+    .infobox {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 10px;
+        border: 2px;
+        width: 100%;
+        font-style: italic;
+        border: dashed;
+        border-color: gray;   
+        background-color: white;
+        color: gray;
+    }
+        /* end Nav section CSS */ 
+    
         /* start pics*/
         .gallery{
             display: grid;
@@ -444,7 +423,7 @@
             font-size: 1.00em;
     }
         figure img {
-            border: 1px solid #EFE7BC;
+            border: 1px solid lightblue;
             filter: blur(0em);
             transition: filter 0.5s;
     }
@@ -464,12 +443,130 @@
     /* ---------------------------- Preston start ------------------------------------------ */
 
     /* start Main CSS */
-    .Prestonmain {
+    main {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
         padding: 5px;
     }
+    /* header & footer CSS */
+    header, footer{
+        max-width: none; 
+        height: 75px;
+        margin: auto;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+        background-color: lightblue;
+        color: black;
+        display: flex;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+    }
+    .name {
+        font-weight: bold;
+        letter-spacing: 2pt;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .motto {
+        font-style: italic;
+        letter-spacing: 0pt;
+        margin-left: 30px;
+        font-size: 0.8rem;
+    }
+    .pic {
+        width: 200px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        float: 0px, 50px;
+        align-items: center;
+        justify-content: center;
+    }
+        /* end header & footer CSS */
+
+     /* start of Text CSS */   
+    h1 {
+        font-size: 1.5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h2 {
+        font-size: 1em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h3 {
+        font-size: .5em;
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 5px;
+    }
+        /* end of Text CSS */  
+
+    /* Start Nav section CSS */
+    nav {
+        margin: 0 auto;
+        background-color: lightblue;
+        padding: 5px;
+    }
+
+    .navigation {
+        list-style: none;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .navigation li:first-child {
+        display: block;
+        padding: 5px;
+    }
+
+    .navigation li {
+        display: none;
+    }
+
+    .navigation a {
+        display: block;
+        color: black;
+        padding: 0.75rem;
+        text-align: left;
+        }
+
+    .navigation a:hover {
+        background-color: gray;
+        color: white;
+    }
+
+    .responsive li {
+        display: block;
+    }
+
+    .active {
+        background-color: lightslategrey;
+        color: black;
+    }
+
+    .infobox {
+        display: block;
+        margin: 10px auto;
+        padding: 10px 10px;
+        border: 2px;
+        width: 100%;
+        font-style: italic;
+        border: dashed;
+        border-color: gray;   
+        background-color: white;
+        color: gray;
+    }
+        /* end Nav section CSS */ 
 
     /* Start Hero section CSS */
     .hero-container{
@@ -489,18 +586,22 @@
         border: 1px dotted;
         top: 2rem;
         left: 1rem;
-        background: #EFE7BC;
+        background: lightblue;
         border: 1px solid black;
         padding: .5rem;
     }
         /* End Hero section CSS */
 
-
+    /* Start 5day section CSS */
+    .fivedayforcast {
+        display: none;
+    }
+        /* end 5day section CSS */
 
         
-    /* start artical section CSS */
+    /* start artical section CSS */ 
     .artical {
-        background-color: #EFE7BC;
+        background-color: lightblue;
         padding: 1rem;
     }
     .artical-pic{
@@ -510,7 +611,7 @@
         /* end artical section CSS */ 
 
 
-    /* start contaxt info */
+    /* start contaxt info*/
     .contat-info{
         display: flex;
         background-color: gray;
@@ -543,12 +644,130 @@
 
 /* ---------------------------- StomCenter start ------------------------------------------ */
         /* start Main CSS */
-        .StomCentermain {
+        main {
             display: grid;
             grid-template-columns: 1fr;
             align-items: center;
             padding: 5px;
         }
+        /* header & footer CSS */
+        header, footer{
+            max-width: none; 
+            height: 75px;
+            margin: auto;
+            padding: 5px;
+            font-family: 'Roboto', sans-serif;
+            background-color: lightblue;
+            color: black;
+            display: flex;
+            text-align: left;
+            align-items: center;
+            justify-content: center;
+        }
+        .name {
+            font-weight: bold;
+            letter-spacing: 2pt;
+            margin-right: 0px;
+            margin-top: 0px;
+        }
+        .motto {
+            font-style: italic;
+            letter-spacing: 0pt;
+            margin-left: 30px;
+            font-size: 0.8rem;
+        }
+        .pic {
+            width: 200px;
+            height: auto;
+            padding: 5px;
+            float: right;
+            float: 0px, 50px;
+            align-items: center;
+            justify-content: center;
+        }
+            /* end header & footer CSS */
+    
+        /* start of Text CSS */   
+        h1 {
+            font-size: 1.5em;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        h2 {
+            font-size: 1em;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 5px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        h3 {
+            font-size: .5em;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 5px;
+        }
+            /* end of Text CSS */  
+    
+        /* Start Nav section CSS */
+        nav {
+            margin: 0 auto;
+            background-color: lightblue;
+            padding: 5px;
+        }
+    
+        .navigation {
+            list-style: none;
+            padding: 5px;
+            margin: 0;
+        }
+    
+        .navigation li:first-child {
+            display: block;
+            padding: 5px;
+        }
+    
+        .navigation li {
+            display: none;
+        }
+    
+        .navigation a {
+            display: block;
+            color: black;
+            padding: 0.75rem;
+            text-align: left;
+            }
+    
+        .navigation a:hover {
+            background-color: gray;
+            color: white;
+        }
+    
+        .responsive li {
+            display: block;
+        }
+    
+        .active {
+            background-color: lightslategrey;
+            color: black;
+        }
+    
+        .infobox {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 10px;
+            border: 2px;
+            width: 100%;
+            font-style: italic;
+            border: dashed;
+            border-color: gray;   
+            background-color: white;
+            color: gray;
+        }
+            /* end Nav section CSS */ 
         
         /* start pics*/
         .gallery{
@@ -561,7 +780,7 @@
             font-size: 1.00em;
         }
         figure img {
-            border: 1px solid #EFE7BC;
+            border: 1px solid lightblue;
             filter: blur(0em);
             transition: filter 0.5s;
         }
@@ -583,7 +802,7 @@
         }
 
         form fieldset {
-            background-color: #EFE7BC;
+            background-color: lightblue;
             border: 1px solid black;
             margin: 10px;
             padding: 30px;
@@ -591,7 +810,7 @@
         }    
         
         form legend {
-            background-color: #EFE7BC;
+            background-color: lightblue;
             color: black;
             border: 1px solid black;
             padding: 10px;
@@ -640,7 +859,7 @@
         
         form textarea {
             background-color: white;
-            border: 1px solid  #EFE7BC;
+            border: 1px solid  lightblue;
             padding: 0px;
             Width: 250px;
             height: 250px;
@@ -650,7 +869,7 @@
             }
     
         form input.button {
-                background-color: #EFE7BC;
+                background-color: lightblue;
                 border: 1px solid black;
                 color: black;
                 padding: 5px;
