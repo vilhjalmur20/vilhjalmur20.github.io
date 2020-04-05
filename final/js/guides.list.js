@@ -16,14 +16,13 @@ fetch(requestURLtwo)
         {
                // pulling elements out of Json
             let shoe = document.createElement("section");
-            let name = document.createElement("h2");
+            let name = document.createElement("p");
             let age = document.createElement("p");
             let experience = document.createElement("p");
             let bio = document.createElement("p");
             let quote = document.createElement("p");
             let river = document.createElement("p");
             let picture = document.createElement("img");
-
 
                 // setting attributes for json elements
             shoe.setAttribute('class', 'displaysection');
@@ -33,7 +32,7 @@ fetch(requestURLtwo)
             bio.setAttribute("class", "bio");
             quote.setAttribute("class", "quote");
             river.setAttribute("class", "river");
-            
+
                 // putting json elements into order to display in HTML 
             name.textContent = "Name: " + guides[i].name;
             age.textContent = "Age: " +  guides[i].age;

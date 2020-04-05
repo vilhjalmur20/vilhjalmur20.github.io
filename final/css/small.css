@@ -1,50 +1,35 @@
-/* ---------------------------- index start ------------------------------------------ */
+@media only screen and (min-width: 23.5em){
+/* ______________________________________________ Start ALL _____________________________________________________*/
 
-    /* start Main CSS */
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        padding: 5px;
-    }
-    /* header & footer CSS */
+/* Start of Header & Footer */ 
     header, footer{
         max-width: none; 
-        height: 75px;
+        height: 100px;
         margin: auto;
         padding: 5px;
         font-family: 'Roboto', sans-serif;
-        background-color: lightblue;
+        background-color: #EFE7BC;
         color: black;
         display: flex;
         text-align: left;
         align-items: center;
         justify-content: center;
     }
-    .name {
-        font-weight: bold;
-        letter-spacing: 2pt;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-    .motto {
-        font-style: italic;
-        letter-spacing: 0pt;
-        margin-left: 30px;
-        font-size: 0.8rem;
-    }
-    .pic {
-        width: 200px;
+
+    .headerpic {
+        max-width: 600px;
+        min-width: 400px;
+        width: 50%;
         height: auto;
-        padding: 5px;
+        display: block;
+        padding: 40px;
         float: right;
-        float: 0px, 50px;
         align-items: center;
         justify-content: center;
     }
-        /* end header & footer CSS */
+        /* End of Header & Footer */ 
 
-    /* start of Text CSS */   
+/* Start of Text CSS */  
     h1 {
         font-size: 1.5em;
         font-family: 'Roboto', sans-serif;
@@ -52,7 +37,7 @@
         padding: 5px;
         text-align: center;
         vertical-align: middle;
-    }
+        }
     h2 {
         font-size: 1em;
         font-family: 'Roboto', sans-serif;
@@ -60,7 +45,7 @@
         padding: 5px;
         text-align: center;
         vertical-align: middle;
-    }
+        }
     h3 {
         font-size: .5em;
         font-family: 'Roboto', sans-serif;
@@ -69,63 +54,319 @@
     }
         /* end of Text CSS */  
 
-    /* Start Nav section CSS */
+/* Start of Nav CSS */  
     nav {
         margin: 0 auto;
-        background-color: lightblue;
+        background-color: #EFE7BC;
         padding: 5px;
     }
-
+    
     .navigation {
         list-style: none;
         padding: 5px;
         margin: 0;
     }
-
+    
     .navigation li:first-child {
         display: block;
         padding: 5px;
     }
-
+    
     .navigation li {
         display: none;
     }
-
+    
     .navigation a {
         display: block;
         color: black;
         padding: 0.75rem;
         text-align: left;
-        }
-
+    }
+    
     .navigation a:hover {
-        background-color: gray;
+        background-color: #74BDCB;
         color: white;
     }
-
+    
     .responsive li {
         display: block;
     }
-
+    
     .active {
-        background-color: lightslategrey;
+        background-color: gray;
         color: black;
     }
-
-    .infobox {
-        display: block;
-        margin: 10px auto;
-        padding: 10px 10px;
-        border: 2px;
-        width: 100%;
-        font-style: italic;
-        border: dashed;
-        border-color: gray;   
-        background-color: white;
-        color: gray;
-    }
         /* end Nav section CSS */ 
+
+/* ______________________________________________ End ALL _____________________________________________________*/
+
+
+/* ______________________________________________ Start Index _____________________________________________________*/
+
+/* start Main CSS */
+    .indexmain { 
+        /* keep */
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 5px;
+    }
+        /* End Main CSS */
+
+/* start artical section CSS */ 
+    .artical1 {
+        /* keep */
+        /*background-color:  ;*/
+        padding: 1rem;
+        background-color: lightgray;
+    }
+
+    .artical-pic1{
+        /* keep */
+        float: center;
+        max-width: 470px;
+        width: auto;
+        padding: 10px;
+    }
+
+    .atitle1{
+        /* keep */
+        color: #FFA384;
+    }
+
+    .artical2 {
+        /* keep */
+        /*background-color:  ;*/
+        padding: 1rem;
+    }
+
+    .artical-pic2{
+        /* keep */
+        float: center;
+        max-width: 470px;
+        width: auto;
+        padding: 10px;
+    }
+
+    .atitle2{
+        /* keep */
+        color: #FFA384;
+    }
+
+    .artical3 {
+        /* keep */
+        /*background-color:  ;*/
+        padding: 1rem;
+        background-color: lightgray;
+    }
+
+    .artical-pic3{
+        /* keep */
+        float: center;
+        max-width: 470px;
+        width: auto;
+        padding: 10px;
+    }
+
+    .atitle3{
+        /* keep */
+        color: #FFA384;
+    }
+        /* end artical section CSS */
+
+/* Start 5day section CSS */
+    .forcast {
+        /* keep */
+        display: none;
+    }
+        /* end 5day section CSS */
+
+    .graname{
+        color: #FFA384;
+        font-family: 'Roboto', sans-serif;  
+    }
+
+
+
+/* ______________________________________________ End Index _____________________________________________________*/
+/* ______________________________________________ Start Activities _____________________________________________________*/
+
+    .activitiesmain {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: Center;
+    }
+
+    .activitiestitle{
+        color: #FFA384;
+        font-family: 'Roboto', sans-serif;    
+    }
     
+    #tab {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        margin: 1.5rem;
+        margin-top: 10em;
+        text-align: center;
+        padding: 1rem;
+        grid-gap: 10px 10px;
+        font-family: 'Roboto', sans-serif;      
+    }
+
+    #threedaytwonigh, #fourdaythreenigh, #weekendgetaway {
+        padding: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        background-color:#EFE7BC;
+        border-radius: 25px;
+    }
+
+    .threedaytwonighpic, .fourdaythreenighpic, .weekendgetawaypic{
+        max-width: 250px;
+    }
+   
+
+
+
+
+/* ______________________________________________ End Activities _____________________________________________________*/
+/* ______________________________________________ Start About Us _____________________________________________________*/
+
+    .rc {
+	    color: white;
+	    padding: 1em;
+	    width: 48%;
+	    flex: 1;
+	    flex: 1 0 15em;
+	    align-items: center;
+	    margin: .5em;
+    }
+
+/* ______________________________________________ End About Us _____________________________________________________*/
+/* ______________________________________________ Start People _____________________________________________________*/
+
+
+
+
+
+
+
+
+/* ______________________________________________ End People _____________________________________________________*/
+/* ______________________________________________ Start Reservation _____________________________________________________*/
+
+
+
+/* start thank you CSS*/
+    
+    .thankyou{
+        text-align: center;
+        max-width: 500;
+        margin: auto;
+    }
+        /* end thank you CSS*/
+
+
+/* start forms & fieldsets CSS*/
+    form{
+        max-width: 500px;
+        margin: auto;
+    }
+
+    form fieldset {
+        background-color: #EFE7BC;
+        border: 1px solid black;
+        margin: 10px;
+        padding: 30px;
+    }    
+        
+    form legend {
+        background-color: #EFE7BC;
+        color: black;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 100px;
+    }
+        
+    form label {
+        color: black;
+        display: block;
+        padding: 5px;
+    }
+        
+    form span {
+        color: black;
+        display: block;
+        font-size: 17px;
+        padding: 5px;
+        }
+        
+    form label input {
+        width: 100%;
+        font-size: 17px;
+    }
+    
+    input[type="radio"]{
+        width: auto;
+    }
+        
+    form label input{
+        background-color: white;
+        border: 1px solid  black;
+        padding: 10px;
+        border-radius: 50px;
+    }
+
+    form select {
+        border: 1px solid black;
+        color: black;
+        width: 250px;
+        height: 30px;
+        font-size: 17px;
+        border-radius: 0px;
+    }
+        
+    form textarea {
+        background-color: white;
+        border: 1px solid  #EFE7BC;
+        padding: 0px;
+        Width: 250px;
+        height: 250px;
+        text-align: left;
+        font-size: 17px;
+        border-radius: 5px;
+    }
+    
+    form input.button {
+        background-color: #EFE7BC;
+        border: 1px solid black;
+        color: black;
+        padding: 5px;
+        margin-bottom: 10px;
+        margin-left: 15px;
+        font-size: 20px;
+        border-radius: 50px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+            
+        /* end forms & fieldsets CSS*/
+
+/* ______________________________________________ End Reservation _____________________________________________________*/
+/* ______________________________________________ Start Other _____________________________________________________*/
+
+
+
+
+
+
+
+
+
+/* ______________________________________________ End Other _____________________________________________________*/
+}
     /* start pics*/
     .gallery{
         display: grid;
@@ -137,7 +378,7 @@
         font-size: 1.00em;
     }
     figure img {
-        border: 1px solid lightblue;
+        border: 1px solid #EFE7BC;;
         filter: blur(0em);
         transition: filter 0.5s;
     }
@@ -152,90 +393,6 @@
     }
         /* end pics section CSS */ 
 
-    /* start forms & fieldsets CSS*/
-    form fieldset {
-        max-width: 500;
-        margin: auto;
-        background-color: lightblue;
-        border: 1px solid black;
-        margin: 10px;
-        padding: 30px;
-    }    
-    
-    form legend {
-        background-color: lightblue;
-        color: black;
-        border: 1px solid black;
-        padding: 10px;
-        border-radius: 100px;
-    }
-    
-    form label {
-        color: black;
-        display: block;
-        padding: 5px;
-        }
-    
-    form span {
-        color: black;
-        display: block;
-        font-size: 17px;
-        padding: 5px;
-        }
-    
-    form label input {
-        width: 200px;
-        font-size: 17px;
-        }
-    
-    form label input{
-        background-color: white;
-        border: 1px solid  black;
-        padding: 10px;
-        border-radius: 50px;
-        }
-    
-    
-
-    form select {
-        border: 1px solid black;
-        color: black;
-        Width: 250px;
-        height: 30px;
-        font-size: 17px;
-        border-radius: 0px;
-        }
-    
-    form textarea {
-        background-color: white;
-        border: 1px solid  lightblue;
-        padding: 0px;
-        Width: 250px;
-        height: 250px;
-        text-align: left;
-        font-size: 17px;
-        border-radius: 5px;
-        }
-
-    form input.button {
-            background-color: lightblue;
-            border: 1px solid black;
-            color: black;
-            padding: 5px;
-            margin-bottom: 10px;
-            margin-left: 15px;
-            font-size: 20px;
-            border-radius: 50px;
-    }
-        
-        /* end forms & fieldsets CSS*/
-
-    /* start thank you CSS*/
-
-    .thankyou{
-        text-align: center;
-    }
-         /* end thank you CSS*/
 
     .towninfo {
         display: grid;
@@ -244,28 +401,6 @@
     .displaysection {
         width: 100%;
         height: auto;
-        }
-        
-    .name {
-        color: black;
-        font-size: 30px;
-        font-weight: bold;
-    }
-        
-    .motto {
-        display: block;
-        color: black;
-        font-style: italic;
-        text-align: center;
-        font-size: 15px;
-        margin-top: -3px;
-        padding: 0px -20px;
-    }
-        
-    .image {
-        display: block;
-        width: 85%;
-        margin: 15px auto;
         }
         
     .year, .pop, .a_rainfall {
@@ -281,7 +416,16 @@
 
 
 
-/* ---------------------------- index End ------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -294,123 +438,6 @@
         align-items: center;
         padding: 5px;
     }
-    /* header & footer CSS */
-    header, footer{
-        max-width: none; 
-        height: 75px;
-        margin: auto;
-        padding: 5px;
-        font-family: 'Roboto', sans-serif;
-        background-color: lightblue;
-        color: black;
-        display: flex;
-        text-align: left;
-        align-items: center;
-        justify-content: center;
-    }
-    .name {
-        letter-spacing: 2pt;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-    .motto {
-        font-style: italic;
-        letter-spacing: 0pt;
-        margin-left: 30px;
-        font-size: 0.8rem;
-    }
-    .pic {
-        width: 200px;
-        height: auto;
-        padding: 5px;
-        float: right;
-        float: 0px, 50px;
-        align-items: center;
-        justify-content: center;
-    }
-        /* end header & footer CSS */
-
-     /* start of Text CSS */   
-    h1 {
-        font-size: 1.5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-    h2 {
-        font-size: 1em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-    h3 {
-        font-size: .5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-    }
-        /* end of Text CSS */  
-
-    /* Start Nav section CSS */
-    nav {
-        margin: 0 auto;
-        background-color: lightblue;
-        padding: 5px;
-    }
-
-    .navigation {
-        list-style: none;
-        padding: 5px;
-        margin: 0;
-    }
-
-    .navigation li:first-child {
-        display: block;
-        padding: 5px;
-    }
-
-    .navigation li {
-        display: none;
-    }
-
-    .navigation a {
-        display: block;
-        color: black;
-        padding: 0.75rem;
-        text-align: left;
-        }
-
-    .navigation a:hover {
-        background-color: gray;
-        color: white;
-    }
-
-    .responsive li {
-        display: block;
-    }
-
-    .active {
-        background-color: lightslategrey;
-        color: black;
-    }
-
-    .infobox {
-        display: block;
-        margin: 10px auto;
-        padding: 10px 10px;
-        border: 2px;
-        width: 100%;
-        font-style: italic;
-        border: dashed;
-        border-color: gray;   
-        background-color: white;
-        color: gray;
-    }
-        /* end Nav section CSS */ 
     
         /* start pics*/
         .gallery{
@@ -449,124 +476,6 @@
         align-items: center;
         padding: 5px;
     }
-    /* header & footer CSS */
-    header, footer{
-        max-width: none; 
-        height: 75px;
-        margin: auto;
-        padding: 5px;
-        font-family: 'Roboto', sans-serif;
-        background-color: lightblue;
-        color: black;
-        display: flex;
-        text-align: left;
-        align-items: center;
-        justify-content: center;
-    }
-    .name {
-        font-weight: bold;
-        letter-spacing: 2pt;
-        margin-right: 0px;
-        margin-top: 0px;
-    }
-    .motto {
-        font-style: italic;
-        letter-spacing: 0pt;
-        margin-left: 30px;
-        font-size: 0.8rem;
-    }
-    .pic {
-        width: 200px;
-        height: auto;
-        padding: 5px;
-        float: right;
-        float: 0px, 50px;
-        align-items: center;
-        justify-content: center;
-    }
-        /* end header & footer CSS */
-
-     /* start of Text CSS */   
-    h1 {
-        font-size: 1.5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-    h2 {
-        font-size: 1em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-    }
-    h3 {
-        font-size: .5em;
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 5px;
-    }
-        /* end of Text CSS */  
-
-    /* Start Nav section CSS */
-    nav {
-        margin: 0 auto;
-        background-color: lightblue;
-        padding: 5px;
-    }
-
-    .navigation {
-        list-style: none;
-        padding: 5px;
-        margin: 0;
-    }
-
-    .navigation li:first-child {
-        display: block;
-        padding: 5px;
-    }
-
-    .navigation li {
-        display: none;
-    }
-
-    .navigation a {
-        display: block;
-        color: black;
-        padding: 0.75rem;
-        text-align: left;
-        }
-
-    .navigation a:hover {
-        background-color: gray;
-        color: white;
-    }
-
-    .responsive li {
-        display: block;
-    }
-
-    .active {
-        background-color: lightslategrey;
-        color: black;
-    }
-
-    .infobox {
-        display: block;
-        margin: 10px auto;
-        padding: 10px 10px;
-        border: 2px;
-        width: 100%;
-        font-style: italic;
-        border: dashed;
-        border-color: gray;   
-        background-color: white;
-        color: gray;
-    }
-        /* end Nav section CSS */ 
 
     /* Start Hero section CSS */
     .hero-container{
@@ -601,7 +510,7 @@
         
     /* start artical section CSS */ 
     .artical {
-        background-color: lightblue;
+        background-color: #EFE7BC;
         padding: 1rem;
     }
     .artical-pic{
@@ -650,125 +559,6 @@
             align-items: center;
             padding: 5px;
         }
-        /* header & footer CSS */
-        header, footer{
-            max-width: none; 
-            height: 75px;
-            margin: auto;
-            padding: 5px;
-            font-family: 'Roboto', sans-serif;
-            background-color: lightblue;
-            color: black;
-            display: flex;
-            text-align: left;
-            align-items: center;
-            justify-content: center;
-        }
-        .name {
-            font-weight: bold;
-            letter-spacing: 2pt;
-            margin-right: 0px;
-            margin-top: 0px;
-        }
-        .motto {
-            font-style: italic;
-            letter-spacing: 0pt;
-            margin-left: 30px;
-            font-size: 0.8rem;
-        }
-        .pic {
-            width: 200px;
-            height: auto;
-            padding: 5px;
-            float: right;
-            float: 0px, 50px;
-            align-items: center;
-            justify-content: center;
-        }
-            /* end header & footer CSS */
-    
-        /* start of Text CSS */   
-        h1 {
-            font-size: 1.5em;
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 5px;
-            text-align: center;
-            vertical-align: middle;
-        }
-        h2 {
-            font-size: 1em;
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 5px;
-            text-align: center;
-            vertical-align: middle;
-        }
-        h3 {
-            font-size: .5em;
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 5px;
-        }
-            /* end of Text CSS */  
-    
-        /* Start Nav section CSS */
-        nav {
-            margin: 0 auto;
-            background-color: lightblue;
-            padding: 5px;
-        }
-    
-        .navigation {
-            list-style: none;
-            padding: 5px;
-            margin: 0;
-        }
-    
-        .navigation li:first-child {
-            display: block;
-            padding: 5px;
-        }
-    
-        .navigation li {
-            display: none;
-        }
-    
-        .navigation a {
-            display: block;
-            color: black;
-            padding: 0.75rem;
-            text-align: left;
-            }
-    
-        .navigation a:hover {
-            background-color: gray;
-            color: white;
-        }
-    
-        .responsive li {
-            display: block;
-        }
-    
-        .active {
-            background-color: lightslategrey;
-            color: black;
-        }
-    
-        .infobox {
-            display: block;
-            margin: 10px auto;
-            padding: 10px 10px;
-            border: 2px;
-            width: 100%;
-            font-style: italic;
-            border: dashed;
-            border-color: gray;   
-            background-color: white;
-            color: gray;
-        }
-            /* end Nav section CSS */ 
-        
         /* start pics*/
         .gallery{
             display: grid;
@@ -795,103 +585,8 @@
         }
             /* end pics section CSS */ 
     
-        /* start forms & fieldsets CSS*/
-        form{
-            max-width: 500px;
-            margin: auto;
-        }
+        
+    
 
-        form fieldset {
-            background-color: lightblue;
-            border: 1px solid black;
-            margin: 10px;
-            padding: 30px;
-            
-        }    
-        
-        form legend {
-            background-color: lightblue;
-            color: black;
-            border: 1px solid black;
-            padding: 10px;
-            border-radius: 100px;
-        }
-        
-        form label {
-            color: black;
-            display: block;
-            padding: 5px;
-            }
-        
-        form span {
-            color: black;
-            display: block;
-            font-size: 17px;
-            padding: 5px;
-            }
-        
-        form label input {
-            width: 100%;
-            font-size: 17px;
-            }
-    
-        input[type="radio"]{
-            width: auto;
-        }
-        
-        form label input{
-            background-color: white;
-            border: 1px solid  black;
-            padding: 10px;
-            border-radius: 50px;
-            }
-        
-        
-    
-        form select {
-            border: 1px solid black;
-            color: black;
-            Width: 250px;
-            height: 30px;
-            font-size: 17px;
-            border-radius: 0px;
-            }
-        
-        form textarea {
-            background-color: white;
-            border: 1px solid  lightblue;
-            padding: 0px;
-            Width: 250px;
-            height: 250px;
-            text-align: left;
-            font-size: 17px;
-            border-radius: 5px;
-            }
-    
-        form input.button {
-                background-color: lightblue;
-                border: 1px solid black;
-                color: black;
-                padding: 5px;
-                margin-bottom: 10px;
-                margin-left: 15px;
-                font-size: 20px;
-                border-radius: 50px;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-            
-            /* end forms & fieldsets CSS*/
-    
-        /* start thank you CSS*/
-    
-      .thankyou{
-        text-align: center;
-        max-width: 500;
-        margin: auto;
-      }
-             /* end thank you CSS*/
 
 /* ---------------------------- StomCenter End ------------------------------------------ */
