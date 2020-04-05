@@ -18,7 +18,7 @@
 
     .headerpic {
         max-width: 600px;
-        min-width: 400px;
+        min-width: 475px;
         width: 50%;
         height: auto;
         display: block;
@@ -31,7 +31,7 @@
 
 /* Start of Text CSS */  
     h1 {
-        font-size: 1.5em;
+        font-size: 2.0em;
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 5px;
@@ -39,7 +39,7 @@
         vertical-align: middle;
         }
     h2 {
-        font-size: 1em;
+        font-size: 1.5em;
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 5px;
@@ -47,7 +47,7 @@
         vertical-align: middle;
         }
     h3 {
-        font-size: .5em;
+        font-size: 1.0em;
         font-family: 'Roboto', sans-serif;
         margin: 0;
         padding: 5px;
