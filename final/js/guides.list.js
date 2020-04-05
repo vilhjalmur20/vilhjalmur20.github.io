@@ -32,9 +32,10 @@ fetch(requestURLtwo)
             bio.setAttribute("class", "bio");
             quote.setAttribute("class", "quote");
             river.setAttribute("class", "river");
+            picture.setAttribute("class", "mgs");
 
                 // putting json elements into order to display in HTML 
-            name.textContent = "Name: " + guides[i].name;
+            name.textContent = guides[i].name;
             age.textContent = "Age: " +  guides[i].age;
             experience.textContent = "Experience: " + guides[i].experience;
             bio.textContent = "Biography: " + guides[i].bio;
@@ -45,13 +46,14 @@ fetch(requestURLtwo)
             picture.setAttribute("alt", "picture of: " + name.textContent);
             
                 // putting json children togehter.
+            shoe.appendChild(picture);
             shoe.appendChild(name);
             shoe.appendChild(age);
             shoe.appendChild(experience);
             shoe.appendChild(bio);
             shoe.appendChild(quote);
             shoe.appendChild(river);
-            shoe.appendChild(picture);
+            
 
                 // output to HTML
             document.querySelector("div.guides_display").appendChild(shoe);

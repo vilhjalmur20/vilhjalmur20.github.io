@@ -59,17 +59,20 @@
         margin: 0 auto;
         background-color: #EFE7BC;
         padding: 5px;
+        font-family: 'Roboto', sans-serif;
     }
     
     .navigation {
         list-style: none;
         padding: 5px;
         margin: 0;
+        font-family: 'Roboto', sans-serif;
     }
     
     .navigation li:first-child {
         display: block;
         padding: 5px;
+        font-family: 'Roboto', sans-serif;
     }
     
     .navigation li {
@@ -81,11 +84,13 @@
         color: black;
         padding: 0.75rem;
         text-align: left;
+        font-family: 'Roboto', sans-serif;
     }
     
     .navigation a:hover {
         background-color: #74BDCB;
         color: white;
+        font-family: 'Roboto', sans-serif;
     }
     
     .responsive li {
@@ -99,13 +104,10 @@
         /* end Nav section CSS */ 
 
 /* ______________________________________________ End ALL _____________________________________________________*/
-
-
 /* ______________________________________________ Start Index _____________________________________________________*/
 
 /* start Main CSS */
     .indexmain { 
-        /* keep */
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
@@ -115,14 +117,12 @@
 
 /* start artical section CSS */ 
     .artical1 {
-        /* keep */
-        /*background-color:  ;*/
         padding: 1rem;
         background-color: lightgray;
+        font-family: 'Roboto', sans-serif;
     }
 
     .artical-pic1{
-        /* keep */
         float: center;
         max-width: 470px;
         width: auto;
@@ -130,18 +130,16 @@
     }
 
     .atitle1{
-        /* keep */
         color: #FFA384;
+        font-family: 'Roboto', sans-serif;
     }
 
     .artical2 {
-        /* keep */
-        /*background-color:  ;*/
         padding: 1rem;
+        font-family: 'Roboto', sans-serif;
     }
 
     .artical-pic2{
-        /* keep */
         float: center;
         max-width: 470px;
         width: auto;
@@ -149,19 +147,17 @@
     }
 
     .atitle2{
-        /* keep */
+        font-family: 'Roboto', sans-serif;
         color: #FFA384;
     }
 
     .artical3 {
-        /* keep */
-        /*background-color:  ;*/
+        font-family: 'Roboto', sans-serif;
         padding: 1rem;
         background-color: lightgray;
     }
 
     .artical-pic3{
-        /* keep */
         float: center;
         max-width: 470px;
         width: auto;
@@ -169,14 +165,12 @@
     }
 
     .atitle3{
-        /* keep */
         color: #FFA384;
     }
         /* end artical section CSS */
 
 /* Start 5day section CSS */
     .forcast {
-        /* keep */
         display: none;
     }
         /* end 5day section CSS */
@@ -185,8 +179,6 @@
         color: #FFA384;
         font-family: 'Roboto', sans-serif;  
     }
-
-
 
 /* ______________________________________________ End Index _____________________________________________________*/
 /* ______________________________________________ Start Activities _____________________________________________________*/
@@ -219,16 +211,13 @@
         text-align: center;
         background-color:#EFE7BC;
         border-radius: 25px;
+        font-family: 'Roboto', sans-serif;
     }
 
     .threedaytwonighpic, .fourdaythreenighpic, .weekendgetawaypic{
         max-width: 250px;
     }
    
-
-
-
-
 /* ______________________________________________ End Activities _____________________________________________________*/
 /* ______________________________________________ Start About Us _____________________________________________________*/
 
@@ -248,6 +237,28 @@
 	    margin: .5em;
     }
 
+/* start contaxt info*/
+    .contact-info{
+        display: flex;
+        background-color: gray;
+        padding: 1rem;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contact-map{
+        display: none;
+    }
+
+    .contact-data{
+        color: white;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+        /* end contaxt info*/
+
 /* ______________________________________________ End About Us _____________________________________________________*/
 /* ______________________________________________ Start People _____________________________________________________*/
     
@@ -263,7 +274,7 @@
 
     .displaysection {
         font-family: 'Roboto', sans-serif;
-        background-color: lightblue;
+        background-color: #EFE7BC;
         border: 1px black solid;
         display: block;
         margin: 15px auto;
@@ -276,35 +287,27 @@
         color: black;
         font-size: 30px;
         font-weight: bold;
-    }
-    
-    .motto {
-        display: block;
-        color: black;
-        font-style: italic;
         text-align: center;
-        font-size: 15px;
-        margin-top: -3px;
-        padding: 0px -20px;
+        font-family: 'Roboto', sans-serif;
     }
     
-    .image {
+    .mgs {
         display: block;
-        width: 85%;
-        margin: 15px auto;
+        max-width: 400px;
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
     }
     
-    .year, .pop, .a_rainfall {
-        margin: 2px;
-        font-size: 16px;
-        text-align: center;
-    }
-
     .guides_display{
-        max-width: 100%;
-        height: auto;
+        max-width: 600px;
+        margin: auto;
+        font-family: 'Roboto', sans-serif;
     }
-
+    
+    .age, .experience, .bio, .quote, .river{
+        padding: 5px;
+        font-family: 'Roboto', sans-serif;
+    }
 
 
 /* ______________________________________________ End People _____________________________________________________*/
@@ -314,6 +317,7 @@
         display: grid;
         grid-template-columns: 1fr;
         align-items: Center;
+        font-family: 'Roboto', sans-serif;
     }
 
 /* start thank you CSS*/
@@ -322,6 +326,7 @@
         text-align: center;
         max-width: 500;
         margin: auto;
+        font-family: 'Roboto', sans-serif;
     }
         /* end thank you CSS*/
 
@@ -330,6 +335,7 @@
     form{
         max-width: 500px;
         margin: auto;
+        font-family: 'Roboto', sans-serif;
     }
 
     form fieldset {
@@ -337,6 +343,7 @@
         border: 1px solid black;
         margin: 10px;
         padding: 30px;
+        font-family: 'Roboto', sans-serif;
     }    
         
     form legend {
@@ -345,12 +352,14 @@
         border: 1px solid black;
         padding: 10px;
         border-radius: 100px;
+        font-family: 'Roboto', sans-serif;
     }
         
     form label {
         color: black;
         display: block;
         padding: 5px;
+        font-family: 'Roboto', sans-serif;
     }
         
     form span {
@@ -358,15 +367,18 @@
         display: block;
         font-size: 17px;
         padding: 5px;
+        font-family: 'Roboto', sans-serif;
         }
         
     form label input {
         width: 100%;
         font-size: 17px;
+        font-family: 'Roboto', sans-serif;
     }
     
     input[type="radio"]{
         width: auto;
+        
     }
         
     form label input{
@@ -374,6 +386,7 @@
         border: 1px solid  black;
         padding: 10px;
         border-radius: 50px;
+        font-family: 'Roboto', sans-serif;
     }
 
     form select {
@@ -383,6 +396,7 @@
         height: 30px;
         font-size: 17px;
         border-radius: 0px;
+        font-family: 'Roboto', sans-serif;
     }
         
     form textarea {
@@ -394,6 +408,7 @@
         text-align: left;
         font-size: 17px;
         border-radius: 5px;
+        font-family: 'Roboto', sans-serif;
     }
     
     form input.button {
@@ -405,6 +420,7 @@
         margin-left: 15px;
         font-size: 20px;
         border-radius: 50px;
+        font-family: 'Roboto', sans-serif;
     }
 
     * {
@@ -426,203 +442,3 @@
 
 /* ______________________________________________ End Other _____________________________________________________*/
 }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* start pics*/
-.gallery{
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-    width: 100%;
-}
-figure {
-    font-size: 1.00em;
-}
-figure img {
-    border: 1px solid #EFE7BC;;
-    filter: blur(0em);
-    transition: filter 0.5s;
-}
-figure img [data-src]  {
-    filter: blur(0.5em);
-
-}
-figcaption {
-    font-size: small;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-    /* end pics section CSS */ 
-
-/* ---------------------------- Gallery start ------------------------------------------ */
-
-    /* start Main CSS */
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        padding: 5px;
-    }
-    
-        /* start pics*/
-        .gallery{
-            display: grid;
-            grid-template-columns: 1fr;
-            align-items: center;
-            width: 100%;
-    }
-        figure {
-            font-size: 1.00em;
-    }
-        figure img {
-            border: 1px solid lightblue;
-            filter: blur(0em);
-            transition: filter 0.5s;
-    }
-        figure img [data-src]  {
-            filter: blur(0.5em);
-
-    }
-        figcaption {
-            font-size: small;
-            font-family: 'Roboto', sans-serif;
-            text-align: center;
-    }
-    /* ---------------------------- Gallery End ------------------------------------------ */
-
-
-
-    /* ---------------------------- Preston start ------------------------------------------ */
-
-    /* start Main CSS */
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        padding: 5px;
-    }
-
-    /* Start Hero section CSS */
-    .hero-container{
-        margin: 10px auto; 
-        position: relative;
-    }
-    .hero-section {
-        margin: 10px auto;
-        width: 100%;
-    }
-    .hero-pic{
-        width: 100%;
-        height: auto;
-    }
-    .hero-overlay {
-        position: absolute;
-        border: 1px dotted;
-        top: 2rem;
-        left: 1rem;
-        background: lightblue;
-        border: 1px solid black;
-        padding: .5rem;
-    }
-        /* End Hero section CSS */
-
-    /* Start 5day section CSS */
-    .fivedayforcast {
-        display: none;
-    }
-        /* end 5day section CSS */
-
-    
-
-
-    /* start contaxt info*/
-    .contat-info{
-        display: flex;
-        background-color: gray;
-        padding: 1rem;
-        text-align: center;
-
-    }
-    .contact-map{
-        display: none;
-    }
-    .contact-data{
-        color: white;
-    }
-
-    #friday {
-        position: relative;   
-        left: 1px;
-        text-align: left;
-        font-size: 1.0rem;
-        padding: 1rem;
-    }
-    *{
-        box-sizing: border-box;
-    }
-        /* end contaxt info*/
-
-/* ---------------------------- Preston End ------------------------------------------ */
-
-
-
-/* ---------------------------- StomCenter start ------------------------------------------ */
-        /* start Main CSS */
-        main {
-            display: grid;
-            grid-template-columns: 1fr;
-            align-items: center;
-            padding: 5px;
-        }
-        /* start pics*/
-        .gallery{
-            display: grid;
-            grid-template-columns: 1fr;
-            align-items: center;
-            width: 100%;
-        }
-        figure {
-            font-size: 1.00em;
-        }
-        figure img {
-            border: 1px solid lightblue;
-            filter: blur(0em);
-            transition: filter 0.5s;
-        }
-        figure img [data-src]  {
-            filter: blur(0.5em);
-    
-        }
-        figcaption {
-            font-size: small;
-            font-family: 'Roboto', sans-serif;
-            text-align: center;
-        }
-            /* end pics section CSS */ 
-    
-        
-    
-
-
-/* ---------------------------- StomCenter End ------------------------------------------ */
