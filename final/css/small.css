@@ -232,6 +232,12 @@
 /* ______________________________________________ End Activities _____________________________________________________*/
 /* ______________________________________________ Start About Us _____________________________________________________*/
 
+    .aboutusmain {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: Center;
+    }
+
     .rc {
 	    color: white;
 	    padding: 1em;
@@ -244,18 +250,71 @@
 
 /* ______________________________________________ End About Us _____________________________________________________*/
 /* ______________________________________________ Start People _____________________________________________________*/
+    
+    .peoplemain {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: Center;
+    }
 
+    .towninfo {
+        display: grid;
+    }
 
+    .displaysection {
+        font-family: 'Roboto', sans-serif;
+        background-color: lightblue;
+        border: 1px black solid;
+        display: block;
+        margin: 15px auto;
+        width: 90%;
+        height: auto;
+        padding-bottom: 15px;
+    }
+    
+    .name {
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .motto {
+        display: block;
+        color: black;
+        font-style: italic;
+        text-align: center;
+        font-size: 15px;
+        margin-top: -3px;
+        padding: 0px -20px;
+    }
+    
+    .image {
+        display: block;
+        width: 85%;
+        margin: 15px auto;
+    }
+    
+    .year, .pop, .a_rainfall {
+        margin: 2px;
+        font-size: 16px;
+        text-align: center;
+    }
 
-
-
+    .guides_display{
+        max-width: 100%;
+        height: auto;
+    }
 
 
 
 /* ______________________________________________ End People _____________________________________________________*/
 /* ______________________________________________ Start Reservation _____________________________________________________*/
 
-
+    .reservationsmain{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: Center;
+    }
 
 /* start thank you CSS*/
     
@@ -351,7 +410,7 @@
     * {
         box-sizing: border-box;
     }
-            
+       
         /* end forms & fieldsets CSS*/
 
 /* ______________________________________________ End Reservation _____________________________________________________*/
@@ -367,52 +426,7 @@
 
 /* ______________________________________________ End Other _____________________________________________________*/
 }
-    /* start pics*/
-    .gallery{
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        width: 100%;
-    }
-    figure {
-        font-size: 1.00em;
-    }
-    figure img {
-        border: 1px solid #EFE7BC;;
-        filter: blur(0em);
-        transition: filter 0.5s;
-    }
-    figure img [data-src]  {
-        filter: blur(0.5em);
-
-    }
-    figcaption {
-        font-size: small;
-        font-family: 'Roboto', sans-serif;
-        text-align: center;
-    }
-        /* end pics section CSS */ 
-
-
-    .towninfo {
-        display: grid;
-    }
-
-    .displaysection {
-        width: 100%;
-        height: auto;
-        }
-        
-    .year, .pop, .a_rainfall {
-        margin: 2px;
-        font-size: 16px;
-        text-align: center;
-    }
-
-    .jsontown_display{
-        width: 100%;
-        height: auto;
-    }
+  
 
 
 
@@ -428,6 +442,38 @@
 
 
 
+
+
+
+
+
+
+
+/* start pics*/
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    width: 100%;
+}
+figure {
+    font-size: 1.00em;
+}
+figure img {
+    border: 1px solid #EFE7BC;;
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+figure img [data-src]  {
+    filter: blur(0.5em);
+
+}
+figcaption {
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+    /* end pics section CSS */ 
 
 /* ---------------------------- Gallery start ------------------------------------------ */
 
@@ -507,17 +553,7 @@
     }
         /* end 5day section CSS */
 
-        
-    /* start artical section CSS */ 
-    .artical {
-        background-color: #EFE7BC;
-        padding: 1rem;
-    }
-    .artical-pic{
-        width: 100%;
-        max-width: 300px;
-    }
-        /* end artical section CSS */ 
+    
 
 
     /* start contaxt info*/

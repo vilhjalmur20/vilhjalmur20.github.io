@@ -129,7 +129,7 @@
     
     
     
-    /* ---------------------------- index start ------------------------------------------ */
+    /* ---------------------------- index start ------------------------------------------ 
     .pic {
         width: 300px;
         height: auto;
@@ -183,9 +183,9 @@
     }
 
 
-    /* ---------------------------- index End ------------------------------------------ */
+    /* ---------------------------- index End ------------------------------------------ 
 
-    /* ---------------------------- Gallery start ------------------------------------------ */
+    /* ---------------------------- Gallery start ------------------------------------------ 
     .pic {
         width: 300px;
         height: auto;
@@ -215,9 +215,9 @@
     }
 
 
-    /* ---------------------------- Gallery End ------------------------------------------ */
+    /* ---------------------------- Gallery End ------------------------------------------ 
 
-    /* ---------------------------- Preston start ------------------------------------------ */
+    /* ---------------------------- Preston start ------------------------------------------ 
     .pic {
         width: 300px;
         height: auto;
@@ -239,18 +239,6 @@
     .infobox {
         width: 85%;
     }
-        
-
-    /* start artical section CSS */ 
-
-    .artical {
-        background-color: lightblue;
-        padding: 1rem;
-    }
-    .artical-pic{
-        float: right;
-        width: 470px;
-    }
 
     .hero-pic{
         width: 650px;
@@ -267,85 +255,13 @@
         width: 50%;
         height: auto;
     }
-    /* Start 5day section CSS */
-    .flex-box {
-        display: flex;
-        flex-direction: row;
-        padding: .5rem;
-    }
-
-    .table {
-        flex: 1 1 100%;
-        border-top: 1px solid #333;
-        border-bottom: 1px solid #333;
-        border-left: 1px solid #333;
-        background-color: #eee;
-        font-size: 13px;
-        text-align: center;
-    }
-    .label {
-        display: block;
-        padding: 5px;
-        font-weight: 700;
-        font-size: 15px;
-        border-bottom: 1px solid #333;
-        background-color: #eee;
-    }
-    .flex-img {
-        size: 1px;
-    }
-    .flex div:last-child {
-        border-right: 1px solid #333;
-    }
-    .flex div img, table img {
-        border-radius: 100px;
-        padding: 5px;
-    }
-    .data {
-        display: block;
-        padding: 0 5px 5px;
-    }  
-        /* end 5day section CSS */
-
-    /* Start 5day section CSS */
-    .fivedayforcast{
-        display: grid;
-        padding: 10px;
-    }
-    
-    .fivedayforcast table th {
-        background: lightblue;
-        padding: 10px;
-
-        /* borders */
-        border-top: .5px solid black;
-        border-right: .5px solid black;
-        border-bottom: .5px solid black;
-        border-left: .5px solid black;
-    }
-
-    .fivedayforcast table td {
-        text-align: center;
-        font-size: 15px; 
-        padding: 10px;
-        font-family: 'Roboto', sans-serif;
-
-        /* borders */
-        border-top: .5px solid black;
-        border-right: .5px solid black;
-        border-bottom: .5px solid black;
-        border-left: .5px solid black;
-    }
-
-    .fivedayforcastpic{
-        position: center;
-    }
-    /* end 5day section CSS */
+  
 
 
-    /* ---------------------------- Preston End ------------------------------------------ */
 
-    /* ---------------------------- StomCenter start ------------------------------------------ */
+    /* ---------------------------- Preston End ------------------------------------------ 
+
+    /* ---------------------------- StomCenter start ------------------------------------------ 
     .pic {
         width: 300px;
         height: auto;
