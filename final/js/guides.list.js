@@ -1,6 +1,6 @@
 
     // refrancing json file
-const requestURLtwo = 'https://vilhjalmur20.github.io/final/json/guides.list.json';
+const requestURLtwo = '/final/json/guides.list.json';
 
 fetch(requestURLtwo)
     .then(function (response) {
